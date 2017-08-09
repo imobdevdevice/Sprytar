@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/ToolbarColoredBackArrow"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Choose the first four digits of your postcode"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/char1_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:np_dividerThickness="1dp"
+            app:np_dividerColor="@color/colorDivider"
+            app:np_wheelItemCount="5"
+            app:np_textSize="20sp"
+
+            app:layout_constraintTop_toBottomOf="@+id/title_textView"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/char2_picker"
+            app:layout_constraintHorizontal_chainStyle="packed"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/char2_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:np_dividerThickness="1dp"
+            app:np_dividerColor="@color/colorDivider"
+            app:np_wheelItemCount="5"
+            app:np_textSize="20sp"
+
+            app:layout_constraintTop_toBottomOf="@+id/title_textView"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toEndOf="@+id/char1_picker"
+            app:layout_constraintEnd_toStartOf="@+id/char3_picker"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/char3_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:np_dividerThickness="1dp"
+            app:np_dividerColor="@color/colorDivider"
+            app:np_wheelItemCount="5"
+            app:np_textSize="20sp"
+
+            app:layout_constraintTop_toBottomOf="@+id/title_textView"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toEndOf="@+id/char2_picker"
+            app:layout_constraintEnd_toStartOf="@+id/char4_picker"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/char4_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_margin"
+            app:np_dividerThickness="1dp"
+            app:np_dividerColor="@color/colorDivider"
+            app:np_wheelItemCount="5"
+            app:np_textSize="20sp"
+
+            app:layout_constraintTop_toBottomOf="@+id/title_textView"
+            app:layout_constraintStart_toEndOf="@+id/char3_picker"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <Button
+            android:id="@+id/done_button"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            style="@style/DenseButton"
+            android:textColor="@color/colorAccent"
+            android:text="@string/done_button"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"
+            android:textSize="18sp"
+
+            app:layout_constraintTop_toBottomOf="@+id/char1_picker"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

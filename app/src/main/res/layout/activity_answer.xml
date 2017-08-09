@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+        <import type="android.view.View" />
+
+        <variable
+            name="question"
+            type="com.novp.sprytar.data.model.Question"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/id_textView"
+            style="@style/RegularText.ListTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_question_active_circle_48dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/common_margin"
+
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/common_margin"
+
+            android:textColor="@color/colorText"
+
+            android:gravity="center"
+            android:textSize="20sp"
+
+            tools:text="99"/>
+
+        <ImageButton
+            android:id="@+id/hint_imageView"
+            app:srcCompat="@drawable/ic_question_120dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/common_margin"
+
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/common_margin"
+            android:onClick="onShowHintClick"/>
+
+        <android.support.constraint.Guideline
+            android:id="@+id/main_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="76dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="76dp"
+            app:layout_constraintTop_toBottomOf="@id/hint_imageView"/>
+
+        <FrameLayout
+            android:id="@+id/placeholder_fragment"
+            android:name="com.novp.sprytar.game.QuestionFragment"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/main_guideline"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/items_recyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toBottomOf="@+id/placeholder_fragment"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+            tools:layout_editor_absoluteX="-153dp"
+            tools:layout_editor_absoluteY="266dp"/>
+
+        <Button
+            android:id="@+id/getStarted_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="onNavigationButtonClick"
+            android:text="@string/quiz_back_button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+            android:textColor="@color/colorWarningGray"
+            android:theme="@style/SplashButton"
+            android:background="@drawable/rectangle_quiz_gray_button"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/common_margin"
+            tools:layout_editor_absoluteX="0dp"/>
+
+        <ImageView
+            android:id="@+id/correctCharacter_imageView"
+            android:layout_width="350dp"
+            android:layout_height="297dp"
+            android:src="@drawable/correct_answer_character"
+            android:background="#0000"
+
+            android:scaleType="fitXY"
+
+            app:layout_constraintTop_toBottomOf="@+id/hint_imageView"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/wrongCharacter_imageView"
+            android:layout_width="350dp"
+            android:layout_height="292dp"
+            android:src="@drawable/wrong_answer_character"
+            android:background="#0000"
+
+            android:scaleType="fitXY"
+
+            app:layout_constraintTop_toBottomOf="@+id/hint_imageView"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/feedback_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            android:background="@drawable/rectangle_feedback_background"
+
+            android:padding="@dimen/common_margin"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="18sp"
+            android:gravity="center"
+
+            app:layout_constraintTop_toBottomOf="@+id/placeholder_fragment"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

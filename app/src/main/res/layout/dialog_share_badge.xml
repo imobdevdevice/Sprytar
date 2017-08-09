@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/badgeWon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="You won a badge!"
+            android:background="@null"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@drawable/badge_won_background"
+                android:background="@null"/>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/badgeIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/badgeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:background="@null"
+            android:text="Badge name goes here"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/badgeDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:background="@null"
+            android:text="Badge description goes here"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorWarningGray"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/postFacebookButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/game_button_post"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@color/colorText"
+            android:theme="@style/SplashButton"
+            android:background="@drawable/rectangle_facebook_button"
+
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/common_padding"/>
+
+        <TextView
+            android:id="@+id/copyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:background="@null"
+            android:layout_margin="16dp"
+            android:text="The following text was copied to the clipboard.Please paste on your post"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/colorWarningGray"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line_divider"/>
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Close"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@android:color/black"
+            android:theme="@style/SplashButton"
+            android:background="@android:color/white"
+            style="?android:attr/borderlessButtonStyle"
+
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/common_padding"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,169 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColor">@color/colorWarningGray</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:background">#f1f5cc</item>
+    </style>
+
+    <style name="ArTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColor">@color/colorWarningGray</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+
+    </style>
+
+    <style name="DarkToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.Spinner">
+        <item name="actionMenuTextColor">@android:color/black</item>
+    </style>
+
+    <style name="SplashButton" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorText</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="DenseButton" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:background">@drawable/rectangle_rounded_button</item>
+        <item name="android:paddingLeft">@dimen/common_margin</item>
+        <item name="android:paddingRight">@dimen/common_margin</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="ListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="RegularText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="RegularText.ListTitle">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="RegularText.WarningNotice">
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="ContactInformationText">
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="ContactInformationText.Category">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="GameInformationText">
+        <item name="android:textColor">@color/colorWarningGray</item>
+        <item name="android:fontFamily">"sans-serif-light"</item>
+    </style>
+
+    <style name="GameInformationText.Title">
+        <item name="android:textColor">@color/colorWarningGray</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Points">
+        <item name="android:textSize">@dimen/text_size_regular</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="Points.Title">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="LoginText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginLeft">@dimen/common_margin</item>
+        <item name="android:layout_marginTop">@dimen/common_margin</item>
+    </style>
+
+    <style name="LoginText.EditText">
+        <item name="android:layout_marginTop">@dimen/common_padding</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingLeft">@dimen/common_padding</item>
+        <item name="android:paddingRight">@dimen/common_padding</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SettingsText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="SettingsText.Value">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#6d6e71</item>
+    </style>
+
+    <style name="SettingsText.Title">
+        <item name="android:fontFamily">"sans-serif"</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorAccent</item>
+        <item name="android:textColorSecondaryInverse">@color/colorAccent</item>
+    </style>
+
+    <style name="PoiInformationText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:fontFamily">"sans-serif-light"</item>
+    </style>
+
+</resources>

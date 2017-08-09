@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="venue"
+            type="com.novp.sprytar.data.model.VenueActivity"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/locationType_imageView"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="16dp"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/ic_treasure_hunt_180dp"/>
+
+        <android.support.constraint.Guideline
+            android:id="@+id/main_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="76dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="76dp"/>
+
+        <TextView
+            style="@style/RegularText"
+            android:id="@+id/name_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@{venue.name}"
+            tools:text="Treasure Hunt"
+
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/common_padding"
+            app:layout_constraintLeft_toLeftOf="@+id/main_guideline"/>
+
+        <TextView
+            android:id="@+id/distance_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/name_textView"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="@dimen/common_padding"
+            android:layout_marginBottom="@dimen/common_padding"
+            android:background="@drawable/bg_distance_active_circle"
+            android:textColor="@color/colorText"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:text="5km"
+            tools:text="5km"
+            app:layout_constraintLeft_toLeftOf="@+id/main_guideline"/>
+
+        <ImageView
+            android:id="@+id/game_imageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+
+            app:layout_constraintLeft_toRightOf="@+id/distance_textView"
+            android:layout_marginStart="2dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/name_textView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="@dimen/common_padding"
+            android:layout_marginBottom="@dimen/common_padding"
+
+            app:srcCompat="@drawable/ic_game_active_24dp"/>
+
+        <ImageView
+            android:id="@+id/house_imageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="2dp"
+
+            app:layout_constraintLeft_toRightOf="@+id/game_imageView"
+
+            app:layout_constraintTop_toBottomOf="@+id/name_textView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="@dimen/common_padding"
+            android:layout_marginBottom="@dimen/common_padding"
+
+            app:srcCompat="@drawable/ic_house_active_24dp"/>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/fruit_imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="2dp"
+
+            app:layout_constraintLeft_toRightOf="@+id/house_imageView"
+
+            app:layout_constraintTop_toBottomOf="@+id/name_textView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="@dimen/common_padding" />
+
+        <ImageView
+            android:id="@+id/leaf_imageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="2dp"
+            app:layout_constraintLeft_toRightOf="@+id/fruit_imageView"
+
+            app:layout_constraintTop_toBottomOf="@+id/name_textView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="@dimen/common_padding"
+            android:layout_marginBottom="@dimen/common_padding"
+
+            app:srcCompat="@drawable/ic_leaf_active_24dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

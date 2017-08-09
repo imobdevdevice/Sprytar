@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/introTourBackground">
+
+        <ImageView
+            android:id="@+id/number_imageView"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="@dimen/common_margin"
+            android:background="@color/colorPrimary"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/intro_page4_number"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/header_imageView"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:background="@color/introTourBackground"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/number_imageView"
+
+            app:srcCompat="@drawable/intro_page4_header"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/getStarted_button"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            style="@style/DenseButton"
+            android:visibility="gone"
+            android:onClick="onStartClick"
+            android:text="Take the tour"
+            android:textColor="@color/colorText"
+            android:theme="@style/SplashButton"
+            android:background="@drawable/rectangle_quiz_button"
+
+            app:layout_constraintTop_toBottomOf="@+id/header_imageView"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteX="12dp"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintTop_toBottomOf="@+id/header_imageView"
+            android:layout_marginTop="@dimen/common_margin"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

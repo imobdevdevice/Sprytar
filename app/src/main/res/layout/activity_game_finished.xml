@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:theme="@style/AppTheme.AppBarOverlay"
+            tools:layout_editor_absoluteX="0dp">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:theme="@style/ToolbarColoredBackArrow"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <ImageView
+            android:id="@+id/header"
+            android:src="@drawable/splash_header"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+
+            app:layout_constraintLeft_creator="1"
+            app:layout_constraintRight_creator="1"
+            app:layout_constraintBottom_creator="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_constraintLeft_creator="1"
+
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_constraintRight_creator="1"
+            app:layout_constraintHorizontal_bias="1.0"/>
+
+        <ImageView
+            android:id="@+id/finished_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_game_finished"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+            android:layout_marginTop="@dimen/common_margin"
+            android:background="#00000000"/>
+
+
+
+        <TextView
+            android:id="@+id/badgesTitle_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Badges Won"
+            android:text="Badges Won"
+
+            app:layout_constraintTop_toBottomOf="@+id/finished_imageView"
+
+            android:layout_marginTop="@dimen/common_padding"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryText"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/score_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Badges Won"
+
+            app:layout_constraintTop_toBottomOf="@+id/badgesTitle_textView"
+
+            android:layout_marginTop="@dimen/common_padding"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryText"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/distance_textView"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintTop_toBottomOf="@+id/score_textView"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintVertical_chainStyle="spread_inside"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="@+id/score_textView" />
+
+        <Button
+            android:id="@+id/select_button"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+
+            android:layout_marginTop="@dimen/common_padding"
+
+            android:text="@string/game_button_select"
+            android:onClick="onFinishedClick"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@color/colorWarningGray"
+            android:theme="@style/SplashButton"
+            android:background="@drawable/rectangle_splash_button"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+
+            app:layout_constraintTop_toBottomOf="@+id/distance_textView"
+            />
+
+        <Button
+            android:id="@+id/playAgain_button"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+
+            android:text="@string/game_button_play"
+            android:onClick="onFinishedClick"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@color/colorText"
+            android:theme="@style/SplashButton"
+            android:background="@drawable/rectangle_quiz_button"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+
+            app:layout_constraintTop_toBottomOf="@+id/select_button"
+            android:layout_marginTop="@dimen/common_padding"/>
+
+        <Button
+            android:id="@+id/postFacebook_button"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+
+            android:onClick="onShareToFB"
+            android:text="@string/game_button_post"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@color/colorText"
+            android:theme="@style/SplashButton"
+            android:drawableLeft="@drawable/fb_icon_res"
+            android:background="@drawable/rectangle_facebook_button"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+
+            app:layout_constraintTop_toBottomOf="@+id/playAgain_button"
+            android:layout_marginTop="@dimen/common_padding"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

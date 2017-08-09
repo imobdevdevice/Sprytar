@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/icon_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_offline_save_64dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/divider"
+            android:layout_marginTop="@dimen/common_margin"/>
+
+        <TextView
+            android:id="@+id/text_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text = "This has limited functionality."
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryText"
+            android:gravity="center"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/common_margin"
+
+            app:layout_constraintTop_toBottomOf="@id/icon_imageView"
+            android:layout_marginTop="@dimen/common_margin"/>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

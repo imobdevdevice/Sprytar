@@ -1,0 +1,75 @@
+[
+  {
+    "id": "0",
+    "text": "Can you find a leaf from an Oak tree?",
+    "hint": "The outline image of the oak leaf",
+    "latitude": "53.83917",
+    "longitude": "-1.50541",
+    "imageRecognitionQuestion": "true",
+    "imagePath": "oak_leaf"
+  },
+
+  {
+    "id": "1",
+    "text": "Can you take a photograph of the crest?",
+    "hint": "It's on the gate",
+    "latitude": "53.83917",
+    "longitude": "-1.50541",
+    "imageRecognitionQuestion": "true",
+    "imagePath": "rounhay_question1"
+  },
+
+  {
+    "id": "2",
+    "text": "How many animals that can fly can you see on Marys Tree?",
+    "hint": "Look carefully",
+    "latitude": "53.83917",
+    "longitude": "-1.50541",
+    "answers": [
+      {
+        "id": "0",
+        "text": "1",
+        "answerCorrect": "true"
+      },
+      {
+        "id": "1",
+        "text": "3",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "2",
+        "text": "2",
+        "answerCorrect": "false"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "text": "What did Roundhay have the first of here?",
+    "hint": "Can you see the old trolley poles?",
+    "latitude": "53.83708",
+    "longitude": "-1.50449",
+    "answers": [
+      {
+        "id": "0",
+        "text": "Electric Tram",
+        "answerCorrect": "true"
+      },
+      {
+        "id": "1",
+        "text": "Mono rail",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "2",
+        "text": "Police force",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "2",
+        "text": "Aeroplane",
+        "answerCorrect": "false"
+      }
+    ]
+  }
+]

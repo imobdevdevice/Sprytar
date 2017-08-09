@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/header_imageView"
+            android:layout_width="0dp"
+            android:layout_height="480dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:srcCompat="@drawable/intro_page2_header"
+            tools:layout_editor_absoluteX="0dp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+
+            android:background="@color/colorPrimary"
+            app:layout_constraintTop_toBottomOf="@+id/header_imageView"
+            android:layout_marginTop="@dimen/common_margin"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

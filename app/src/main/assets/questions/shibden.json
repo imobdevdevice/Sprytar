@@ -1,0 +1,99 @@
+[
+  {
+    "id": "0",
+    "text": "Can you find a leaf from an Oak tree?",
+    "hint": "The outline image of the oak leaf",
+    "latitude": "53.73021",
+    "longitude": "-1.83637",
+    "imageRecognitionQuestion": "true",
+    "imagePath": "oak_leaf"
+  },
+
+  {
+    "id": "1",
+    "text": "What birds can you see on the Mere?",
+    "hint": "They might be Quackers",
+    "latitude": "53.73021",
+    "longitude": "-1.83637",
+    "answers": [
+      {
+        "id": "0",
+        "text": "Ducks",
+        "answerCorrect": "true"
+      },
+      {
+        "id": "1",
+        "text": "Geese",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "2",
+        "text": "Rabbits",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "3",
+        "text": "Pigeons",
+        "answerCorrect": "false"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "What does the name Shibden mean?",
+    "hint": "There should be lots of them out here eating the grass",
+    "latitude": "53.72922",
+    "longitude": "-1.83695",
+    "answers": [
+      {
+        "id": "0",
+        "text": "Valley of the Sheepn",
+        "answerCorrect": "true"
+      },
+      {
+        "id": "1",
+        "text": "Shire of the damned",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "2",
+        "text": "Sunny Glade",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "3",
+        "text": "Happy Valley",
+        "answerCorrect": "false"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "text": "Who was Shibden Hall’s most well-known resident?",
+    "hint": "She was also known as Gentleman Jack",
+    "latitude": "53.72974",
+    "longitude": "-1.84027",
+    "answers": [
+      {
+        "id": "0",
+        "text": "Anne Lister",
+        "answerCorrect": "true"
+      },
+      {
+        "id": "1",
+        "text": "Geoffery Boycott",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "2",
+        "text": "Anne Hathaway",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "3",
+        "text": "Jane Austin",
+        "answerCorrect": "false"
+      }
+    ]
+  }
+]

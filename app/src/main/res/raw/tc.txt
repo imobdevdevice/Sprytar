@@ -1,0 +1,3288 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List
+href="170215%20App%20Terms%20Draft%20v3%20TM1%20(1).files/filelist.xml">
+<link rel=Edit-Time-Data
+href="170215%20App%20Terms%20Draft%20v3%20TM1%20(1).files/editdata.mso">
+<title>Mobile application end-user licence agreement</title>
+<link rel=themeData
+href="170215%20App%20Terms%20Draft%20v3%20TM1%20(1).files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="170215%20App%20Terms%20Draft%20v3%20TM1%20(1).files/colorschememapping.xml">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520084737 -1073683329 41 0 479 0;}
+@font-face
+	{font-family:"Arial Bold";
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073711037 9 0 511 0;}
+@font-face
+	{font-family:"Museo Sans 700";
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:1 1073741898 0 0 147 0;}
+@font-face
+	{font-family:"Museo Sans 300";
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:1 1073741898 0 0 147 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+h1
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l13 level1 lfo4;
+	tab-stops:list 36.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:uppercase;
+	mso-font-kerning:0pt;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	mso-bidi-font-weight:normal;}
+h2
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	mso-list:l13 level2 lfo4;
+	tab-stops:list 36.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h3
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:77.95pt;
+	text-align:justify;
+	text-indent:-41.95pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	mso-list:l13 level3 lfo4;
+	tab-stops:list 77.95pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h4
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:134.65pt;
+	text-align:justify;
+	text-indent:-2.0cm;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	mso-list:l13 level4 lfo4;
+	tab-stops:list 134.65pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h5
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:177.2pt;
+	text-align:justify;
+	text-indent:-2.0cm;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	mso-list:l13 level5 lfo4;
+	tab-stops:list 177.2pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h6
+	{mso-style-update:auto;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Обычный;
+	margin-top:8.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:6;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	mso-bidi-font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:7;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-variant:small-caps;
+	color:black;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-update:auto;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:15.0pt;
+	page-break-before:always;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:8;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .5pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-priority:39;
+	mso-style-unhide:no;
+	mso-style-next:Обычный;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	tab-stops:35.45pt right dotted 432.35pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l0 level1 lfo9;
+	tab-stops:35.3pt 81.1pt right dotted 432.35pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l4 level1 lfo10;
+	tab-stops:35.45pt list 54.0pt right dotted 432.35pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	mso-no-proof:yes;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-unhide:no;
+	mso-style-link:"Текст примечания Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+span.MsoCommentReference
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-unhide:no;
+	mso-style-parent:"Текст примечания";
+	mso-style-link:"Тема примечания Знак";
+	mso-style-next:"Текст примечания";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-unhide:no;
+	mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bodyclause, li.Bodyclause, div.Bodyclause
+	{mso-style-name:"Body  clause";
+	mso-style-unhide:no;
+	mso-style-next:"Заголовок 1";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bodysubclause, li.Bodysubclause, div.Bodysubclause
+	{mso-style-name:"Body  sub clause";
+	mso-style-unhide:no;
+	mso-style-next:"Заголовок 2";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bodypara, li.Bodypara, div.Bodypara
+	{mso-style-name:"Body para";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:77.95pt;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bodysubpara, li.Bodysubpara, div.Bodysubpara
+	{mso-style-name:"Body sub para";
+	mso-style-unhide:no;
+	mso-style-next:"Заголовок 3";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:120.5pt;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Definitions, li.Definitions, div.Definitions
+	{mso-style-name:Definitions;
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	tab-stops:36.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Schmainhead, li.Schmainhead, div.Schmainhead
+	{mso-style-name:"Sch   main head";
+	mso-style-update:auto;
+	mso-style-unhide:no;
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:18.0pt;
+	margin-left:18.0pt;
+	text-align:center;
+	text-indent:-18.0pt;
+	line-height:15.0pt;
+	page-break-before:always;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l8 level1 lfo6;
+	tab-stops:list 54.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:14.0pt;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Schparthead, li.Schparthead, div.Schparthead
+	{mso-style-name:"Sch   part head";
+	mso-style-update:auto;
+	mso-style-unhide:no;
+	mso-style-next:Обычный;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Sch1styleclause, li.Sch1styleclause, div.Sch1styleclause
+	{mso-style-name:"Sch  \(1style\) clause";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	mso-list:l9 level1 lfo5;
+	tab-stops:list 36.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Sch1stylesubclause, li.Sch1stylesubclause, div.Sch1stylesubclause
+	{mso-style-name:"Sch  \(1style\) sub clause";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	mso-list:l9 level2 lfo5;
+	tab-stops:list 36.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:black;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Sch1stylepara, li.Sch1stylepara, div.Sch1stylepara
+	{mso-style-name:"Sch \(1style\) para";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:77.95pt;
+	text-align:justify;
+	text-indent:-41.95pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l9 level3 lfo5;
+	tab-stops:list 77.95pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Sch1stylesubpara, li.Sch1stylesubpara, div.Sch1stylesubpara
+	{mso-style-name:"Sch \(1style\) sub para";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:134.65pt;
+	text-align:justify;
+	text-indent:-2.0cm;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l9 level4 lfo5;
+	tab-stops:list 134.65pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Sch2style1, li.Sch2style1, div.Sch2style1
+	{mso-style-name:"Sch \(2style\)  1";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	line-height:15.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:widow-orphan;
+	mso-list:l2 level1 lfo1;
+	tab-stops:list 36.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Sch2stylea, li.Sch2stylea, div.Sch2stylea
+	{mso-style-name:"Sch \(2style\) \(a\)";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:77.95pt;
+	text-align:justify;
+	text-indent:-41.95pt;
+	line-height:15.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:widow-orphan;
+	mso-list:l2 level2 lfo1;
+	tab-stops:list 77.95pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Sch2stylei, li.Sch2stylei, div.Sch2stylei
+	{mso-style-name:"Sch \(2style\) \(i\)";
+	mso-style-unhide:no;
+	mso-style-parent:"Заголовок 4";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:120.5pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	mso-list:l2 level3 lfo1;
+	tab-stops:4.0cm list 120.5pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	mso-no-proof:yes;}
+p.1Parties, li.1Parties, div.1Parties
+	{mso-style-name:"\(1\) Parties";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l12 level1 lfo2;
+	tab-stops:list 36.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.ABackground, li.ABackground, div.ABackground
+	{mso-style-name:"\(A\) Background";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l10 level1 lfo3;
+	tab-stops:list 36.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+span.Def
+	{mso-style-name:Def;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:11.0pt;
+	color:black;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.1stIntroHeadings, li.1stIntroHeadings, div.1stIntroHeadings
+	{mso-style-name:1stIntroHeadings;
+	mso-style-unhide:no;
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Scha, li.Scha, div.Scha
+	{mso-style-name:"Sch a\)";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:77.95pt;
+	text-align:justify;
+	text-indent:-41.95pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l12 level2 lfo2;
+	tab-stops:list 77.95pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.XExecution, li.XExecution, div.XExecution
+	{mso-style-name:"X Execution";
+	mso-style-unhide:no;
+	margin-top:24.0pt;
+	margin-right:22.95pt;
+	margin-bottom:24.0pt;
+	margin-left:0cm;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	tab-stops:0cm 177.2pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:black;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Comments, li.Comments, div.Comments
+	{mso-style-name:Comments;
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.2pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.CoversheetTitle, li.CoversheetTitle, div.CoversheetTitle
+	{mso-style-name:"Coversheet Title";
+	mso-style-update:auto;
+	mso-style-unhide:no;
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:24.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-variant:small-caps;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.CoversheetParagraph, li.CoversheetParagraph, div.CoversheetParagraph
+	{mso-style-name:"Coversheet Paragraph";
+	mso-style-update:auto;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+span.Defterm
+	{mso-style-name:Defterm;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	color:black;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.NewPage, li.NewPage, div.NewPage
+	{mso-style-name:"New Page";
+	mso-style-update:auto;
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	page-break-before:always;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.FrontInformation, li.FrontInformation, div.FrontInformation
+	{mso-style-name:FrontInformation;
+	mso-style-update:auto;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:black;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+span.defitem
+	{mso-style-name:defitem;
+	mso-style-unhide:no;}
+span.smallcaps
+	{mso-style-name:smallcaps;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	font-variant:small-caps;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Schmainheadinc, li.Schmainheadinc, div.Schmainheadinc
+	{mso-style-name:"Sch   main head inc";
+	mso-style-unhide:no;
+	margin-top:18.0pt;
+	margin-right:0cm;
+	margin-bottom:18.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Schmainheadsingle, li.Schmainheadsingle, div.Schmainheadsingle
+	{mso-style-name:"Sch main head single";
+	mso-style-unhide:no;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:18.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:15.0pt;
+	page-break-before:always;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:14.0pt;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Schmainheadincsingle, li.Schmainheadincsingle, div.Schmainheadincsingle
+	{mso-style-name:"Sch   main head inc single";
+	mso-style-unhide:no;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:18.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:14.0pt;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Testimonium, li.Testimonium, div.Testimonium
+	{mso-style-name:Testimonium;
+	mso-style-unhide:no;
+	margin-top:18.0pt;
+	margin-right:0cm;
+	margin-bottom:18.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Appmainheadsingle, li.Appmainheadsingle, div.Appmainheadsingle
+	{mso-style-name:"App main head single";
+	mso-style-unhide:no;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:18.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:15.0pt;
+	page-break-before:always;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Appmainhead, li.Appmainhead, div.Appmainhead
+	{mso-style-name:"App   main head";
+	mso-style-unhide:no;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:18.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:15.0pt;
+	page-break-before:always;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.CoversheetTitle2, li.CoversheetTitle2, div.CoversheetTitle2
+	{mso-style-name:"Coversheet Title 2";
+	mso-style-unhide:no;
+	mso-style-parent:"Coversheet Title";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:24.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Headingreg, li.Headingreg, div.Headingreg
+	{mso-style-name:"Heading reg";
+	mso-style-unhide:no;
+	mso-style-parent:"Заголовок 1";
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l13 level1 lfo4;
+	tab-stops:list 36.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:uppercase;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.HeadingTitle, li.HeadingTitle, div.HeadingTitle
+	{mso-style-name:HeadingTitle;
+	mso-style-unhide:no;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.BackSubClause, li.BackSubClause, div.BackSubClause
+	{mso-style-name:BackSubClause;
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:77.95pt;
+	text-align:justify;
+	text-indent:-41.95pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l10 level2 lfo3;
+	tab-stops:list 77.95pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.DeflistA, li.DeflistA, div.DeflistA
+	{mso-style-name:"Deflist A";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:77.95pt;
+	text-align:justify;
+	text-indent:-41.95pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l7 level1 lfo7;
+	tab-stops:list 77.95pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.DeflistI, li.DeflistI, div.DeflistI
+	{mso-style-name:"Deflist I";
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:120.5pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l7 level2 lfo7;
+	tab-stops:list 120.5pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.ScheduleTitle, li.ScheduleTitle, div.ScheduleTitle
+	{mso-style-name:ScheduleTitle;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:15.0pt;
+	page-break-before:always;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:uppercase;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Bullet, li.Bullet, div.Bullet
+	{mso-style-name:Bullet;
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:54.15pt;
+	text-align:justify;
+	text-indent:-18.15pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l3 level1 lfo8;
+	tab-stops:list 54.15pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.NormalCell, li.NormalCell, div.NormalCell
+	{mso-style-name:NormalCell;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.ScheduleSubTitle, li.ScheduleSubTitle, div.ScheduleSubTitle
+	{mso-style-name:ScheduleSubTitle;
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial Bold";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.PartSubTitle, li.PartSubTitle, div.PartSubTitle
+	{mso-style-name:PartSubTitle;
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial Bold";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.NormalSpaced, li.NormalSpaced, div.NormalSpaced
+	{mso-style-name:NormalSpaced;
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bullet1, li.Bullet1, div.Bullet1
+	{mso-style-name:Bullet1;
+	mso-style-unhide:no;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l11 level1 lfo11;
+	tab-stops:list 18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bullet1continued, li.Bullet1continued, div.Bullet1continued
+	{mso-style-name:Bullet1continued;
+	mso-style-unhide:no;
+	mso-style-parent:Bullet1;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:17.85pt;
+	text-align:justify;
+	line-height:15.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bullet2, li.Bullet2, div.Bullet2
+	{mso-style-name:Bullet2;
+	mso-style-unhide:no;
+	mso-style-parent:Bullet1;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:53.85pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	mso-pagination:widow-orphan;
+	mso-list:l5 level1 lfo12;
+	tab-stops:list 53.85pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bullet2continued, li.Bullet2continued, div.Bullet2continued
+	{mso-style-name:Bullet2continued;
+	mso-style-unhide:no;
+	mso-style-parent:Bullet2;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:53.85pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bullet3, li.Bullet3, div.Bullet3
+	{mso-style-name:Bullet3;
+	mso-style-unhide:no;
+	mso-style-parent:Bullet2;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:97.25pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	mso-pagination:widow-orphan;
+	mso-list:l14 level1 lfo13;
+	tab-stops:list 97.25pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bullet3continued, li.Bullet3continued, div.Bullet3continued
+	{mso-style-name:Bullet3continued;
+	mso-style-unhide:no;
+	mso-style-parent:Bullet3;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:97.25pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bullet4, li.Bullet4, div.Bullet4
+	{mso-style-name:Bullet4;
+	mso-style-unhide:no;
+	mso-style-parent:Bullet3;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:133.8pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	mso-pagination:widow-orphan;
+	mso-list:l6 level1 lfo14;
+	tab-stops:list 133.8pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bullet4continued, li.Bullet4continued, div.Bullet4continued
+	{mso-style-name:Bullet4continued;
+	mso-style-unhide:no;
+	mso-style-parent:Bullet4;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:133.8pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bullet5, li.Bullet5, div.Bullet5
+	{mso-style-name:Bullet5;
+	mso-style-unhide:no;
+	mso-style-parent:Bullet4;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:169.25pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	mso-pagination:widow-orphan;
+	mso-list:l1 level1 lfo15;
+	tab-stops:list 169.25pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+p.Bullet5continued, li.Bullet5continued, div.Bullet5continued
+	{mso-style-name:Bullet5continued;
+	mso-style-unhide:no;
+	mso-style-parent:Bullet5;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:169.25pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-US;}
+span.a
+	{mso-style-name:"Текст примечания Знак";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Текст примечания";
+	font-family:"Arial",sans-serif;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-fareast-language:EN-US;}
+span.a0
+	{mso-style-name:"Тема примечания Знак";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Тема примечания";
+	font-family:"Arial",sans-serif;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-fareast-language:EN-US;
+	font-weight:bold;}
+span.a1
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Текст выноски";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	mso-ascii-font-family:"Segoe UI";
+	mso-hansi-font-family:"Segoe UI";
+	mso-bidi-font-family:"Segoe UI";
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-GB;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("170215%20App%20Terms%20Draft%20v3%20TM1%20\(1\).files/header.htm") fs;
+	mso-footnote-continuation-separator:url("170215%20App%20Terms%20Draft%20v3%20TM1%20\(1\).files/header.htm") fcs;
+	mso-endnote-separator:url("170215%20App%20Terms%20Draft%20v3%20TM1%20\(1\).files/header.htm") es;
+	mso-endnote-continuation-separator:url("170215%20App%20Terms%20Draft%20v3%20TM1%20\(1\).files/header.htm") ecs;}
+@page WordSection1
+	{size:21.0cm 842.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:0cm;
+	mso-gutter-margin:14.2pt;
+	mso-page-numbers:1;
+	mso-footer:url("170215%20App%20Terms%20Draft%20v3%20TM1%20\(1\).files/header.htm") f1;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:44573453;
+	mso-list-template-ids:771529606;}
+@list l0:level1
+	{mso-level-style-link:"Оглавление 2";
+	mso-level-text:"SCHEDULE %1";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:uppercase;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%2\)";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:none;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l0:level3
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%3\)";
+	mso-level-tab-stop:77.95pt;
+	mso-level-number-position:left;
+	margin-left:77.95pt;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l0:level4
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"\(%4\)";
+	mso-level-tab-stop:121.05pt;
+	mso-level-number-position:left;
+	margin-left:4.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l0:level5
+	{mso-level-number-format:alpha-upper;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:144.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l0:level6
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	margin-left:180.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l0:level7
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-36.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	margin-left:252.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l0:level9
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	margin-left:288.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l1
+	{mso-list-id:103579429;
+	mso-list-type:hybrid;
+	mso-list-template-ids:253116992 -598461876 134807555 134807557 134807553 134807555 134807557 134807553 134807555 134807557;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Bullet5;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:169.25pt;
+	mso-level-number-position:left;
+	margin-left:169.25pt;
+	text-indent:-17.85pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:227691399;
+	mso-list-template-ids:-470411066;
+	mso-list-name:sch_style2;}
+@list l2:level1
+	{mso-level-style-link:"Sch \(2style\)  1";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l2:level2
+	{mso-level-style-link:"Sch \(2style\) \(a\)";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:77.95pt;
+	mso-level-number-position:left;
+	margin-left:77.95pt;
+	text-indent:-41.95pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l2:level3
+	{mso-level-style-link:"Sch \(2style\) \(i\)";
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:120.5pt;
+	mso-level-number-position:left;
+	margin-left:120.5pt;
+	text-indent:-42.55pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l2:level4
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"\(%4\)";
+	mso-level-tab-stop:121.05pt;
+	mso-level-number-position:left;
+	margin-left:4.0cm;
+	text-indent:-1.0cm;}
+@list l2:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"\(%6\)";
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	margin-left:108.0pt;
+	text-indent:-18.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:126.0pt;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-18.0pt;}
+@list l2:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:144.0pt;
+	text-indent:-18.0pt;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:162.0pt;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:477697207;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1424088904 -1474899136 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:54.15pt;
+	mso-level-number-position:left;
+	margin-left:54.15pt;
+	text-indent:-18.15pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l4
+	{mso-list-id:507065842;
+	mso-list-template-ids:-111269692;}
+@list l4:level1
+	{mso-level-style-link:"Оглавление 3";
+	mso-level-text:"Part %1";
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l4:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%2\)";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l4:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"%3\)";
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;}
+@list l4:level4
+	{mso-level-text:"\(%4\)";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-18.0pt;}
+@list l4:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;}
+@list l4:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"\(%6\)";
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	margin-left:108.0pt;
+	text-indent:-18.0pt;}
+@list l4:level7
+	{mso-level-tab-stop:126.0pt;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-18.0pt;}
+@list l4:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:144.0pt;
+	text-indent:-18.0pt;}
+@list l4:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:162.0pt;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-18.0pt;}
+@list l5
+	{mso-list-id:837383199;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1594225708 581960226 134807555 134807557 134807553 134807555 134807557 134807553 134807555 134807557;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Bullet2;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:53.85pt;
+	mso-level-number-position:left;
+	margin-left:53.85pt;
+	text-indent:-17.85pt;
+	font-family:Symbol;}
+@list l5:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l5:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l5:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l5:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l5:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l5:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l5:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l5:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l6
+	{mso-list-id:869033613;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1498172846 1985744110 134807555 134807557 134807553 134807555 134807557 134807553 134807555 134807557;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Bullet4;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:133.8pt;
+	mso-level-number-position:left;
+	margin-left:133.8pt;
+	text-indent:-17.85pt;
+	font-family:Symbol;}
+@list l6:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l6:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l6:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l7
+	{mso-list-id:880747729;
+	mso-list-template-ids:1550351530;
+	mso-list-name:deflist;}
+@list l7:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-style-link:"Deflist A";
+	mso-level-text:"\(%1\)";
+	mso-level-tab-stop:77.95pt;
+	mso-level-number-position:left;
+	margin-left:77.95pt;
+	text-indent:-41.95pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l7:level2
+	{mso-level-number-format:roman-lower;
+	mso-level-style-link:"Deflist I";
+	mso-level-text:"\(%2\)";
+	mso-level-tab-stop:120.5pt;
+	mso-level-number-position:left;
+	margin-left:120.5pt;
+	text-indent:-42.55pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l7:level3
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:120.5pt;
+	mso-level-number-position:left;
+	margin-left:120.5pt;
+	text-indent:-120.5pt;}
+@list l7:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:120.5pt;
+	mso-level-number-position:left;
+	margin-left:120.5pt;
+	text-indent:-120.5pt;}
+@list l7:level5
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:120.5pt;
+	mso-level-number-position:left;
+	margin-left:120.5pt;
+	text-indent:-120.5pt;}
+@list l7:level6
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:120.5pt;
+	mso-level-number-position:left;
+	margin-left:120.5pt;
+	text-indent:-120.5pt;}
+@list l7:level7
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:120.5pt;
+	mso-level-number-position:left;
+	margin-left:120.5pt;
+	text-indent:-120.5pt;}
+@list l7:level8
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:120.5pt;
+	mso-level-number-position:left;
+	margin-left:120.5pt;
+	text-indent:-120.5pt;}
+@list l7:level9
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:120.5pt;
+	mso-level-number-position:left;
+	margin-left:120.5pt;
+	text-indent:-120.5pt;}
+@list l8
+	{mso-list-id:920876091;
+	mso-list-type:simple;
+	mso-list-template-ids:-30396526;}
+@list l8:level1
+	{mso-level-style-link:"Sch   main head";
+	mso-level-text:"Schedule %1";
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l9
+	{mso-list-id:1222643532;
+	mso-list-template-ids:-675259862;
+	mso-list-name:sch_style1;}
+@list l9:level1
+	{mso-level-style-link:"Sch  \(1style\) clause";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:uppercase;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l9:level2
+	{mso-level-style-link:"Sch  \(1style\) sub clause";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:none;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l9:level3
+	{mso-level-style-link:"Sch \(1style\) para";
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:77.95pt;
+	mso-level-number-position:left;
+	margin-left:77.95pt;
+	text-indent:-41.95pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l9:level4
+	{mso-level-style-link:"Sch \(1style\) sub para";
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:134.65pt;
+	mso-level-number-position:left;
+	margin-left:134.65pt;
+	text-indent:-2.0cm;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l9:level5
+	{mso-level-number-format:alpha-upper;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:144.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l9:level6
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	margin-left:180.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l9:level7
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-36.0pt;}
+@list l9:level8
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	margin-left:252.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l9:level9
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	margin-left:288.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l10
+	{mso-list-id:1721132849;
+	mso-list-template-ids:-777084784;}
+@list l10:level1
+	{mso-level-number-format:alpha-upper;
+	mso-level-style-link:"\(A\) Background";
+	mso-level-text:"\(%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:uppercase;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l10:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-style-link:BackSubClause;
+	mso-level-text:"\(%2\)";
+	mso-level-tab-stop:77.95pt;
+	mso-level-number-position:left;
+	margin-left:77.95pt;
+	text-indent:-41.95pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:none;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l10:level3
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%3\)";
+	mso-level-tab-stop:77.95pt;
+	mso-level-number-position:left;
+	margin-left:77.95pt;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l10:level4
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"\(%4\)";
+	mso-level-tab-stop:121.05pt;
+	mso-level-number-position:left;
+	margin-left:4.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l10:level5
+	{mso-level-number-format:alpha-upper;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:144.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l10:level6
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	margin-left:180.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l10:level7
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-36.0pt;}
+@list l10:level8
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	margin-left:252.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l10:level9
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	margin-left:288.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l11
+	{mso-list-id:1779713643;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1550122536 -936114004 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Bullet1;
+	mso-level-text:·;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l11:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:·;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l11:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:·;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l11:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:·;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l11:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l11:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:§;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l11:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:·;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l11:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l11:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:§;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l12
+	{mso-list-id:1998026669;
+	mso-list-template-ids:-73106530;}
+@list l12:level1
+	{mso-level-style-link:"\(1\) Parties";
+	mso-level-text:"\(%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l12:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-style-link:"Sch a\)";
+	mso-level-text:"\(%2\)";
+	mso-level-tab-stop:77.95pt;
+	mso-level-number-position:left;
+	margin-left:77.95pt;
+	text-indent:-41.95pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l12:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"%3\)";
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;}
+@list l12:level4
+	{mso-level-text:"\(%4\)";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-18.0pt;}
+@list l12:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;}
+@list l12:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"\(%6\)";
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	margin-left:108.0pt;
+	text-indent:-18.0pt;}
+@list l12:level7
+	{mso-level-tab-stop:126.0pt;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-18.0pt;}
+@list l12:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:144.0pt;
+	text-indent:-18.0pt;}
+@list l12:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:162.0pt;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-18.0pt;}
+@list l13
+	{mso-list-id:2010518101;
+	mso-list-template-ids:445822898;
+	mso-list-name:main_list;}
+@list l13:level1
+	{mso-level-style-link:"Заголовок 1";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:uppercase;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l13:level2
+	{mso-level-style-link:"Заголовок 2";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	text-transform:none;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l13:level3
+	{mso-level-style-link:"Заголовок 3";
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:77.95pt;
+	mso-level-number-position:left;
+	margin-left:77.95pt;
+	text-indent:-41.95pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l13:level4
+	{mso-level-style-link:"Заголовок 4";
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:134.65pt;
+	mso-level-number-position:left;
+	margin-left:134.65pt;
+	text-indent:-2.0cm;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l13:level5
+	{mso-level-style-link:"Заголовок 5";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:177.2pt;
+	mso-level-number-position:left;
+	margin-left:177.2pt;
+	text-indent:-2.0cm;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l13:level6
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	margin-left:180.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l13:level7
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-36.0pt;}
+@list l13:level8
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	margin-left:252.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l13:level9
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	margin-left:288.0pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l14
+	{mso-list-id:2109039695;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1949524984 -2105244118 134807555 134807557 134807553 134807555 134807557 134807553 134807555 134807557;}
+@list l14:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Bullet3;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:97.25pt;
+	mso-level-number-position:left;
+	margin-left:97.25pt;
+	text-indent:-17.85pt;
+	font-family:Symbol;}
+@list l14:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l14:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l14:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l14:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l14:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l14:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l14:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l14:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-GB;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor="#F4F7D4" lang=RU link=blue vlink=purple style='tab-interval:
+36.0pt'>
+
+<div class=WordSection1>
+
+<p class=CoversheetTitle2><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_s1026" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:-45.2pt;
+ margin-top:-9.15pt;width:90.2pt;height:90.15pt;z-index:251658240;visibility:visible;
+ mso-wrap-style:square;mso-width-percent:0;mso-height-percent:0;
+ mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
+ mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:text;mso-position-vertical:absolute;
+ mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;
+ mso-width-relative:page;mso-height-relative:page'>
+ <v:imagedata src="170215%20App%20Terms%20Draft%20v3%20TM1%20(1).files/image001.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+relative;z-index:251658240'><span style='left:0px;position:absolute;left:-60px;
+top:-12px;width:100px;height:100px'></span></span><![endif]><b><span
+lang=EN-GB style='font-size:20.0pt;mso-bidi-font-size:10.0pt;font-family:"Museo Sans 700";
+color:#EF3A86'>SPRYTAR TERMS OF USE<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-family:"Museo Sans 300"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-family:"Museo Sans 300"'>These&nbsp;
+terms of use set out the agreement under which the Sprytar App may be
+used.<span style='mso-spacerun:yes'>  </span>They are very important and you&nbsp;
+should read through them before you begin using the application.<o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86'>PLEASE READ CAREFULLY BEFORE DOWNLOADING THE APP TO YOUR DEVICE.
+<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-family:"Museo Sans 300"'>These&nbsp;
+terms of use (<span class=Defterm><span style='font-family:"Museo Sans 300";
+mso-bidi-font-family:"Times New Roman";font-weight:normal'>terms</span></span>)
+set out the legal agreement between you (<span class=Defterm><span
+style='font-family:"Museo Sans 300";mso-bidi-font-family:"Times New Roman";
+font-weight:normal'>you</span></span>) and Sprytar Limited </span><span
+lang=EN-GB style='font-family:"Museo Sans 300";mso-bidi-font-family:Arial'>(Company
+No: </span><strong><span lang=EN style='font-family:"Museo Sans 300";
+mso-ansi-language:EN;font-weight:normal'>09879861; Registered Office, </span></strong><span
+lang=EN style='font-family:"Museo Sans 300";mso-ansi-language:EN'>Corner Farm
+Arglam Lane, Holme-On-Spalding-Moor, York, United Kingdom, YO43 4HG)</span><span
+lang=EN style='font-family:"Museo Sans 300"'> </span><span lang=EN-GB
+style='font-family:"Museo Sans 300"'>(<span class=Defterm><span
+style='font-family:"Museo Sans 300";mso-bidi-font-family:"Times New Roman";
+font-weight:normal'>us</span></span> or <span class=Defterm><span
+style='font-family:"Museo Sans 300";mso-bidi-font-family:"Times New Roman";
+font-weight:normal'>we</span></span>) for:<o:p></o:p></span></p>
+
+<p class=Bullet1 style='mso-list:l11 level1 lfo11'><![if !supportLists]><span
+lang=EN-GB style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>THE&nbsp;
+SPRYTAR APPLICATION mobile application software, the data supplied with the
+software, and the associated media (<span class=Defterm><span style='font-family:
+"Museo Sans 300";font-weight:normal'>App</span></span>). <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-family:"Museo Sans 300"'>It is&nbsp;
+important we set out these terms as they ensure that the basis on which you use&nbsp;
+the App is clear and we are able to protect our technology, but more&nbsp;
+importantly as a part of our security requirements.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-family:"Museo Sans 300"'>We&nbsp;
+licence use of the App to you on the basis of these terms and subject to any&nbsp;
+rules or policies applied by the appstore provider or operator from whose site&nbsp;
+you downloaded the App (<span class=Defterm><span style='font-family:"Museo Sans 300";
+mso-bidi-font-family:"Times New Roman";font-weight:normal'>Appstore</span></span>),.<span
+style='mso-spacerun:yes'>  </span>We will refer to these rules or policies as <span
+class=Defterm><span style='font-family:"Museo Sans 300";mso-bidi-font-family:
+"Times New Roman";font-weight:normal'>Appstore Rules</span></span>. We do not&nbsp;
+sell the App to you even if there is a charge for its use. We remain the owners&nbsp;
+of the App at all times.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-family:"Museo Sans 300"'>Important&nbsp;
+notice:<o:p></o:p></span></p>
+
+<p class=Bullet1 style='mso-list:l11 level1 lfo11'><![if !supportLists]><span
+lang=EN-GB style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>By&nbsp;
+downloading the App you agree to the terms of the licence which will bind you.
+The terms of the licence include, in particular, the privacy policy defined in&nbsp;
+condition </span><!--[if supportFields]><span lang=EN-GB style='font-family:
+"Museo Sans 300"'><span style='mso-element:field-begin'></span>REF
+&quot;a119427&quot; \h \w <span style='mso-spacerun:yes'> </span>\* MERGEFORMAT
+<span style='mso-element:field-separator'></span></span><![endif]--><span
+lang=EN-GB style='font-family:"Museo Sans 300"'>1.5<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000800000061003100310039003400320037000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span lang=EN-GB
+style='font-family:"Museo Sans 300"'><span style='mso-element:field-end'></span></span><![endif]--><span
+lang=EN-GB style='font-family:"Museo Sans 300"'> and limitations on liability&nbsp;
+in condition </span><!--[if supportFields]><span lang=EN-GB style='font-family:
+"Museo Sans 300"'><span style='mso-element:field-begin'></span>REF
+&quot;a909845&quot; \h \w <span style='mso-spacerun:yes'> </span>\* MERGEFORMAT
+<span style='mso-element:field-separator'></span></span><![endif]--><span
+lang=EN-GB style='font-family:"Museo Sans 300"'>6<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000800000061003900300039003800340035000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span lang=EN-GB
+style='font-family:"Museo Sans 300"'><span style='mso-element:field-end'></span></span><![endif]--><span
+lang=EN-GB style='font-family:"Museo Sans 300"'>.<o:p></o:p></span></p>
+
+<p class=Bullet1 style='mso-list:l11 level1 lfo11'><![if !supportLists]><span
+lang=EN-GB style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>If&nbsp;
+you do not agree to the terms of this licence, we will not license the App to
+you and you must not download the App.<span style='mso-spacerun:yes'> 
+</span>Downloading the App will constitute acceptance of these terms.<span
+style='mso-spacerun:yes'>  </span>If you no longer want to be bound by these
+terms you must delete the App.<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=Bullet1 style='mso-list:l11 level1 lfo11'><![if !supportLists]><span
+lang=EN-GB style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>If&nbsp;
+there is a charge for the App you will be informed of this before you access it
+(or before continuing with access).<span style='mso-spacerun:yes'> 
+</span>Whether the App is provided with or without charge and you have the&nbsp;
+right to remove it without any reason.<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=Bullet1 style='mso-list:l11 level1 lfo11'><![if !supportLists]><span
+lang=EN-GB style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>The&nbsp;
+App is provided for the use of the general public in the UK to play the Sprytar&nbsp;
+games.<span style='mso-spacerun:yes'>  </span>We may restrict access to the App&nbsp;
+if we believe any person is not properly authorised to access any information.<span
+style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=Bullet1 style='mso-list:l11 level1 lfo11'><![if !supportLists]><span
+lang=EN-GB style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>In&nbsp;
+order to use the App you will need to create a password to login together with
+the email which we have for you on our system.<span style='mso-spacerun:yes'> 
+</span><o:p></o:p></span></p>
+
+<p class=Bullet1 style='mso-list:l11 level1 lfo11'><![if !supportLists]><span
+lang=EN-GB style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>Nothing&nbsp;
+in these terms affect your consumer rights for an App that is defective.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-family:"Museo Sans 300"'>You should&nbsp;
+print a copy of these terms for future reference.<o:p></o:p></span></p>
+
+<p class=1stIntroHeadings><a name=main><span lang=EN-GB style='font-family:
+"Museo Sans 300";font-weight:normal'>Agreed terms<o:p></o:p></span></a></p>
+
+<h1 style='mso-list:l13 level1 lfo4'><span style='mso-bookmark:main'><a
+name="_Toc409808497"></a><a name=a895118><span style='mso-bookmark:_Toc409808497'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial;
+color:#EF3A86;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'>Acknowledgements</span></span></a></span><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'><o:p></o:p></span></span></h1>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>These&nbsp;
+terms apply to the App or any of the services accessible through the App (<span
+class=Defterm><span style='font-family:"Museo Sans 300";mso-bidi-font-family:
+"Times New Roman";font-weight:normal'>Services</span></span>), including any&nbsp;
+updates or supplements to the App or any Service, unless they come with&nbsp;
+separate terms, in which case those terms apply.<span
+style='mso-spacerun:yes'>  </span>The App may contain elements of open-source&nbsp;
+software, where it does the terms of the open-source licence may override these&nbsp;
+terms and will apply to the extent required for the use of that software.<o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>1.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>We&nbsp;
+may change these terms at any time.<span style='mso-spacerun:yes'>  </span>You&nbsp;
+should refer to the terms on the App Store to confirm the version of the terms&nbsp;
+that apply.<span style='mso-spacerun:yes'>  </span>Where the terms are changed&nbsp;
+the App will require an update and when you are notified of any update you&nbsp;
+should confirm the terms which apply.<o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>1.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>From&nbsp;
+time to time updates to the App may be issued through the Appstore. Depending&nbsp;
+on the update, you may not be able to use the Services until you have&nbsp;
+downloaded the latest version of the App and accepted any new terms.<o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>1.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>You&nbsp;
+will have permission to download a copy of the App onto a compatible mobile or&nbsp;
+tablet device (Devices). You (or the Device owner) may be charged by your and/or&nbsp;
+their service providers for internet access on the Devices. You accept&nbsp;
+responsibility in accordance with these terms for the use of the App or any&nbsp;
+Service on or in relation to any Device, whether or not it is owned by you. <o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><a
+name=a119427><![if !supportLists]><span lang=EN-GB style='mso-fareast-font-family:
+Arial;mso-bidi-font-family:Arial'><span style='mso-list:Ignore'>1.5<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>The&nbsp;
+terms of our privacy policy from time to time, available at http://sprytar.com/privacy&nbsp;
+are incorporated into these terms by reference and apply to the Services. You&nbsp;
+agree to comply with the Privacy Policy.<span style='mso-spacerun:yes'> 
+</span>We understand the need to protect your information and images and our&nbsp;
+systems include encryption software to provide security.<span
+style='mso-spacerun:yes'>  </span>We take reasonable steps to provide&nbsp;
+protection for your images based on known threats and we update these systems&nbsp;
+on a regular basis. </span></a></span><span style='mso-bookmark:main'><span
+lang=EN-GB style='font-family:"Museo Sans 300"'><o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>1.6<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>Any&nbsp;
+words following the terms including, include, in particular or for example or&nbsp;
+any similar phrase shall be construed as illustrative and shall not limit the&nbsp;
+generality of the related general words.<o:p></o:p></span></span></h2>
+
+<h1 style='mso-list:l13 level1 lfo4'><span style='mso-bookmark:main'><a
+name="_Toc409808498"></a><a name=a653493><span style='mso-bookmark:_Toc409808498'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial;
+color:#EF3A86;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'>Grant and Scope of Licence</span></span></a></span><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'><o:p></o:p></span></span></h1>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>2.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>In&nbsp;
+consideration of you agreeing to abide by these terms, we grant you a&nbsp;
+non-transferable, non-exclusive licence to use the App on the Devices, subject&nbsp;
+to these terms, the Privacy Policy and the Appstore Rules, incorporated by&nbsp;
+reference. We reserve all other rights.<o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>2.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>You&nbsp;
+may <a name=a454593>download a copy of the App onto the Devices and to view,
+use and display the App on the Devices for your personal purposes only</a>.<o:p></o:p></span></span></h2>
+
+<h1 style='mso-list:l13 level1 lfo4'><span style='mso-bookmark:main'><a
+name="_Toc409808499"></a><a name=a1040611><span style='mso-bookmark:_Toc409808499'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial;
+color:#EF3A86;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'>Licence Restrictions</span></span></a></span><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'><o:p></o:p></span></span></h1>
+
+<p class=Bodysubclause><span style='mso-bookmark:main'><span lang=EN-GB
+style='font-family:"Museo Sans 300"'>Except as expressly set out in these terms&nbsp;
+or as permitted by any local law, you agree:<o:p></o:p></span></span></p>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>not&nbsp;
+to copy the App except where such copying is necessary for the purpose of&nbsp;
+back-up;<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>not&nbsp;
+to rent, lease, sub-license, loan, translate, merge, adapt, vary or modify the&nbsp;
+App;<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>not&nbsp;
+to make alterations to, or modifications of, the whole or any part of the App,
+or permit the App or any part of it to be combined with, or become incorporated&nbsp;
+in, any other programs;<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>not&nbsp;
+to disassemble, decompile, reverse-engineer or create derivative works based on&nbsp;
+the whole or any part of the App or attempt to do any such thing except to the&nbsp;
+extent that (by virtue of section 296A of the Copyright, Designs and Patents&nbsp;
+Act 1988) such actions cannot be prohibited because they are essential for the&nbsp;
+purpose of achieving inter-operability of the App with another software&nbsp;
+program, and provided that the information obtained by you during such&nbsp;
+activities: <o:p></o:p></span></span></h3>
+
+<h4 style='mso-list:l13 level4 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.4.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>is&nbsp;
+used only for the purpose of achieving inter-operability of the App with&nbsp;
+another software program;<o:p></o:p></span></span></h4>
+
+<h4 style='mso-list:l13 level4 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.4.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>is&nbsp;
+not unnecessarily disclosed or communicated without our prior written consent&nbsp;
+to any third party; and<o:p></o:p></span></span></h4>
+
+<h4 style='mso-list:l13 level4 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.4.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>is&nbsp;
+not used to create any software that is substantially similar to the App;<o:p></o:p></span></span></h4>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>to&nbsp;
+keep all copies of the App secure and to maintain accurate and up-to-date&nbsp;
+records of the number and locations of all copies of the App;<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.6<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>to&nbsp;
+include our copyright notice on all entire and partial copies you make of the&nbsp;
+App on any medium;<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.7<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>not&nbsp;
+to provide or otherwise make available the App in whole or in part (including&nbsp;
+object and source code), in any form to any person without prior written&nbsp;
+consent from us; and<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>3.1.8<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>to&nbsp;
+comply with all technology control or export laws and regulations that apply to&nbsp;
+the technology used or supported by the App or any Service (<span
+class=Defterm><span style='font-family:"Museo Sans 300";mso-bidi-font-family:
+"Times New Roman";font-weight:normal'>Technology</span></span>),<o:p></o:p></span></span></h3>
+
+<p class=Bodyclause style='margin-left:0cm'><span style='mso-bookmark:main'><span
+lang=EN-GB style='font-family:"Museo Sans 300"'>together <span class=Defterm><span
+style='font-family:"Museo Sans 300";mso-bidi-font-family:"Times New Roman";
+font-weight:normal'>Licence Restrictions</span></span>.<o:p></o:p></span></span></p>
+
+<h1 style='mso-list:l13 level1 lfo4'><span style='mso-bookmark:main'><a
+name="_Toc409808500"></a><a name=a863074><span style='mso-bookmark:_Toc409808500'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial;
+color:#EF3A86;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'>Acceptable Use Restrictions</span></span></a></span><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'><o:p></o:p></span></span></h1>
+
+<p class=Bodysubclause><span style='mso-bookmark:main'><span lang=EN-GB
+style='font-family:"Museo Sans 300"'>You must: <o:p></o:p></span></span></p>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>not&nbsp;
+use the App or any Service in any unlawful manner, for any unlawful purpose, or&nbsp;
+in any manner inconsistent with these terms, or act fraudulently or&nbsp;
+maliciously, for example, by hacking into or inserting malicious code, including&nbsp;
+viruses, or harmful data, into the App, any Service or any operating system;<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>not&nbsp;
+infringe our intellectual property rights or those of any third party in&nbsp;
+relation to your use of the App or any Service, including the submission of any&nbsp;
+material (to the extent that such use is not licensed by these terms);<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>not&nbsp;
+transmit any material that is defamatory, offensive or otherwise objectionable&nbsp;
+in relation to your use of the App or any Service;<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>not&nbsp;
+use the App or any Service in a way that could damage, disable, overburden,&nbsp;
+impair or compromise our systems or security or interfere with other users; and<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>4.1.5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>not&nbsp;
+collect or harvest any information or data from any Service or our systems or&nbsp;
+attempt to decipher any transmissions to or from the servers running any&nbsp;
+Service.<o:p></o:p></span></span></h3>
+
+<h1 style='mso-list:l13 level1 lfo4'><span style='mso-bookmark:main'><a
+name="_Toc409808501"></a><a name=a681492><span style='mso-bookmark:_Toc409808501'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial;
+color:#EF3A86;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'>Intellectual Property Rights</span></span></a></span><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'><o:p></o:p></span></span></h1>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>5.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>You&nbsp;
+acknowledge that all intellectual property rights in the App and the technology&nbsp;
+used in the App anywhere in the world belong to us or our licensors, that&nbsp;
+rights in the App are licensed (not sold) to you, and that you have no rights&nbsp;
+in, or to, the App or the technology other than the right to use each of them&nbsp;
+in accordance with these terms.<o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>5.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>You&nbsp;
+acknowledge that you have no right to have access to the App in source-code
+form.<o:p></o:p></span></span></h2>
+
+<h1 style='mso-list:l13 level1 lfo4'><span style='mso-bookmark:main'><a
+name="_Toc409808503"></a><a name=a909845><span style='mso-bookmark:_Toc409808503'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial;
+color:#EF3A86;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'>Limitation of Liability</span></span></a></span><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'><o:p></o:p></span></span></h1>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>6.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>You&nbsp;
+acknowledge that the App has not been developed to meet your individual&nbsp;
+requirements, and that it is therefore your responsibility to ensure that the&nbsp;
+facilities and functions of the App meet your requirements.<o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>6.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>We&nbsp;
+only supply the App for domestic and private use. You agree not to use the App&nbsp;
+for any commercial, business or resale purposes, and we have no liability to&nbsp;
+you for any loss of profit, loss of business, business interruption, or loss of&nbsp;
+business opportunity.<o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>6.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>We&nbsp;
+are only responsible for loss or damage you suffer that is a foreseeable result&nbsp;
+of our breach of these terms or our negligence up to the limit specified in&nbsp;
+condition </span></span><!--[if supportFields]><span style='mso-bookmark:main'></span><span
+style='mso-element:field-begin'></span><span style='mso-bookmark:main'><span
+lang=EN-GB style='font-family:"Museo Sans 300"'>REF &quot;a550725&quot; \h \w <span
+style='mso-spacerun:yes'> </span>\* MERGEFORMAT <span style='mso-element:field-separator'></span></span></span><![endif]--><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 300"'>6.4<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000800000061003500350030003700320035000000</w:data>
+</xml><![endif]--></span></span><!--[if supportFields]><span style='mso-bookmark:
+main'></span><span style='mso-element:field-end'></span><![endif]--><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 300"'>,
+but we are not responsible for any unforeseeable loss or damage. Loss or damage&nbsp;
+is foreseeable if it is an obvious consequence of our breach or if they were&nbsp;
+contemplated by you and us at the time we granted you the licence.<o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><a
+name=a550725><![if !supportLists]><span lang=EN-GB style='mso-fareast-font-family:
+Arial;mso-bidi-font-family:Arial'><span style='mso-list:Ignore'>6.4<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>Our&nbsp;
+maximum aggregate liability under or in connection with these terms, the App (including&nbsp;
+your use of any Services) whether in contract, tort (including negligence) or&nbsp;
+otherwise, shall in all circumstances be limited to &pound;1000. This does not&nbsp;
+apply to the types of loss set out in condition </span></a></span><!--[if supportFields]><span
+style='mso-bookmark:main'><span style='mso-bookmark:a550725'></span></span><span
+style='mso-element:field-begin'></span><span style='mso-bookmark:main'><span
+style='mso-bookmark:a550725'><span lang=EN-GB style='font-family:"Museo Sans 300"'>REF
+&quot;a638766&quot; \h \w <span style='mso-spacerun:yes'> </span>\* MERGEFORMAT
+<span style='mso-element:field-separator'></span></span></span></span><![endif]--><span
+style='mso-bookmark:main'><span style='mso-bookmark:a550725'><span lang=EN-GB
+style='font-family:"Museo Sans 300"'>6.5<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000800000061003600330038003700360036000000</w:data>
+</xml><![endif]--></span></span></span><!--[if supportFields]><span
+style='mso-bookmark:main'><span style='mso-bookmark:a550725'></span></span><span
+style='mso-element:field-end'></span><![endif]--><span style='mso-bookmark:
+main'><span style='mso-bookmark:a550725'><span lang=EN-GB style='font-family:
+"Museo Sans 300"'>.</span></span></span><span style='mso-bookmark:main'><span
+lang=EN-GB style='font-family:"Museo Sans 300"'><o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><a
+name=a638766><![if !supportLists]><span lang=EN-GB style='mso-fareast-font-family:
+Arial;mso-bidi-font-family:Arial'><span style='mso-list:Ignore'>6.5<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>Nothing&nbsp;
+in these terms shall limit or exclude our liability for:</span></a></span><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 300"'><o:p></o:p></span></span></h2>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>death&nbsp;
+or personal injury resulting from our negligence;<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>fraud&nbsp;
+or fraudulent misrepresentation; and<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>6.5.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>any&nbsp;
+other liability that cannot be excluded or limited by English law.<o:p></o:p></span></span></h3>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>6.6<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>No&nbsp;
+warranty is provided for the use of the App beyond those prescribed by law.<o:p></o:p></span></span></h2>
+
+<h1 style='mso-list:l13 level1 lfo4'><span style='mso-bookmark:main'><a
+name="_Toc409808504"></a><a name=a766942><span style='mso-bookmark:_Toc409808504'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial;
+color:#EF3A86;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'>Termination</span></span></a></span><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'><o:p></o:p></span></span></h1>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>7.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>We&nbsp;
+may terminate these terms immediately by written notice to you:<o:p></o:p></span></span></h2>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>7.1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>if&nbsp;
+you commit a material or persistent breach of these terms which you fail to&nbsp;
+remedy (if remediable) within 14 days after the service of written notice&nbsp;
+requiring you to do so; or<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>7.1.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>if&nbsp;
+you breach any of the Licence Restrictions (condition 3) or the Acceptable Use&nbsp;
+Restrictions (condition 4); or<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>7.1.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>if&nbsp;
+you fail to pay any charges for the App or any Service.<o:p></o:p></span></span></h3>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>7.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>On&nbsp;
+termination for any reason:<o:p></o:p></span></span></h2>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>7.2.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>all&nbsp;
+rights granted to you under these terms shall cease;<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>7.2.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>you&nbsp;
+must immediately cease all activities authorised by these terms, including your
+use of any Services; and<o:p></o:p></span></span></h3>
+
+<h3 style='mso-list:l13 level3 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>7.2.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>you&nbsp;
+must immediately delete or remove the App from all Devices, and immediately&nbsp;
+destroy all copies of the App then in your possession, custody or control and&nbsp;
+certify to us that you have done so. <o:p></o:p></span></span></h3>
+
+<h1 style='mso-list:l13 level1 lfo4'><span style='mso-bookmark:main'><a
+name="_Toc409808505"></a><a name=a1012613><span style='mso-bookmark:_Toc409808505'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial;
+color:#EF3A86;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'>Communication Between Us</span></span></a></span><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'><o:p></o:p></span></span></h1>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>8.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>If&nbsp;
+you wish to contact us in writing, or if any condition in these terms requires&nbsp;
+you to give us notice in writing, you can send this to us by e-mail to info@sprytar.com.<span
+style='mso-spacerun:yes'>     </span><span
+style='mso-spacerun:yes'>                            </span><o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>8.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>If&nbsp;
+we have to contact you or give you notice in writing, we will do so by e-mail&nbsp;
+or by pre-paid post to the address you provide to us in your request for the&nbsp;
+App.<o:p></o:p></span></span></h2>
+
+<h1 style='mso-list:l13 level1 lfo4'><span style='mso-bookmark:main'><a
+name="_Toc409808507"></a><a name=a91428><span style='mso-bookmark:_Toc409808507'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial;
+color:#EF3A86;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>9.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'>Other Important Terms</span></span></a></span><span
+style='mso-bookmark:main'><span lang=EN-GB style='font-family:"Museo Sans 700";
+color:#EF3A86;mso-bidi-font-weight:bold'><o:p></o:p></span></span></h1>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>9.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>We&nbsp;
+may transfer our rights and obligations under these terms to another&nbsp;
+organisation, but this will not affect your rights or our obligations under them.&nbsp;
+<o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>9.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>You&nbsp;
+may only transfer your rights or obligations under these terms to another&nbsp;
+person if we agree in writing.<o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>9.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>If&nbsp;
+we fail to insist that you perform any of your obligations under these terms,&nbsp;
+or if we do not enforce our rights against you, or if we delay in doing so,&nbsp;
+that will not mean that we have waived our rights against you and will not mean&nbsp;
+that you do not have to comply with those obligations. If we do waive a default&nbsp;
+by you, we will only do so in writing, and that will not mean that we will&nbsp;
+automatically waive any later default by you. <o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>9.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>Each&nbsp;
+of the conditions of these terms operates separately. If any court or competent&nbsp;
+authority decides that any of them are unlawful or unenforceable, the remaining&nbsp;
+conditions will remain in full force and effect. <o:p></o:p></span></span></h2>
+
+<h2 style='mso-list:l13 level2 lfo4'><span style='mso-bookmark:main'><![if !supportLists]><span
+lang=EN-GB style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>9.5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-family:"Museo Sans 300"'>Please&nbsp;
+note that these terms, their subject matter and formation, are governed by&nbsp;
+English law. You and we both agree that the courts of England and Wales will&nbsp;
+have non-exclusive jurisdiction. <o:p></o:p></span></span></h2>
+
+<span style='mso-bookmark:main'></span>
+
+<p class=MsoNormal><span lang=EN-GB style='font-family:"Museo Sans 300"'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

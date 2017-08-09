@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/faq_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/faq_title"
+            tools:text="@string/faq_title"
+
+            android:layout_marginStart="@dimen/common_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/RegularText.ListTitle"
+            android:clickable="true"/>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@drawable/line_divider"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/faq_textView"
+
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/contact_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="@string/contact_information_title"
+            android:text="@string/contact_information_title"
+
+            android:layout_marginStart="@dimen/common_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/divider2"
+            style="@style/RegularText.ListTitle"
+            android:clickable="true"/>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@drawable/line_divider"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/contact_textView"
+
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/sendRequest_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="@string/request_title"
+            android:text="@string/request_title"
+
+            android:layout_marginStart="@dimen/common_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/divider3"
+            style="@style/RegularText.ListTitle"
+            android:clickable="true"/>
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@drawable/line_divider"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/sendRequest_textView"
+
+            android:layout_marginTop="16dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".support.FaqActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:theme="@style/ToolbarColoredBackArrow"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/appBarLayout">
+
+            <ImageView
+                android:id="@+id/logo_imageView"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:src="@drawable/logo_settings"
+
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/companyName_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Sprytar Limited"
+                android:text="Sprytar Limited"
+
+                app:layout_constraintTop_toBottomOf="@+id/logo_imageView"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                style="@style/RegularText.ListTitle"/>
+
+            <TextView
+                android:id="@+id/address_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="Genesis, 5 Church Lane YO10 5DQ, UK"
+                android:text="Genesis, 5 Church Lane YO10 5DQ, UK"
+
+                app:layout_constraintTop_toBottomOf="@+id/companyName_textView"
+                android:layout_marginTop="4dp"
+
+                app:layout_constraintStart_toStartOf="@+id/companyName_textView"
+                app:layout_constraintEnd_toEndOf="@+id/companyName_textView"
+                android:inputType="textMultiLine"
+                android:gravity="center"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/phoneTitle_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Phone"
+                android:text="Phone"
+
+                app:layout_constraintTop_toBottomOf="@+id/address_textView"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                style="@style/ContactInformationText.Category"/>
+
+            <TextView
+                android:id="@+id/phone1_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="+44 (0) 161 8182808"
+                android:text="+44 (0) 161 8182808"
+
+                app:layout_constraintTop_toBottomOf="@+id/phoneTitle_textView"
+                android:layout_marginTop="4dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:gravity="center"
+                style="@style/ContactInformationText"/>
+
+            <TextView
+                android:id="@+id/emailTitle_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Email"
+                android:text="Email"
+
+                app:layout_constraintTop_toBottomOf="@+id/phone1_textView"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                style="@style/ContactInformationText.Category"/>
+
+            <TextView
+                android:id="@+id/email_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="info@sprytar.com"
+                android:text="info@sprytar.com"
+
+                app:layout_constraintTop_toBottomOf="@+id/emailTitle_textView"
+                android:layout_marginTop="4dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:gravity="center"
+                style="@style/ContactInformationText"/>
+
+            <TextView
+                android:id="@+id/twitterTitle_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Twitter"
+                tools:text="Twitter"
+
+                app:layout_constraintTop_toBottomOf="@+id/email_textView"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                style="@style/ContactInformationText.Category"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/twitter_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="twitter.com/companyname"
+                android:text="twitter.com/companyname"
+
+                app:layout_constraintTop_toBottomOf="@+id/twitterTitle_textView"
+                android:layout_marginTop="4dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:gravity="center"
+                style="@style/ContactInformationText"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/facebookTitle_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Facebook"
+                android:text="Facebook"
+
+                app:layout_constraintTop_toBottomOf="@+id/twitter_textView"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                style="@style/ContactInformationText.Category"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/facebook_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="fb.com/companyname"
+                android:text="fb.com/companyname"
+
+                app:layout_constraintTop_toBottomOf="@+id/facebookTitle_textView"
+                android:layout_marginTop="4dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:gravity="center"
+                style="@style/ContactInformationText"
+                android:visibility="gone"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </RelativeLayout>
+</layout>

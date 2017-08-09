@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/common_margin">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Question"
+            android:fontFamily="sans-serif"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@android:color/black"
+            android:layout_alignParentTop="true"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="@dimen/common_margin"
+            android:layout_marginBottom="@dimen/common_margin"
+            android:background="@null"
+            android:layout_below="@+id/question"
+            android:src="@drawable/logo_splash"/>
+
+
+
+        <Button
+            android:id="@+id/btnNextQuesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_quiz_button"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="@dimen/common_margin"
+            android:text="Go to Next question"
+            android:layout_alignParentBottom="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@color/colorText"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:theme="@style/SplashButton" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btnNextQuesion"
+            android:layout_below="@+id/logo"
+            android:background="@null">
+
+            <LinearLayout
+                android:id="@+id/answersLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:src="@drawable/correct_answer_character"/>
+
+        <TextView
+            android:id="@+id/feedback_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/imageAnswer"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</layout>

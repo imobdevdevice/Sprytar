@@ -1,0 +1,332 @@
+<resources>
+    <string name="app_name">"Sprytar"</string>
+    <string name="app_description">"Explore and discover places with augumented reality games and play with your friends"</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="splash_button">Get started</string>
+    <string name="error_occurred">Error occurred: %s</string>
+
+    <string name="locations">Locations</string>
+    <string name="settings">Settings</string>
+    <string name="profile">My profile</string>
+    <string name="setup">Set up Location</string>
+    <string name="support">Support</string>
+    <string name="logout">Log out</string>
+
+    <string name="venue">Venue</string>
+
+    <string name="switch_user_button">Switch user</string>
+    <string name="login_user_button">Log In</string>
+
+    <string name="title_current_location">Current location</string>
+
+    <!--    Menu    -->
+    <string name="send">Send</string>
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required.</string>
+    <string name="permission_rationale_camera">Access to the camera is required.</string>
+    <string name="location_permission_denied">Requires location permission to enable the \'my
+        location\' layer. Please try again and grant access to use the location.\nIf the
+        permission has been permanently denied, it can be enabled from the System Settings &gt;
+        Apps &gt; \'Sprytar\'.</string>
+    <string name="permission_required_toast">Location permission is required for this activity</string>
+    <string name="gps_network_not_enabled">GPS disabled</string>
+    <string name="open_location_settings">Open location settings</string>
+    <string name="permission_request_title">Permission required</string>
+    <string name="permission_button_accept">Accept</string>
+    <string name="permission_button_deny">Deny</string>
+
+    <!--    Location list    -->
+    <string name="voted_represent">(%d) on TripAdvisor</string>
+
+    <!-- actions -->
+    <string name="action_search">Search</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_offline">Offline</string>
+
+    <!--    Support    -->
+    <string name="faq_title">Frequently Asked Questions</string>
+    <string name="faq_title_short">FAQ</string>
+    <string name="contact_information_title">Contact Information</string>
+    <string name="request_title">Send Support Request</string>
+    <string name="request_title_short">Support Request</string>
+    <string name="request_hint">Please describe any question or issue you have in as much detail as possible.  We aim to reply to all support requests within one working day.</string>
+    <string name="request_confirm_main">Thank you for your support request</string>
+    <string name="request_confirm_detail">Our response will be sent to the email address %s</string>
+
+    <string name="warning_notice">Before sending a support request make sure you first
+        check the FAQ section.</string>
+
+    <!--    Support    -->
+    <string name="email_title">Email</string>
+    <string name="nickname_title">Nickname</string>
+    <string name="password_title">Password</string>
+    <string name="children_title">Children</string>
+    <string name="add_children_title">Add Family Members</string>
+    <string name="family_member_title">Family Member</string>
+    <string name="family_members_title">Family Members</string>
+    <string name="account_settings_title">Account Settings</string>
+    <string name="terms_conditions">Terms and Conditions</string>
+
+    <!--    Venue activity    -->
+    <string name="item_details">%d pts</string>
+
+    <!--    Game    -->
+    <string name="game_title">Game</string>
+    <string name="badges_title">Badges Won</string>
+    <string name="points_title">Total points</string>
+    <string name="gameplay_title">Gameplay</string>
+    <string name="start_button">Start Game</string>
+    <string name="view_rules">View Rules</string>
+    <string name="rules">Rules</string>
+    <string name="hint">Hint</string>
+
+    <string name="not_in_park">Not in park</string>
+    <string name="not_in_park_text">You need to be in the park to play this game.</string>
+
+    <string name="sprytar_view_title">Sprytar View</string>
+    <string name="game_map_title">Find on Map</string>
+    <string name="game_spryte_title">Find by Spryte</string>
+    <string name="not_granted_permissions">You have to grant \'Camera\' and \'Location\' permissions
+        to start game.</string>
+    <string name="quiz_answer_button">I\'m ready to answer</string>
+    <string name="quiz_back_button">Back to map</string>
+    <string name="quiz_next_button">Go to next question</string>
+    <string name="quiz_wrong_title">Wrong!</string>
+    <string name="quiz_wrong_description">The correct answer is</string>
+    <string name="skip_button">Skip Question</string>
+    <string name="take_picture_button">Take Picture</string>
+
+    <string name="game_finished_title">Congratulations</string>
+    <string name="game_button_select">Select another Activity</string>
+    <string name="game_button_play">Play Again</string>
+    <string name="game_button_post">Post result to facebook</string>
+
+    <!--    Fitness classes    -->
+    <string name="fitness_title">Fitness classes</string>
+    <string name="let_us_know_title">Let us Know</string>
+    <string name="communication_button">Know different? Let us know</string>
+
+    <!--    Guided tours    -->
+    <string name="tour_title">Guided tours</string>
+    <string name="thank_you_title">Thank You</string>
+    <string name="reminder_button">Click to receive a reminder</string>
+
+
+    <!-- Quiz game -->
+    <string name="quiz_game_title">Quiz Game</string>
+    <string name="quiz_desc">Use this quiz to explore the indoor museums and galleries.</string>
+    <string name="quiz_rule_1_title">Be Careful!</string>
+    <string name="quiz_rule_1_desc">Remember to use your common sense when playing the Sprytar app.  Be aware of any local, seasonal or other hazards that might be in your path.</string>
+    <string name="quiz_rule_2_title">Have Fun</string>
+    <string name="quiz_rule_2_desc">The Sprytar Quiz activity allows you to find fun facts and learn about the sometimes hidden cultural treasures of the local area where the quiz is taken.</string>
+    <string name="quiz_rule_3_title">Learn Lots</string>
+    <string name="quiz_rule_3_desc">The Sprytar Quiz activity is an educational journey cram-packed with information about indoor museums and galleries and other places in the local area.</string>
+
+    <!-- Trails Game -->
+    <string name="trails_game_title">Trails Game</string>
+    <string name="trails_trail_on_map">Trail on Map</string>
+    <string name="trails_ar_view">AR View</string>
+
+    <!-- Photo hunt -->
+    <string name="photo_hunt_desc">Take a picture of the location or object located somewhere in the marked area.</string>
+
+    <!--    Poi    -->
+    <string name="poi_title">Poi</string>
+
+    <!--    Log in / Sign up    -->
+    <string name="login_title">Sign In</string>
+    <string name="signup_title">Sign Up</string>
+    <string name="pick_user_title">Pick a User</string>
+    <string name="pick_user_description">Select a user and get customised games and activities for that age bracket.</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="password_repeat">Confirm Password</string>
+    <string name="family_nickname">Select Family Nickname</string>
+    <string name="skip_signup">Skip Sign Up</string>
+    <string name="skip_signin">Skip sign in</string>
+    <string name="login_invite"><![CDATA[<u>Already have an account? Sign In</u>]]></string>
+    <string name="signup_invite"><![CDATA[<u>No account yet? Sign up</u>]]></string>
+    <string name="unregistered_user">Unregistered user</string>
+    <string name="signup_name">Name</string>
+    <string name="signup_surname">Username</string>
+    <string name="updates_notification">Would you like to stay up to date with Sprytar adventures, events and news?</string>
+    <string name="already_registered"><![CDATA[<u>Already a Sprytar?  Sign in here.</u>]]></string>
+    <string name="legal_info">Why do we want this information and what do we want to do with
+        it?</string>
+
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="email_forgot_password">Insert your email</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password_notification">Don\'t worry, simply fill in the form below and we will send you a link to reset your password.</string>
+    <string name="reset_password_button">Reset password</string>
+
+    <!--    Add/Modify/Remove family member    -->
+    <string name="role_title">Role</string>
+    <string name="birthday_title">Date of Birth</string>
+    <string name="pick_avatar">Pick Avatar</string>
+    <string name="item_member_tilte">%1$s, %2$sy </string>
+    <string name="no_member_warning">Please add at least one family member.</string>
+    <string name="confirm_delete_dialog">Do you want do delete family member?</string>
+    <string name="gender">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_rather_not_say">Rather not say</string>
+    <string name="postcode"><![CDATA[<b>Postcode</b>(first 4 digits)]]></string>
+    <string name="family_member_desc">We request the date of birth only because the minimum allowed signup age for children is 13. This information is not available to anyone.</string>
+    <string name="family_member_title_desc">Add Family Members to get\n customised activities.</string>
+
+    <!--    Buttons    -->
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="confirm">Confirm</string>
+    <string name="update">Update</string>
+    <string name="close">Close</string>
+
+    <!--    Change password    -->
+    <string name="new_password">New Password</string>
+    <string name="new_password_repeat">Repeat New Password</string>
+
+    <!--    AR Camera    -->
+    <string name="location_fetching">Trying to find out where you are</string>
+    <string name="compass_accuracy_low">Please re-calibrate compass by waving your device in a figure 8 motion.</string>
+    <string name="poi_name">Name</string>
+    <string name="poi_description">Description</string>
+    <string name="poi_id">ID</string>
+
+    <!-- camera -->
+    <string name="camera_file_creation_error">Can’t create file</string>
+    <string name="camera_permission_request_title">Permissions required</string>
+    <string name="camera_permission_request_rationale">Camera permissions are needed</string>
+
+    <!-- Sign-Up -->
+    <string name="minimum_password">The minimum password length is 6 characters</string>
+
+    <!-- Log-In -->
+    <string name="invalid_email">Invalid email.</string>
+    <string name="invalid_password">Invalid password.</string>
+
+    <!-- Add family members -->
+    <string name="missing_name">Missing name</string>
+    <string name="missing_birthday">Missing birthday</string>
+    <string name="missing_avatar">Please, select avatar</string>
+
+    <string name="key_binding_default_toolbar_name">Modal-Toolbar-Title</string>
+
+    <string name="BackDropBottomSheetBehavior">com.novp.sprytar.util.bottomsheet.BackdropBottomSheetBehavior</string>
+    <string name="BottomSheetBehaviorGoogleMapsLike">com.novp.sprytar.util.bottomsheet.BottomSheetBehaviorGoogleMapsLike</string>
+    <string name="ScrollAwareFABBehavior">com.novp.sprytar.util.bottomsheet.ScrollAwareFABBehavior</string>
+    <string name="MergedAppBarLayoutBehavior">com.novp.sprytar.util.bottomsheet.MergedAppBarLayoutBehavior</string>
+    <string name="ScrollingAppBarLayoutBehavior">com.novp.sprytar.util.bottomsheet.ScrollingAppBarLayoutBehavior</string>
+
+    <!--    Offline access    -->
+    <string name="offline_access_title">Offline Access</string>
+    <string name="offline_access_message_save">Offline mode may restrict the functionality of the app.</string>
+    <string name="offline_access_message_remove">Are you sure you want to remove offline access for this venue?</string>
+    <string name="message_save_succes">From now on you can use this\n venue\'s games and activities in\n offline mode.</string>
+    <string name="message_save_error">Cannot add location to offline storage</string>
+    <string name="message_remove_success">Location was removed successfully</string>
+    <string name="message_remove_error">Error removing location: </string>
+    <string name="message_save_games_error">Error during games saving</string>
+    <string name="download_complete">Download Complete</string>
+
+    <!-- Network warnings and errors -->
+    <string name="no_network">No internet connection.</string>
+    <string name="no_network_stored_data">No internet connection. Using stored data.</string>
+    <string name="risks_title">Potential Risks</string>
+    <string name="risks_text">Running around outside having fun can come with risks.</string>
+    <string name="not_connected_google_api">Google api client no yet connected. Try again.</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+
+    <!--    Fitness classes and Guided tours    -->
+    <string name="request_sent_success">The request has been sent successfully</string>
+
+    <!-- General warnings -->
+    <string name="registration_required">Please log in to proceed.</string>
+
+    <string name="terms_and_conditions">Terms and conditions</string>
+
+    <!-- General warnings -->
+    <string name="next_button">Next</string>
+    <string name="got_it_button">Got it</string>
+    <string name="done_button">Done</string>
+
+    <!-- Pick User -->
+    <string name="pick_user_dialog_title">Please enter the password to continue</string>
+
+    <!-- Game Rules -->
+    <string name="game_rule_1_name">Be Careful!</string>
+    <string name="game_rule_1_desc">Remember to use your common sense when playing the Sprytar app.  Be aware of any local, seasonal or other hazards that might be in your path.</string>
+    <string name="game_rule_2_name">Have Fun</string>
+    <string name="game_rule_2_desc">The Sprytar Treasure Hunt activity allows you to find fun facts and learn about the sometimes hidden cultural treasures of your local park.</string>
+    <string name="game_rule_3_name">Learn Lots</string>
+    <string name="game_rule_3_desc">The Sprytar Treasure Hunt activity is an educational journey cram-packed with information about your park and local area.</string>
+
+    <!-- Location set up -->
+    <string name="venue_setup_treasure_title">Treasure hunt questions</string>
+    <string name="venue_setup_ioi_title">Items of interest</string>
+    <string name="set_location_button">Set Location</string>
+    <string name="venue_setup_adjust_message">Do you want to confirm the adjustment of location for the selected item?</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="venue_setup_adjust_title">Confirm Location</string>
+    <string name="venue_setup_location_error">Your current location is unavailable</string>
+    <string name="venue_setup_success_update">Location was updated</string>
+
+    <string name="age_range_prompt">Age band</string>
+    <string name="select_postcode_title">Select Postcode</string>
+
+    <string-array name="age_range">
+        <item>Age band</item>
+        <item>6 and under</item>
+        <item>6 - 12</item>
+        <item>12 - 15</item>
+        <item>16 - 25</item>
+        <item>26 - 34</item>
+        <item>35 - 44</item>
+        <item>45 - 54</item>
+        <item>55 - 64</item>
+        <item>65 and over</item>
+        <item>I\'d rather not say</item>
+    </string-array>
+
+    <string name="gender_range_prompt">Gender</string>
+    <string-array name="gender_range">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+        <item>Rather not say</item>
+    </string-array>
+
+    <string name="facebook_app_id">1763480130639642</string>
+    <string name="fb_login_protocol_scheme">fb1763480130639642</string>
+    <string name="treasurehunt_intro_1">You have to be outdoors to play this game and have good GPS signal.\n As long as you can see the sky and your phone is working ok, you should be fine. \n \n Find out more about required connections and data usage.</string>
+    <string name="treasurehunt_intro_2">we are going to ask you \n some questions and the answer \n are either hidden in the park or \n about place in the park</string>
+    <string name="treasurehunt_intro_3">To play the game you\'ll need to make \n your way to different location \n around the park</string>
+    <string name="treasurehunt_intro_4">To help you find your way \n you can use either map view \n or the AR view \n \n Look for this symbols.</string>
+    <string name="treasurehunt_intro_5">When you get there ,\n we\'ll ask you a question for \n you to answer</string>
+
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="venue"
+            type="com.novp.sprytar.data.model.VenueActivity" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/ToolbarColoredBackArrow"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ImageView
+            android:id="@+id/logo_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hunt_header" />
+
+        <Button
+            android:id="@+id/getStarted_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_quiz_button"
+            android:fontFamily="sans-serif"
+            android:onClick="onStartClick"
+            android:text="@string/start_button"
+            android:layout_marginTop="@dimen/common_margin"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@color/colorText"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:theme="@style/SplashButton" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/footer_imageView">
+
+                <TextView
+                    android:id="@+id/description_textView"
+                    style="@style/GameInformationText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:layout_marginRight="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:text="Just like traditional treasure hunts the goal is to answer the question to win treasure, or in this case points. Merryn will ask the questions and you have to find the answers."
+                    android:textSize="16sp"
+                    tools:text="Just like traditional treasure hunts the goal is to answer the question to win treasure, or in this case points. Merryn will ask the questions and you have to find the answers." />
+            </ScrollView>
+
+            <Button
+                android:id="@+id/viewRules_button"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/common_margin"
+                android:background="@drawable/rectangle_rules_button"
+                android:onClick="onViewRulesClick"
+                android:paddingLeft="@dimen/common_margin"
+                android:paddingRight="@dimen/common_margin"
+                android:text="View Rules"
+                android:textColor="@color/colorSplashButton"
+                android:theme="@style/SplashButton" />
+
+            <ImageView
+                android:id="@+id/footer_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hunt_footer" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</layout>

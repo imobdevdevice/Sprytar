@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/gallery_indicator"
+            app:fillColor="@color/colorText"
+            app:pageColor="@color/colorAccent"
+
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            app:radius="4dp"
+            android:padding="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteX="0dp"/>
+    </android.support.constraint.ConstraintLayout>
+
+    </layout>

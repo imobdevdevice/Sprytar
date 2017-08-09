@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/subNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:text="Photo Hunt"
+                android:layout_margin="16dp"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:gravity="center" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnNextQuesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_quiz_button"
+            android:fontFamily="sans-serif"
+            android:layout_margin="@dimen/common_margin"
+            android:text="Go to Next question"
+            android:onClick="onNextQuestion"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@color/colorText"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:theme="@style/SplashButton" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_facebook_button"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="@dimen/common_margin"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+            android:text="Post to facebook"
+            android:onClick="onShareToFB"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@color/colorText"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_above="@+id/btnNextQuesion"
+            android:theme="@style/SplashButton" />
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/subNavigation"
+            android:layout_above="@+id/btnShare"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/imageAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_below="@+id/subNavigation"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:src="@drawable/correct_answer_character"/>
+    </RelativeLayout>
+
+</layout>

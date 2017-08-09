@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+        <import type="android.view.View" />
+
+        <variable
+            name="venue"
+            type="com.novp.sprytar.data.model.VenueActivity"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:theme="@style/AppTheme.AppBarOverlay"
+            tools:layout_editor_absoluteX="0dp">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:theme="@style/ToolbarColoredBackArrow"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <TextView
+            android:id="@+id/description_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:text="There are currently no fitness classes available at this location."
+            tools:text="There are currently no fitness classes available at this location."
+
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="12dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/getStarted_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="onStartClick"
+            android:text="@string/communication_button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@color/colorText"
+            android:theme="@style/SplashButton"
+            android:background="@drawable/rectangle_quiz_button"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/common_margin"
+
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteX="12dp"/>
+
+        <ImageView
+            android:id="@+id/footer_imageView"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/ic_grass_footer2"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="92dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.8"/>
+
+        <View
+            android:id="@+id/background_view"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+
+            android:background="@color/colorPrimary"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <ImageView
+            android:id="@+id/fitnessCharacter_imageView"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/fintess_character"
+            android:background="#00000000"
+
+            app:layout_constraintBottom_toTopOf="@+id/background_view"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.8"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "0",
+    "text": "Vadym Test",
+    "hint": "Major Stewart bought the estate in 1904 and lived here until the 1960's",
+    "latitude": "50.496525",
+    "longitude": "30.512089",
+    "answers": [
+      {
+        "id": "0",
+        "text": "Major Percy Stewart",
+        "answerCorrect": "true"
+      },
+      {
+        "id": "1",
+        "text": "William the Conqueror",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "2",
+        "text": "James Joyce",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "3",
+        "text": "William Shatner",
+        "answerCorrect": "false"
+      }
+    ]
+  },
+
+  {
+    "id": "1",
+    "text": "What birds can you see on the Mere?",
+    "hint": "They might be Quackers",
+    "latitude": "50.496754",
+    "longitude": "30.512046",
+    "imageRecognitionQuestion": "true",
+    "imagePath": "oak_leaf"
+  },
+  {
+    "id": "2",
+    "text": "Vadym Test 2",
+    "hint": "Major Stewart bought the estate in 1904 and lived here until the 1960's",
+    "latitude": "50.496525",
+    "longitude": "30.512089",
+    "answers": [
+      {
+        "id": "0",
+        "text": "Major Percy Stewart",
+        "answerCorrect": "true"
+      },
+      {
+        "id": "1",
+        "text": "William the Conqueror",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "2",
+        "text": "James Joyce",
+        "answerCorrect": "false"
+      },
+      {
+        "id": "3",
+        "text": "William Shatner",
+        "answerCorrect": "false"
+      }
+    ]
+  }
+]

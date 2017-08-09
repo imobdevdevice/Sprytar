@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".support.FaqActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/AppTheme.AppBarOverlay"
+
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:theme="@style/ToolbarColoredBackArrow"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ImageView
+            android:id="@+id/success_imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/ic_request_sent_24dp"
+
+            app:layout_constraintTop_toBottomOf="@id/appBarLayout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.3"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/thanks_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/request_confirm_main"
+            tools:text="@string/request_confirm_main"
+            android:gravity="center"
+
+            app:layout_constraintTop_toBottomOf="@+id/success_imageView"
+
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            style="@style/ContactInformationText.Category"/>
+
+        <TextView
+            android:id="@+id/confirm_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/request_confirm_detail"
+            tools:text="@string/request_confirm_detail"
+            android:gravity="center"
+
+            app:layout_constraintTop_toBottomOf="@+id/thanks_textView"
+
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/common_margin"
+
+            style="@style/ContactInformationText"/>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

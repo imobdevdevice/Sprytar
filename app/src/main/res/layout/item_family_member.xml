@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View"/>
+
+        <variable
+            name="member"
+            type="com.novp.sprytar.data.model.FamilyMember"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/delete_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_delete_gray_24dp"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/common_margin"
+
+            tools:layout_editor_absoluteX="0dp"/>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/avatar_imageView"
+
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            app:placeholderImage="@drawable/ic_userlogo"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="@dimen/common_padding"
+            android:layout_marginBottom="@dimen/common_padding"
+
+            app:layout_constraintStart_toEndOf="@id/delete_imageView"
+            android:layout_marginStart="@dimen/common_margin"/>
+
+        <TextView
+            android:id="@+id/name_textView"
+            style="@style/RegularText.ListTitle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/avatar_imageView"
+            android:layout_marginStart="@dimen/common_margin"
+
+            android:textColor="@color/colorPrimaryText"
+
+            android:gravity="left|center"
+            android:textSize="20sp"
+
+            tools:text="Elizabeth, 35y"
+            tools:layout_editor_absoluteX="40dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

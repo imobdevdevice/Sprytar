@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "Trail Point Reached"
+            tools:text = "Trail Point Reached"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryText"
+            android:gravity="center"
+            android:background="@null"
+            android:layout_marginBottom="@dimen/common_margin"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/common_margin"
+            android:layout_marginTop="@dimen/common_margin"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line_divider"/>
+
+        <ImageView
+            android:id="@+id/icon_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/trail_message"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:layout_marginTop="@dimen/common_margin"/>
+
+        <TextView
+            android:id="@+id/message_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/not_in_park_text"
+            tools:text = "Data to be provided from api"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryText"
+            android:gravity="center"
+            android:background="@null"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/common_margin"
+            android:layout_marginTop="@dimen/common_margin"/>
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line_divider"
+            android:layout_marginTop="@dimen/common_margin"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@null">
+
+            <Button
+                android:id="@+id/btnClose"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                style="@style/DenseButton"
+                android:textColor="@color/colorPrimaryText"
+                android:text="Close"
+                android:textAllCaps="false"
+                android:background="@null"/>
+
+            <Button
+                android:id="@+id/btnShowDirections"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                style="@style/DenseButton"
+                android:textColor="@color/colorPrimaryText"
+                android:text="Show Directions"
+                android:textAllCaps="false"
+                android:background="@null"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</layout>

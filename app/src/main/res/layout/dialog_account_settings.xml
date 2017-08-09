@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/email_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/email"
+            tools:text="@string/email"
+            style="@style/LoginText"
+
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+            android:layout_marginTop="@dimen/common_margin"
+
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteX="16dp"/>
+
+        <com.novp.sprytar.util.ui.SignUpEditText
+            android:id="@+id/email_editText"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/bg_login_edittext"
+            style="@style/LoginText.EditText"
+
+            app:layout_constraintTop_toBottomOf="@+id/email_textView"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="@dimen/common_margin"
+            android:layout_marginLeft="@dimen/common_margin"/>
+
+        <TextView
+            android:id="@+id/password_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/password"
+            tools:text="@string/password"
+            style="@style/LoginText"
+
+            app:layout_constraintTop_toBottomOf="@+id/email_editText"
+
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteX="16dp"/>
+
+        <com.novp.sprytar.util.ui.SignUpEditText
+            android:id="@+id/password_editText"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:background="@drawable/bg_login_edittext"
+            style="@style/LoginText.EditText"
+
+            app:layout_constraintTop_toBottomOf="@+id/password_textView"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="@dimen/common_margin"
+            android:layout_marginLeft="@dimen/common_margin"/>
+
+        <TextView
+            android:id="@+id/passwordRepeat_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/password_repeat"
+            tools:text="@string/password_repeat"
+            style="@style/LoginText"
+
+            app:layout_constraintTop_toBottomOf="@+id/password_editText"
+
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteX="16dp"/>
+
+        <com.novp.sprytar.util.ui.SignUpEditText
+            android:id="@+id/passwordRepeat_editText"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:background="@drawable/bg_login_edittext"
+            style="@style/LoginText.EditText"
+
+            app:layout_constraintTop_toBottomOf="@+id/passwordRepeat_textView"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="@dimen/common_margin"
+            android:layout_marginLeft="@dimen/common_margin"/>
+
+
+        <Button
+            android:id="@+id/ok_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/passwordRepeat_editText"
+
+            android:minWidth="64dp"
+            android:text="@string/ok"
+            android:textColor="@color/colorPrimaryText"/>
+
+        <Button
+            android:id="@+id/cancel_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:minWidth="64dp"
+
+            app:layout_constraintEnd_toStartOf="@+id/ok_button"
+            app:layout_constraintTop_toBottomOf="@id/passwordRepeat_editText"
+
+            android:text="@string/cancel"
+            android:textColor="@color/colorPrimaryText"
+            tools:layout_editor_absoluteY="25dp"
+            tools:layout_editor_absoluteX="211dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

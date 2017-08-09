@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b9ce00</color>
+    <color name="colorPrimaryDark">#bebebe</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDivider">#B6B6B6</color>
+
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+
+    <color name="colorSplashButton">#b9ce00</color>
+    <color name="colorWarningGray">#676767</color>
+
+    <color name="colorGameHeader">#e71d73</color>
+
+    <color name="colorBackground">#f1f5cc</color>
+
+    <color name="colorLoginEdit">#FFFFFF</color>
+
+    <color name="tabColorSelected">#b9ce00</color>
+    <color name="tabColorUnselected">#bebebe</color>
+
+    <color name="introTourBackground">#b8cd00</color>
+    <color name="indicator_color">#F2979C</color>
+    <color name="colorYellowButton">#D9E021</color>
+    <color name="colorBlueButton">#00AEED</color>
+</resources>

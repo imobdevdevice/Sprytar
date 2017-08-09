@@ -1,0 +1,347 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.novp.sprytar">
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_GPS"/>
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+  <uses-permission
+      android:name="android.permission.READ_EXTERNAL_STORAGE"
+      android:maxSdkVersion="22"/>
+
+  <!-- Tell the system this app requires OpenGL ES 2.0. -->
+  <uses-feature
+      android:glEsVersion="0x00020000"
+      android:required="true"/>
+
+  <!-- rear facing cam -->
+  <uses-feature
+      android:name="android.hardware.camera"
+      android:required="true"/>
+
+  <!-- users location -->
+  <uses-feature
+      android:name="android.hardware.location"
+      android:required="true"/>
+
+  <!-- accelerometer -->
+  <uses-feature
+      android:name="android.hardware.sensor.accelerometer"
+      android:required="true"/>
+
+  <!-- compass -->
+  <uses-feature
+      android:name="android.hardware.sensor.compass"
+      android:required="true"/>
+
+  <!-- do not support small resolution screens -->
+  <supports-screens
+      android:anyDensity="true"
+      android:largeScreens="true"
+      android:normalScreens="true"
+      android:smallScreens="false"
+      android:xlargeScreens="true"/>
+
+  <application
+      android:name=".SprytarApplication"
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="@string/google_maps_key"/>
+
+    <meta-data
+        android:name="com.facebook.sdk.ApplicationId"
+        android:value="@string/facebook_app_id"/>
+
+    <provider
+        android:name="android.support.v4.content.FileProvider"
+        android:authorities="${applicationId}.provider"
+        android:exported="false"
+        android:grantUriPermissions="true">
+      <meta-data
+          android:name="android.support.FILE_PROVIDER_PATHS"
+          android:resource="@xml/provider_paths"/>
+    </provider>
+
+
+    <provider
+        android:name="com.facebook.FacebookContentProvider"
+        android:authorities="com.facebook.app.FacebookContentProvider1763480130639642"
+        android:exported="true"/>
+
+
+    <activity
+        android:name=".splash.SplashActivity"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity
+        android:name=".main.MainActivity"
+        android:launchMode="singleTop"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme"/>
+
+    <activity
+        android:name=".main.TcActivity"
+        android:label="@string/terms_and_conditions"
+        android:screenOrientation="portrait">
+      <intent-filter>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <action android:name="android.intent.action.VIEW"/>
+        <data android:scheme="launch.TcActivity"/>
+      </intent-filter>
+    </activity>
+    <activity
+        android:name=".support.FaqActivity"
+        android:label="@string/faq_title_short"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".support.ContactInformationActivity"
+        android:label="@string/contact_information_title"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".support.SupportRequestActivity"
+        android:label="@string/request_title_short"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".support.RequestSentActivity"
+        android:label="@string/request_title_short"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.TreasureHuntActivity"
+        android:label="@string/game_title"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".fitness.FitnessClassesActivity"
+        android:label="@string/fitness_title"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".tour.GuidedToursActivity"
+        android:label="@string/tour_title"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.QuizActivity"
+        android:label="@string/game_title"
+        android:screenOrientation="portrait"
+        android:theme="@style/ArTheme"/>
+
+    <activity
+        android:name=".game.AnswerActivity"
+        android:label="@string/game_title"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.AnswerImageActivity"
+        android:label="@string/game_title"
+        android:screenOrientation="portrait"
+        android:theme="@style/ArTheme"/>
+
+    <activity android:name=".game.ImageRecognitionMapActivity"
+      android:label="Image Recognition Map"
+      android:screenOrientation="portrait"
+      android:theme="@style/ArTheme"/>
+
+    <activity
+        android:name=".game.CorrectAnswerImageActivity"
+        android:label="@string/game_title"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.GameFinishedActivity"
+        android:label="@string/game_title"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".poi.PoiActivity"
+        android:label="@string/poi_title"
+        android:screenOrientation="portrait"
+        android:theme="@style/ArTheme"/>
+
+    <activity
+        android:name=".login.LoginActivity"
+        android:label="@string/login_title"
+        android:screenOrientation="portrait"
+        android:theme="@style/ArTheme"/>
+
+    <activity
+        android:name=".login.PickUserActivity"
+        android:label="@string/pick_user_title"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".login.RegisterActivity"
+        android:label="@string/signup_title"
+        android:screenOrientation="portrait"
+        android:theme="@style/ArTheme"
+        android:windowSoftInputMode="stateHidden|adjustPan"/>
+
+    <activity
+        android:name=".login.ForgotPasswordActivity"
+        android:label="@string/forgot_password_title"
+        android:screenOrientation="portrait"
+        android:theme="@style/ArTheme"/>
+
+    <activity
+        android:name=".family.FamilyMemberActivity"
+        android:label="@string/add_children_title"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.quiz.QuizGameStartActivity"
+        android:label="Start Quiz Game"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.quiz.QuizGameActivity"
+        android:label="Quiz Game"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.quiz.QuizGameFinishedActivity"
+        android:label="Quiz Game Finished"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.photohunt.PhotoHuntActivity"
+        android:label="Photo Hunt"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.photohunt.PhotoHuntResultActivity"
+        android:label="Photo Hunt result"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.trails.TrailsGameStartActivity"
+        android:label="Trails Game Start"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.trails.TrailsGameActivity"
+        android:label="Trails Game"
+        android:screenOrientation="portrait"
+        android:theme="@style/ArTheme"/>
+
+    <activity
+        android:name="com.facebook.FacebookActivity"
+        android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+        android:label="@string/app_name"/>
+
+    <activity
+        android:name="com.facebook.CustomTabActivity"
+        android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+
+        <data android:scheme="@string/fb_login_protocol_scheme"/>
+      </intent-filter>
+    </activity>
+
+    <!-- cam activities -->
+    <activity
+        android:name=".wikiarchitect.SampleCamActivity"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:screenOrientation="portrait"
+        android:theme="@style/ArTheme"/>
+    <activity
+        android:name=".wikiarchitect.AutoHdSampleCamActivity"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:screenOrientation="portrait"
+        android:theme="@style/ArTheme"/>
+    <!-- poi detail screen -->
+    <activity android:name=".wikiarchitect.SamplePoiDetailActivity"/>
+
+    <activity
+        android:name=".login.PostcodeActivity"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".game.trails.TrailsGameFinishedActivity"
+        android:screenOrientation="portrait"/>
+
+    <meta-data
+        android:name="io.fabric.ApiKey"
+        android:value="30de833ade2a0ee5d3f505eee92182770569da6a"/>
+
+    <service
+        android:name=".services.LocationUpdatesIntentService"
+        android:exported="false"/>
+
+    <service
+        android:name=".services.GeofenceTransitionsIntentService"
+        android:exported="false"/>
+
+    <service
+        android:name=".services.LocationSendToServerService"
+        android:enabled="true"/>
+
+    <!-- Firebase Notifications -->
+    <service android:name=".services.SpFirebaseMessagingService">
+      <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+      </intent-filter>
+    </service>
+
+    <service android:name=".services.SpFirebaseInstanceIDService">
+      <intent-filter>
+        <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+      </intent-filter>
+    </service>
+    <!-- ./Firebase Notifications -->
+
+    <!-- Google Analytics -->
+    <receiver
+        android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+        android:enabled="true"
+        android:exported="true">
+      <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER"/>
+      </intent-filter>
+    </receiver>
+
+    <service android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
+
+    <receiver
+        android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+        android:enabled="true">
+      <intent-filter>
+        <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+      </intent-filter>
+    </receiver>
+
+    <service
+        android:name="com.google.android.gms.analytics.AnalyticsService"
+        android:enabled="true"
+        android:exported="false"/>
+    <!-- ./Google Analytics -->
+
+  </application>
+
+</manifest>

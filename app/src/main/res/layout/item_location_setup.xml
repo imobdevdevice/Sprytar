@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+        <import type="com.novp.sprytar.util.Utils"/>
+
+        <variable
+            name="location"
+            type="com.novp.sprytar.data.model.Location"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/locationType_imageView"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="16dp"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="@dimen/common_margin"
+            android:layout_marginBottom="@dimen/common_margin"
+            app:srcCompat="@drawable/ic_park_180dp"/>
+
+        <TextView
+            style="@style/RegularText"
+            android:id="@+id/name_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{location.name}"
+            tools:text="Hyde Park and Playground"
+
+            app:layout_constraintLeft_toRightOf="@+id/locationType_imageView"
+            android:layout_marginStart="@dimen/common_padding"
+
+            app:layout_constraintTop_toTopOf="@+id/locationType_imageView"
+            app:layout_constraintBottom_toTopOf="@+id/type_textView"/>
+
+        <TextView
+            android:id="@+id/type_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            tools:text="Park"
+            app:layout_constraintLeft_toRightOf="@+id/locationType_imageView"
+            android:layout_marginStart="@dimen/common_padding"
+
+            app:layout_constraintTop_toBottomOf="@+id/name_textView"
+            app:layout_constraintBottom_toBottomOf="@+id/locationType_imageView"/>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/introTourBackground">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tour_button"
+        android:layout_marginBottom="@dimen/common_padding"
+        tools:layout_editor_absoluteX="0dp" />
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_close_gray_24dp"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/common_padding"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <FrameLayout
+            android:id="@+id/tour_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:background="@color/colorPrimary"
+
+            app:layout_constraintBottom_toTopOf="@+id/gallery_indicator"
+            android:layout_marginBottom="@dimen/common_padding"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:id="@+id/tourButton_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_horizontal"
+                android:drawableRight="@drawable/ic_arrow_forward_main_color_24dp"
+                android:drawablePadding="4dp"
+                android:drawableTint="@color/colorAccent"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:text="Done"
+                android:textColor="@color/colorAccent"
+                android:textSize="22sp"/>
+        </FrameLayout>
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/gallery_indicator"
+
+            app:fillColor="@color/colorText"
+            app:pageColor="@color/colorAccent"
+
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+
+            app:radius="5dp"
+            android:padding="10dp"
+            android:background="@color/introTourBackground"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/common_margin"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

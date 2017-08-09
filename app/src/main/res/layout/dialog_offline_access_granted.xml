@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:minWidth="300dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/status_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryText"
+        android:gravity="left"
+        android:text="Download Complete"
+        android:background="@null"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/common_margin"
+        android:layout_marginEnd="@dimen/common_margin"
+        android:layout_marginTop="@dimen/common_margin"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line_divider"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/icon_imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:src="@drawable/download_complete"
+        android:layout_marginTop="@dimen/common_margin"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryText"
+        android:gravity="center"
+        android:text="@string/message_save_succes"
+        android:background="@null"
+        android:layout_marginStart="@dimen/common_margin"
+        android:layout_marginEnd="@dimen/common_margin"
+        android:layout_marginTop="@dimen/common_margin"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line_divider"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/btn_thanks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryText"
+        android:gravity="right"
+        android:text="THANKS"
+        android:background="@null"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/common_margin"
+        android:layout_marginEnd="@dimen/common_margin"
+        android:layout_marginTop="@dimen/common_margin"/>
+</LinearLayout>

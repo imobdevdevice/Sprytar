@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/form_background">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent">
+
+            <TextView
+                style="@style/LoginText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center"
+                android:text="Sign Up"
+                android:id="@+id/loginTitle"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                tools:text="Sign Up"
+
+                app:layout_constraintTop_toTopOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"
+
+                tools:layout_editor_absoluteX="0dp"/>
+
+            <com.novp.sprytar.util.ui.SignUpEditText
+                android:id="@+id/surname_editText"
+                style="@style/LoginText.EditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="text|textCapSentences"
+                android:background="@drawable/bg_login_edittext"
+                android:hint="@string/signup_surname"
+                android:padding="10dp"
+                android:textColor="@color/colorGameHeader"
+                android:textColorHint="@color/colorGameHeader"
+
+                app:layout_constraintTop_toBottomOf="@+id/loginTitle"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"
+                />
+
+            <Spinner
+                android:id="@+id/age_range_spinner"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_login_edittext"
+                android:paddingLeft="5dp"
+                android:prompt="@string/age_range_prompt"
+                android:entries="@array/age_range"
+                android:textColor="@color/colorGameHeader"
+                android:textColorHint="@color/colorGameHeader"
+
+                app:layout_constraintTop_toBottomOf="@+id/surname_editText"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"/>
+
+                <com.novp.sprytar.util.ui.SignUpEditText
+                    android:id="@+id/postcode_editText"
+                    style="@style/LoginText.EditText"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_login_edittext"
+                    android:hint="First 4 digits of your postcode"
+                    android:textColor="@color/colorGameHeader"
+                    android:textColorHint="@color/colorGameHeader"
+                    android:drawableEnd="@drawable/ic_expand_more_grey_24dp"
+
+                    android:focusable="false"
+                    android:inputType="none"
+
+                    app:layout_constraintTop_toBottomOf="@+id/age_range_spinner"
+                    android:layout_marginTop="@dimen/common_margin"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="@dimen/common_margin"
+                    android:layout_marginEnd="@dimen/common_margin"/>
+
+            <Spinner
+                android:id="@+id/gender_range_spinner"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_login_edittext"
+                android:paddingLeft="5dp"
+                android:prompt="@string/gender_range_prompt"
+                android:entries="@array/gender_range"
+                android:textColor="@color/colorGameHeader"
+                android:textColorHint="@color/colorGameHeader"
+
+                app:layout_constraintTop_toBottomOf="@+id/postcode_editText"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"/>
+
+            <com.novp.sprytar.util.ui.SignUpEditText
+                android:id="@+id/email_editText"
+                style="@style/LoginText.EditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_login_edittext"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColor="@color/colorGameHeader"
+                android:textColorHint="@color/colorGameHeader"
+                tools:layout_editor_absoluteY="25dp"
+                tools:layout_editor_absoluteX="24dp"
+
+                app:layout_constraintTop_toBottomOf="@+id/gender_range_spinner"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"
+                />
+
+            <com.novp.sprytar.util.ui.SignUpEditText
+                android:id="@+id/password_editText"
+                style="@style/LoginText.EditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_login_edittext"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@color/colorGameHeader"
+                android:textColorHint="@color/colorGameHeader"
+
+                app:layout_constraintTop_toBottomOf="@+id/email_editText"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"/>
+
+            <com.novp.sprytar.util.ui.SignUpEditText
+                android:id="@+id/passwordRepeat_editText"
+                style="@style/LoginText.EditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_login_edittext"
+                android:hint="@string/password_repeat"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@color/colorGameHeader"
+                android:textColorHint="@color/colorGameHeader"
+
+                app:layout_constraintTop_toBottomOf="@+id/password_editText"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"/>
+
+            <TextView
+                android:id="@+id/info_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:gravity="left"
+                android:text="@string/legal_info"
+                android:textColor="@android:color/white"
+                tools:layout_editor_absoluteY="25dp"
+                tools:layout_editor_absoluteX="24dp"
+
+                app:layout_constraintTop_toBottomOf="@+id/passwordRepeat_editText"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"/>
+
+            <Button
+                android:id="@+id/signUp"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:onClick="onRegisterClick"
+                android:clickable="true"
+                android:text="Start your adventure"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rectangle_quiz_button"
+                android:textSize="18sp"
+
+                app:layout_constraintTop_toBottomOf="@+id/info_textView"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"
+                />
+
+            <TextView
+                android:id="@+id/alreadyRegistered"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="Already a Sprytar?  Sign in here."
+                android:textColor="@android:color/white"
+                tools:layout_editor_absoluteY="25dp"
+                tools:layout_editor_absoluteX="24dp"
+
+                app:layout_constraintTop_toBottomOf="@+id/signUp"
+                android:layout_marginTop="@dimen/common_margin"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"/>
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</layout>
