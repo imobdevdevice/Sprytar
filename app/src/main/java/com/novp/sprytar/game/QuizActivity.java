@@ -145,6 +145,7 @@ public class QuizActivity extends BaseActivity implements QuizView, QuizGroupFra
                 .replace(R.id.placeholder_fragment, quizGroupFragment, "GROUP_FRAGMENT")
                 .addToBackStack(null)
                 .commitAllowingStateLoss();
+
     }
 
     @Override
