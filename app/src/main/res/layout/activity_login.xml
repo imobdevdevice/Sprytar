@@ -9,7 +9,7 @@
 
         <variable
             name="venue"
-            type="com.novp.sprytar.data.model.VenueActivity" />
+            type="com.sprytar.android.data.model.VenueActivity" />
     </data>
 
     <RelativeLayout
@@ -53,7 +53,7 @@
                 android:textSize="30dp"
                 tools:text="Sign In" />
 
-            <com.novp.sprytar.util.ui.SignUpEditText
+            <com.sprytar.android.util.ui.SignUpEditText
                 android:id="@+id/email_editText"
                 style="@style/LoginText.EditText"
                 android:layout_width="match_parent"
@@ -67,7 +67,7 @@
                 android:textColor="@color/colorGameHeader"
                 android:textColorHint="@color/colorGameHeader" />
 
-            <com.novp.sprytar.util.ui.SignUpEditText
+            <com.sprytar.android.util.ui.SignUpEditText
                 android:id="@+id/password_editText"
                 style="@style/LoginText.EditText"
                 android:layout_width="match_parent"
@@ -163,13 +163,15 @@
             android:textColor="#333333"
             android:textSize="18sp" />
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:background="@null"
-            android:visibility="gone" />
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/loading_imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#0000"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+
 
     </RelativeLayout>
 

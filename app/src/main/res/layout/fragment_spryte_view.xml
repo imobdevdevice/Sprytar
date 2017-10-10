@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="horizontal">
-	<com.wikitude.architect.ArchitectView android:id="@+id/architectView"
-										  android:layout_width="fill_parent"
-										  android:layout_height="fill_parent"/>
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relCompass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="@dimen/common_margin"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tvCompass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/textPink"
+            android:textSize="18sp"
+            tools:text="476m" />
+
+        <TextView
+            android:id="@+id/tvRangeToSpryte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCompass"
+            android:gravity="center"
+            android:text="@string/range_to_spryte"
+            android:textColor="@color/answerTextBlack"
+            android:textSize="@dimen/text_size_title" />
+    </RelativeLayout>
+
+
+    <com.wikitude.architect.ArchitectView
+        android:id="@+id/architectView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        />
 </LinearLayout>

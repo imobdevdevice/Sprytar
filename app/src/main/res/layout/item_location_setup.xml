@@ -6,11 +6,11 @@
     <data>
 
         <import type="android.view.View" />
-        <import type="com.novp.sprytar.util.Utils"/>
+        <import type="com.sprytar.android.util.Utils"/>
 
         <variable
             name="location"
-            type="com.novp.sprytar.data.model.Location"/>
+            type="com.sprytar.android.data.model.Location"/>
     </data>
 
     <android.support.constraint.ConstraintLayout

@@ -1,4 +1,4 @@
-package com.novp.sprytar;
+package com.sprytar.android;
 
 import org.junit.Test;
 

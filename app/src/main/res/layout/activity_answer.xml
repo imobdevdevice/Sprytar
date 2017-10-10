@@ -10,14 +10,14 @@
 
         <variable
             name="question"
-            type="com.novp.sprytar.data.model.Question"/>
+            type="com.sprytar.android.data.model.Question"/>
     </data>
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/main_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
         <TextView
             android:id="@+id/id_textView"
             style="@style/RegularText.ListTitle"
@@ -65,7 +65,7 @@
 
         <FrameLayout
             android:id="@+id/placeholder_fragment"
-            android:name="com.novp.sprytar.game.QuestionFragment"
+            android:name="com.sprytar.android.game.QuestionFragment"
             android:layout_width="0dp"
             android:layout_height="200dp"
 

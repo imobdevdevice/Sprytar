@@ -5,7 +5,8 @@ var ServerInformation = {
 	POIDATA_SERVER_ARG_LON: "lon",
 	POIDATA_SERVER_ARG_NR_POIS: "nrPois"
 };
-
+var animation;
+var modelEarth;
 var World = {
 	loaded: false,
 	rotating: false,
@@ -70,7 +71,7 @@ var World = {
     	// updates status message shon in small "i"-button aligned bottom center
     	updateStatusMessage: function updateStatusMessageFn(message, isWarning) {
 
-    		var themeToUse = isWarning ? "e" : "c";
+            var themeToUse = isWarning ? "e" : "c";
     		var iconToUse = isWarning ? "alert" : "info";
 
     		$("#status-message").html(message);
@@ -126,6 +127,9 @@ var World = {
     	// screen was clicked but no geo-object was hit
     	onScreenClick: function onScreenClickFn() {
     		//$("#informationModalTap").style.display = "none";
+
+
+
     		$("#informationModalTap").hide();
     	},
 
@@ -290,14 +294,7 @@ var World = {
     			World.currentMarker.setDeselected(World.currentMarker);
     		});
     	},
-
-    	// screen was clicked but no geo-object was hit
-    	onScreenClick: function onScreenClickFn() {
-    		//$("#informationModalTap").style.display = "none";
-    		$("#informationModalTap").hide();
-    	},
-
-    	// returns distance in meters of placemark with maxdistance * 1.1
+       // returns distance in meters of placemark with maxdistance * 1.1
     	getMaxDistance: function getMaxDistanceFn() {
 
     		// sort palces by distance so the first entry is the one with the maximum distance
@@ -350,21 +347,20 @@ var World = {
 
 
 	init: function initFn() {
-
-		//this.createModelAtLocation();
+           //this.createModelAtLocation();
 	},
 
 	createModelAtLocation: function createModelAtLocationFn() {
 
 		/*
-			First a location where the model should be displayed will be defined. This location will be relativ to the user.	
+			First a location where the model should be displayed will be defined. This location will be relativ to the user.
 		*/
 		var location = new AR.RelativeLocation(null, 5, 0, -2. );
 
 		/*
 			Next the model object is loaded.
 		*/
-		var modelEarth = new AR.Model("assets/Sprytar_74BIN_50percentTrans.wt3", {
+		modelEarth = new AR.Model("assets/FloatingSpryte.wt3", {
 			onLoaded: this.worldLoaded,
 			scale: {
                   				x: 0.1,
@@ -380,6 +376,10 @@ var World = {
                                  z: -25
                   }
 		});
+
+
+
+
 
         var indicatorImage = new AR.ImageResource("assets/arrow.png");
 
@@ -397,6 +397,11 @@ var World = {
             }
         });
 	},
+		// screen was clicked but no geo-object was hit
+        	onScreenClick: function onScreenClickFn() {
+        		//$("#informationModalTap").style.display = "none";
+        		$("#informationModalTap").hide();
+        	},
 
 	worldLoaded: function worldLoadedFn() {
 		World.loaded = true;
@@ -409,6 +414,6 @@ var World = {
 
 /* forward locationChanges to custom function */
 AR.context.onLocationChanged = World.locationChanged;
-
+console.log(modelEarth);
 /* forward clicks in empty area to World */
 AR.context.onScreenClick = World.onScreenClick;

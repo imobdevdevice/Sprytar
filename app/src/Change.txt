@@ -1,0 +1,15 @@
+ - Bundle id in all 3 party library.
+    Fabric (Done)
+    Facebook (Done)
+    GA
+    Wikitude
+
+ - Links and HyperlinksAndroid  - Done
+ - Search function in locations doesn't workAndroid -- Darshan working
+ - The compass doesn't point the right wayAndroid -- Rujul
+ - AR screen only to appear when you are less then 20m awayAndroid --
+ - The Spryte is too jumpyAndroid - The Range is not accurate enoughAndroid
+ - Remove message saying "Distsnce 10.0"Android  -- Done
+ - Update Google Play ServicesHiAndroid -- Not issue
+ - AR screen is shown when >20m --
+

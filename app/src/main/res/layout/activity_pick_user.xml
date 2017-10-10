@@ -9,13 +9,14 @@
 
         <variable
             name="familyMember"
-            type="com.novp.sprytar.data.model.FamilyMember"/>
+            type="com.sprytar.android.data.model.FamilyMember"/>
     </data>
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/main_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
 
         <android.support.design.widget.AppBarLayout
             android:id="@+id/appBarLayout"

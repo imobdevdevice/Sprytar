@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Sample1PoiDetailActivity" >
+    android:background="@color/colorBackground"
+    >
 
     <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dip">
 	    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/poi_id" /> 

@@ -23,24 +23,33 @@ function Marker(poiData) {
     /*
     	Next the model object is loaded.
     */
-    this.modelEarth = new AR.Model("assets/Sprytar_74BIN_50percentTrans.wt3", {
-    	onLoaded: World.worldLoaded,
+    this.modelEarth = new AR.Model("assets/FloatingSpryte.wt3", {
+    	onLoaded: World.worldLoaded(),
     	scale: {
-          				x: 0.5,
-                  y: 0.5,
-          				z: 0.5
+          		x: 0.07,
+                y: 0.07,
+          		z: 0.07
           },
       translate: {
                   x: 0.0,
-                  y: 0.05,
+                  y: 0.0,
                   z: 0.0
       },
       rotate: {
-                 z: -25
+                 z: 25
 
       },onClick : null//Marker.prototype.getOnClickTrigger(this)
     }
     );
+     /* var animation = new AR.ModelAnimation(modelEarth, "Base Stack");
+
+              // start the animation
+             animation.start();
+*/
+/* var animation = new AR.ModelAnimation(modelEarth, "Base Stack");
+
+         // start the animation
+        animation.start();*/
 
     var indicatorImage = new AR.ImageResource("assets/arrow.png");
 

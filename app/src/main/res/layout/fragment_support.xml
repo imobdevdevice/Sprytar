@@ -6,7 +6,8 @@
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
 
         <TextView
             android:id="@+id/faq_textView"
@@ -14,7 +15,7 @@
             android:layout_height="wrap_content"
             android:text="@string/faq_title"
             tools:text="@string/faq_title"
-
+            android:background="@color/colorBackground"
             android:layout_marginStart="@dimen/common_margin"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

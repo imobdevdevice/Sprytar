@@ -12,6 +12,7 @@
         android:verticalSpacing="16dp"
         android:horizontalSpacing="16dp"
         android:stretchMode="columnWidth"
+        android:background="@color/colorBackground"
         android:gravity="center"/>
 
 </layout>

@@ -1,6 +1,6 @@
-package com.novp.sprytar.util;
+package com.sprytar.android.util;
 
-import com.novp.sprytar.util.AdminHelper;
+import com.sprytar.android.util.AdminHelper;
 
 public class AdminHelperImpl implements AdminHelper {
     @Override

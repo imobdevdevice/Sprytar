@@ -8,12 +8,13 @@
         <import type="android.view.View" />
         <variable
             name="location"
-            type="com.novp.sprytar.data.model.Location"/>
+            type="com.sprytar.android.data.model.Location"/>
     </data>
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
 
         <View
             android:id="@+id/header_view"

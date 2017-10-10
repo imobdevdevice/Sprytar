@@ -8,13 +8,14 @@
 
         <variable
             name="poi"
-            type="com.novp.sprytar.data.model.PointOfInterest"/>
+            type="com.sprytar.android.data.model.PointOfInterest"/>
     </data>
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/list_item"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground">
 
         <TextView
             android:id="@+id/text_textView"

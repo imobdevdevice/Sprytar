@@ -81,7 +81,7 @@
     <string name="badges_title">Badges Won</string>
     <string name="points_title">Total points</string>
     <string name="gameplay_title">Gameplay</string>
-    <string name="start_button">Start Game</string>
+    <string name="start_button">Start the Game</string>
     <string name="view_rules">View Rules</string>
     <string name="rules">Rules</string>
     <string name="hint">Hint</string>
@@ -99,7 +99,7 @@
     <string name="quiz_next_button">Go to next question</string>
     <string name="quiz_wrong_title">Wrong!</string>
     <string name="quiz_wrong_description">The correct answer is</string>
-    <string name="skip_button">Skip Question</string>
+    <string name="skip_button">Skip question</string>
     <string name="take_picture_button">Take Picture</string>
 
     <string name="game_finished_title">Congratulations</string>
@@ -119,7 +119,7 @@
 
 
     <!-- Quiz game -->
-    <string name="quiz_game_title">Quiz Game</string>
+    <string name="quiz_game_title">QuizQuiz Game</string>
     <string name="quiz_desc">Use this quiz to explore the indoor museums and galleries.</string>
     <string name="quiz_rule_1_title">Be Careful!</string>
     <string name="quiz_rule_1_desc">Remember to use your common sense when playing the Sprytar app.  Be aware of any local, seasonal or other hazards that might be in your path.</string>
@@ -144,7 +144,7 @@
     <string name="signup_title">Sign Up</string>
     <string name="pick_user_title">Pick a User</string>
     <string name="pick_user_description">Select a user and get customised games and activities for that age bracket.</string>
-    <string name="email">Email address</string>
+    <string name="email">Your email address</string>
     <string name="password">Password</string>
     <string name="password_repeat">Confirm Password</string>
     <string name="family_nickname">Select Family Nickname</string>
@@ -162,7 +162,7 @@
 
     <string name="forgot_password_title">Forgot password</string>
     <string name="email_forgot_password">Insert your email</string>
-    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password">Forgot your password?</string>
     <string name="forgot_password_notification">Don\'t worry, simply fill in the form below and we will send you a link to reset your password.</string>
     <string name="reset_password_button">Reset password</string>
 
@@ -219,11 +219,11 @@
 
     <string name="key_binding_default_toolbar_name">Modal-Toolbar-Title</string>
 
-    <string name="BackDropBottomSheetBehavior">com.novp.sprytar.util.bottomsheet.BackdropBottomSheetBehavior</string>
-    <string name="BottomSheetBehaviorGoogleMapsLike">com.novp.sprytar.util.bottomsheet.BottomSheetBehaviorGoogleMapsLike</string>
-    <string name="ScrollAwareFABBehavior">com.novp.sprytar.util.bottomsheet.ScrollAwareFABBehavior</string>
-    <string name="MergedAppBarLayoutBehavior">com.novp.sprytar.util.bottomsheet.MergedAppBarLayoutBehavior</string>
-    <string name="ScrollingAppBarLayoutBehavior">com.novp.sprytar.util.bottomsheet.ScrollingAppBarLayoutBehavior</string>
+    <string name="BackDropBottomSheetBehavior">com.sprytar.android.util.bottomsheet.BackdropBottomSheetBehavior</string>
+    <string name="BottomSheetBehaviorGoogleMapsLike">com.sprytar.android.util.bottomsheet.BottomSheetBehaviorGoogleMapsLike</string>
+    <string name="ScrollAwareFABBehavior">com.sprytar.android.util.bottomsheet.ScrollAwareFABBehavior</string>
+    <string name="MergedAppBarLayoutBehavior">com.sprytar.android.util.bottomsheet.MergedAppBarLayoutBehavior</string>
+    <string name="ScrollingAppBarLayoutBehavior">com.sprytar.android.util.bottomsheet.ScrollingAppBarLayoutBehavior</string>
 
     <!--    Offline access    -->
     <string name="offline_access_title">Offline Access</string>
@@ -253,6 +253,19 @@
     <string name="geofence_transition_invalid_type">
         Geofence transition error: invalid transition type %1$d
     </string>
+
+
+
+    <!-- Task 6.4 Dialog message-->
+    <string name="connection_problem_message">It looks like you\'re having a connection problem.</string>
+    <string name="connection_problem_description">Stay calm, take a few deep breaths and hit "try again" to refresh the page.\n\nBeing outdoors with a clear view of the sky may help.</string>
+    <string name="alert_message_title">Uh oh...</string>
+    <string name="other_error_title">Uh oh...</string>
+    <string name="other_error_message">It looks like you\'re experiencing some technical difficulties.</string>
+    <string name="other_error_descr"> It may not be possible to play Sprytar right now but this is likely to be a passing issue so try again in a few mins.</string>
+    <string name="try_again">Try again</string>
+    <string name="technical_problem_message">It looks like you\'re experiencing some technical difficulties.</string>
+    <string name="technical_problem_desc">It may not be possible to play Sprytar right now but this is likely to be a passing issue so try again in a few mins.</string>
 
     <!-- Transition type strings -->
     <string name="geofence_transition_entered">Entered</string>
@@ -320,13 +333,28 @@
         <item>Rather not say</item>
     </string-array>
 
-    <string name="facebook_app_id">1763480130639642</string>
+    <!--<string name="facebook_app_id">1763480130639642</string>-->
+    <string name="facebook_app_id">219502435216108</string>
     <string name="fb_login_protocol_scheme">fb1763480130639642</string>
     <string name="treasurehunt_intro_1">You have to be outdoors to play this game and have good GPS signal.\n As long as you can see the sky and your phone is working ok, you should be fine. \n \n Find out more about required connections and data usage.</string>
     <string name="treasurehunt_intro_2">we are going to ask you \n some questions and the answer \n are either hidden in the park or \n about place in the park</string>
     <string name="treasurehunt_intro_3">To play the game you\'ll need to make \n your way to different location \n around the park</string>
     <string name="treasurehunt_intro_4">To help you find your way \n you can use either map view \n or the AR view \n \n Look for this symbols.</string>
     <string name="treasurehunt_intro_5">When you get there ,\n we\'ll ask you a question for \n you to answer</string>
+    <string name="game_description">Game Description:</string>
+    <string name="start_point">Start Point:</string>
+    <string name="quiz_title">Quiz</string>
+    <string name="treasure_hunt">Treasure Hunt</string>
+    <string name="you_don_t_have_to_signup_nut_if_you_do_you_will_open_a_treasure_trove_full_of_goodies_and_benefits">You don\'t have to signup, but if you do, you will open a treasure trove full of goodies and benefits</string>
+    <string name="just_select_the_location_you_d_like_and_get_ready_to_go">Just select the location you\'d like and get ready to go</string>
+    <string name="depending_on_your_location_you_can_select_a_variety_of_games_and_tours">Depending on your location, you can select a variety of games and tours</string>
+    <string name="you_are_ready_to_find_your_adventure_n_n_if_you_would_like_we_have_a_little_guided_tour_of_the_spryter_full_of_helpful_hints_and_tips_just_tap_below">You are ready to find your adventure...\n\nIf you would like we have a little guided tour of the spryter full of helpful hints and tips just tap below</string>
+    <string name="range_to_spryte">Range to Spryte</string>
+    <string name="number_of_questions">Number of questions:</string>
+    <string name="i_am_ready_to_answer">I am ready to answer</string>
+    <string name="sorry_you_are">Sorry, you\'re</string>
+    <string name="well_done_you_are">Well done, you\'re</string>
+    <string name="next_question">Next Question</string>
 
 
 </resources>

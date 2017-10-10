@@ -9,13 +9,12 @@
         <item name="android:textColorPrimary">@color/colorPrimaryText</item>
         <item name="android:textColor">@color/colorWarningGray</item>
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
-        <item name="android:background">#f1f5cc</item>
     </style>
 
     <style name="ArTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>```
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@color/colorPrimaryText</item>
         <item name="android:textColor">@color/colorWarningGray</item>
@@ -156,14 +155,36 @@
     </style>
 
     <style name="DialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
         <item name="colorAccent">@color/colorPrimary</item>
         <item name="android:textColorPrimaryInverse">@color/colorAccent</item>
         <item name="android:textColorSecondaryInverse">@color/colorAccent</item>
     </style>
 
+    <style name="NetworkProblemDialogText">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorGameHeader</item>
+    </style>
+
     <style name="PoiInformationText">
         <item name="android:textColor">@color/colorPrimaryText</item>
         <item name="android:fontFamily">"sans-serif-light"</item>
+    </style>
+
+    <style name="IntroNumberImage">
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+    <style name="IntroText">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorText</item>
     </style>
 
 </resources>

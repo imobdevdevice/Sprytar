@@ -88,6 +88,8 @@ function Marker(poiData) {
     this.radardrawablesSelected = [];
     this.radardrawablesSelected.push(this.radarCircleSelected);
 
+
+
     /*
         Note that indicator and radar-drawables were added
     */

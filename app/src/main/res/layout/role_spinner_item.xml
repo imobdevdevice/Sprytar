@@ -3,6 +3,7 @@
           android:id="@android:id/text1"
           style="?android:attr/spinnerItemStyle"
           android:singleLine="true"
+          android:background="@color/colorBackground"
           android:layout_width="match_parent"
           android:layout_height="36dp"
           android:ellipsize="marquee"

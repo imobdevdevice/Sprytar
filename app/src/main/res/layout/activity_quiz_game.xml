@@ -5,7 +5,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/colorBackground">
 
         <RelativeLayout
             android:id="@+id/subNavigation"
@@ -38,7 +39,7 @@
 
         </RelativeLayout>
 
-        <com.novp.sprytar.game.quiz.GuessView
+        <com.sprytar.android.game.quiz.GuessView
             android:id="@+id/guessView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

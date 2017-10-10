@@ -5,7 +5,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
 
     <LinearLayout
         android:id="@+id/main_layout"
@@ -69,7 +70,7 @@
 
         <FrameLayout
             android:id="@+id/placeholder"
-            android:name="com.novp.sprytar.game.QuizGroupFragment"
+            android:name="com.sprytar.android.game.QuizGroupFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/common_margin"/>

@@ -9,7 +9,7 @@
 
         <variable
             name="game"
-            type="com.novp.sprytar.data.model.ProfilePlayedGame"/>
+            type="com.sprytar.android.data.model.ProfilePlayedGame"/>
     </data>
 
     <android.support.constraint.ConstraintLayout

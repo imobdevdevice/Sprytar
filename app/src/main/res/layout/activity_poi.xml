@@ -9,7 +9,7 @@
 
         <variable
             name="poi"
-            type="com.novp.sprytar.data.model.PointOfInterest" />
+            type="com.sprytar.android.data.model.PointOfInterest" />
     </data>
 
     <LinearLayout
@@ -43,7 +43,7 @@
 
         </android.support.design.widget.AppBarLayout>
 
-        <com.novp.sprytar.poi.CustomAudioPlayer
+        <com.sprytar.android.poi.CustomAudioPlayer
             android:id="@+id/audioPlayer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,6 +98,7 @@
                 android:layout_height="match_parent"
                 android:gravity="left"
                 android:textSize="16sp"
+
                 tools:text="Just like traditional treasure hunts the goal is to answer the question to win treasure, or in this case points. Merryn will ask the questions and you have to find the answers." />
         </android.support.v4.widget.NestedScrollView>
     </LinearLayout>

@@ -1,4 +1,4 @@
-package com.novp.sprytar;
+package com.sprytar.android;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.novp.sprytar", appContext.getPackageName());
+        assertEquals("com.sprytar.android", appContext.getPackageName());
     }
 }

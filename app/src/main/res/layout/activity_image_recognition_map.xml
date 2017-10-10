@@ -10,7 +10,7 @@
 
         <variable
             name="venue"
-            type="com.novp.sprytar.data.model.VenueActivity"/>
+            type="com.sprytar.android.data.model.VenueActivity"/>
     </data>
 
     <android.support.constraint.ConstraintLayout
@@ -110,7 +110,7 @@
 
         <FrameLayout
             android:id="@+id/placeholder_fragment"
-            android:name="com.novp.sprytar.game.QuizGroupFragment"
+            android:name="com.sprytar.android.game.QuizGroupFragment"
             android:layout_width="0dp"
             android:layout_height="0dp"
 

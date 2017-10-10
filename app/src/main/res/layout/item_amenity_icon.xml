@@ -9,7 +9,7 @@
 
         <variable
             name="amenity"
-            type="com.novp.sprytar.data.model.Amenity"/>
+            type="com.sprytar.android.data.model.Amenity"/>
     </data>
 
     <android.support.constraint.ConstraintLayout

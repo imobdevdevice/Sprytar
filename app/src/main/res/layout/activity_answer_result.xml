@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+<RelativeLayout
+    android:id="@+id/root_layout"
+    android:background="@color/bglightPink"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/ivResult"
+            android:src="@drawable/wrong"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/sorry_you_are"
+               android:id="@+id/tvMessage"
+               android:layout_marginTop="70dp"
+               android:layout_marginLeft="10dp"
+               android:textSize="@dimen/text_size_title"
+               android:textColor="@color/answerTextBlack"
+               android:layout_toRightOf="@+id/ivResult"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvResult"
+        android:layout_toRightOf="@+id/ivResult"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/tvMessage"
+        android:text="WRONG"
+        android:textSize="40sp"
+        android:textColor="@color/answerTextBlack"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAnswerWas"
+        android:layout_marginTop="30dp"
+        android:text="The answer was"
+        android:gravity="center"
+        android:textColor="@color/answerTextBlack"
+        android:layout_below="@+id/tvResult"
+        android:textSize="@dimen/text_size_title"
+        />
+
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/tvAnswer"
+         android:gravity="center"
+         android:layout_below="@+id/tvAnswerWas"
+         android:text="dog"
+         android:textSize="30sp"
+
+         android:textColor="@color/lightPink"
+         />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+
+           android:id="@+id/linDescription"
+           android:background="@color/colorYellowButton"
+           android:layout_above="@+id/tvNextQuestion"
+           android:layout_alignParentStart="true"
+           android:layout_marginBottom="20dp">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="A little more"
+               android:gravity="center"
+               android:layout_marginTop="20dp"
+               android:textColor="@color/lightPink"
+               android:textSize="@dimen/text_size_regular"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:id="@+id/tvAnswerDescr"
+               android:textColor="@color/colorTextBlack"
+               android:gravity="center_horizontal"
+               android:text="Abc 1234sdfsfdssd fsfsfs fsfsfs fsfsfs sfsfs fs fsfs fsffsf sfsfsfsf sfsfsf fdfdsfdsfdss gdssg sgsd sg  gfg gsg gfgfddgfdd fdd fgfdg fdfdg gfsdgfg gfdgfdgfgfdg gfgdg fdgfdgfdg fddgdfgfdgfdgfddg gfbfdbfddbfddb bfdd bfdbfd"
+               android:maxLines="5"
+               android:textSize="@dimen/text_size_regular"
+               android:lines="4" />
+       </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next_question"
+        android:id="@+id/tvNextQuestion"
+        android:gravity="center"
+        android:padding="@dimen/text_size_title"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_rectangle_pink"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
+    </layout>

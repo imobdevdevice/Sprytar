@@ -8,12 +8,13 @@
         <import type="android.view.View" />
         <variable
             name="profile"
-            type="com.novp.sprytar.data.model.Profile"/>
+            type="com.sprytar.android.data.model.Profile"/>
     </data>
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/items_recyclerView"

@@ -35,7 +35,7 @@
 
                 tools:layout_editor_absoluteX="0dp"/>
 
-            <com.novp.sprytar.util.ui.SignUpEditText
+            <com.sprytar.android.util.ui.SignUpEditText
                 android:id="@+id/surname_editText"
                 style="@style/LoginText.EditText"
                 android:layout_width="0dp"
@@ -75,7 +75,7 @@
                 android:layout_marginStart="@dimen/common_margin"
                 android:layout_marginEnd="@dimen/common_margin"/>
 
-                <com.novp.sprytar.util.ui.SignUpEditText
+                <com.sprytar.android.util.ui.SignUpEditText
                     android:id="@+id/postcode_editText"
                     style="@style/LoginText.EditText"
                     android:layout_width="0dp"
@@ -117,7 +117,7 @@
                 android:layout_marginStart="@dimen/common_margin"
                 android:layout_marginEnd="@dimen/common_margin"/>
 
-            <com.novp.sprytar.util.ui.SignUpEditText
+            <com.sprytar.android.util.ui.SignUpEditText
                 android:id="@+id/email_editText"
                 style="@style/LoginText.EditText"
                 android:layout_width="0dp"
@@ -140,7 +140,7 @@
                 android:layout_marginEnd="@dimen/common_margin"
                 />
 
-            <com.novp.sprytar.util.ui.SignUpEditText
+            <com.sprytar.android.util.ui.SignUpEditText
                 android:id="@+id/password_editText"
                 style="@style/LoginText.EditText"
                 android:layout_width="0dp"
@@ -160,7 +160,7 @@
                 android:layout_marginStart="@dimen/common_margin"
                 android:layout_marginEnd="@dimen/common_margin"/>
 
-            <com.novp.sprytar.util.ui.SignUpEditText
+            <com.sprytar.android.util.ui.SignUpEditText
                 android:id="@+id/passwordRepeat_editText"
                 style="@style/LoginText.EditText"
                 android:layout_width="0dp"
@@ -238,6 +238,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginStart="@dimen/common_margin"
                 android:layout_marginEnd="@dimen/common_margin"/>
+
+
 
         </android.support.constraint.ConstraintLayout>
     </ScrollView>

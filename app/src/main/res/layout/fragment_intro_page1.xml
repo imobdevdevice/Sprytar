@@ -4,26 +4,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <android.support.constraint.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary">
 
-
-        <ImageView
-            android:id="@+id/header_imageView"
-            android:layout_width="0dp"
-            android:layout_height="460dp"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:background="@color/colorPrimary"
-            android:layout_marginTop="@dimen/common_margin"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/IntroNumberImage"
+                android:src="@drawable/page_number1"
+                />
 
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
 
-            app:layout_constraintTop_toTopOf="parent"
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sign_up"/>
 
-            app:srcCompat="@drawable/intro_page1_header"
-            tools:layout_editor_absoluteX="0dp" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               style="@style/IntroText"
+               android:text="@string/you_don_t_have_to_signup_nut_if_you_do_you_will_open_a_treasure_trove_full_of_goodies_and_benefits"/>
 
-    </android.support.constraint.ConstraintLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/treasure_cheast"/>
+   </LinearLayout>
 </layout>

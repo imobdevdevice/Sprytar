@@ -6,6 +6,7 @@
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/main_layout"
+        android:background="@color/colorBackground"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -13,7 +14,6 @@
             android:id="@+id/gallery_indicator"
             app:fillColor="@color/colorText"
             app:pageColor="@color/colorAccent"
-
             android:layout_width="0dp"
             android:layout_height="20dp"
             app:radius="4dp"

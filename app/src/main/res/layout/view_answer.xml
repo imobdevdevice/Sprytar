@@ -5,7 +5,7 @@
         android:id="@+id/btnAnswer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/rectangle_quiz_button"
+        android:background="@drawable/rounded_rectangle_pink"
         android:fontFamily="sans-serif"
         android:layout_marginTop="@dimen/common_margin"
         android:text="Go to Next question"
@@ -14,5 +14,6 @@
         android:textColor="@color/colorText"
         android:textSize="14sp"
         android:textStyle="bold"
+        android:padding="@dimen/text_size_title"
         android:theme="@style/SplashButton" />
 </layout>

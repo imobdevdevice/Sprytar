@@ -8,12 +8,14 @@
         <import type="android.view.View" />
         <variable
             name="profile"
-            type="com.novp.sprytar.data.model.Profile"/>
+            type="com.sprytar.android.data.model.Profile"/>
     </data>
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:id="@+id/root">
 
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/avatar_imageView"
@@ -101,7 +103,6 @@
 
 
         </android.support.v4.view.ViewPager>
-
     </android.support.constraint.ConstraintLayout>
 
 </layout>

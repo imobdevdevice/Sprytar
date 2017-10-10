@@ -9,14 +9,14 @@
 
         <variable
             name="question"
-            type="com.novp.sprytar.data.model.Question" />
+            type="com.sprytar.android.data.model.Question" />
     </data>
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/main_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#f1f5cc">
+        android:background="@color/colorBackground">
 
 
         <RelativeLayout
@@ -79,7 +79,7 @@
 
         <FrameLayout
             android:id="@+id/placeholder_fragment"
-            android:name="com.novp.sprytar.game.QuestionFragment"
+            android:name="com.sprytar.android.game.QuestionFragment"
             android:layout_width="0dp"
             android:layout_height="300dp"
 
@@ -101,18 +101,7 @@
             tools:layout_editor_absoluteX="280dp"
             tools:layout_editor_absoluteY="0dp" />
 
-        <com.facebook.drawee.view.SimpleDraweeView
-            android:id="@+id/loading_imageView"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="#0000"
 
-            android:visibility="gone"
-            app:layout_constraintBottom_toBottomOf="parent"
-
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/rule_textView"

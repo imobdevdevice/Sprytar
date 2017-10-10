@@ -4,6 +4,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/colorBackground"
         android:layout_margin="@dimen/common_margin">
 
         <TextView
@@ -29,6 +30,7 @@
             android:layout_marginBottom="@dimen/common_margin"
             android:background="@null"
             android:layout_below="@+id/question"
+            android:visibility="gone"
             android:src="@drawable/logo_splash"/>
 
 

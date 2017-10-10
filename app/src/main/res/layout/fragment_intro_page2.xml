@@ -4,33 +4,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <android.support.constraint.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
         android:background="@color/colorPrimary">
 
         <ImageView
-            android:id="@+id/header_imageView"
-            android:layout_width="0dp"
-            android:layout_height="480dp"
-            android:background="@color/colorPrimary"
-            android:layout_marginTop="@dimen/common_margin"
+            style="@style/IntroNumberImage"
+            android:src="@drawable/page_number2"
+            />
 
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/select_your_location"/>
 
-            app:layout_constraintTop_toTopOf="parent"
 
-            app:srcCompat="@drawable/intro_page2_header"
-            tools:layout_editor_absoluteX="0dp" />
-        <View
-            android:layout_width="0dp"
-            android:layout_height="1dp"
 
-            android:background="@color/colorPrimary"
-            app:layout_constraintTop_toBottomOf="@+id/header_imageView"
-            android:layout_marginTop="@dimen/common_margin"
-            tools:layout_editor_absoluteX="0dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/IntroText"
+            android:text="@string/just_select_the_location_you_d_like_and_get_ready_to_go"/>
 
-    </android.support.constraint.ConstraintLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/hand_map"/>
+
+    </LinearLayout>
 </layout>

@@ -24,4 +24,13 @@
     <color name="indicator_color">#F2979C</color>
     <color name="colorYellowButton">#D9E021</color>
     <color name="colorBlueButton">#00AEED</color>
+    <color name="colorTextBlack">#4d4d4d</color>
+    <color name="colorLightBlack">#59594b</color>
+    <color name="textPink">#e71d73</color>
+    <color name="lightPink">#ed1e79</color>
+    <color name="textBlack">#515151</color>
+    <color name="backGroundGray">#d0d0d0</color>
+    <color name="bglightPink">#fec7c7</color>
+    <color name="answerTextBlack">#58594b</color>
+
 </resources>

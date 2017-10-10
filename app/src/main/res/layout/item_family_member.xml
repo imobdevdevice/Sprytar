@@ -9,7 +9,7 @@
 
         <variable
             name="member"
-            type="com.novp.sprytar.data.model.FamilyMember"/>
+            type="com.sprytar.android.data.model.FamilyMember"/>
     </data>
 
     <android.support.constraint.ConstraintLayout
