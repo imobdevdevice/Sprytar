@@ -10,8 +10,7 @@
             android:id="@+id/relCompass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/appBarLayout"
-            android:visibility="gone">
+            android:layout_below="@+id/appBarLayout">
 
             <RelativeLayout
                 android:id="@+id/reCompass"
@@ -21,6 +20,7 @@
                 android:layout_marginTop="@dimen/common_margin">
 
                 <ImageView
+                    android:id="@+id/iv_circle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/compass_no_arrow" />

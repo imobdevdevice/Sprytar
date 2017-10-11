@@ -4,9 +4,6 @@ import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
-import android.graphics.Canvas;
-import android.graphics.drawable.VectorDrawable;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -93,11 +90,16 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
     private float[] mGravity = new float[3];
     private float[] mGeomagnetic = new float[3];
     private float azimuth = 0f;
-    private float currectAzimuth = 0;
+    private float currectAzimuth = 0/*, objectCurrentDegree = 0, objectDegree = 0*/;
+
     private LatLng targetLocation;
     private Sensor msensor;
+    private float firstTimeDegree;
     private double QUESTION_DISTANCE = 10.0;
     private CompositeSubscription compositeSubscription = new CompositeSubscription();
+
+    private int degree, objectDegree;
+    private float currentDegree = 0f, currentObjectDegree = 0f;
 
 
     @Inject
@@ -108,13 +110,14 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
 
         sensorManager = (SensorManager) context
                 .getSystemService(Context.SENSOR_SERVICE);
-
-        gsensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-        msensor = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
-        sensorManager.registerListener(this, msensor,
+        sensorManager.registerListener(this, sensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION),
                 SensorManager.SENSOR_DELAY_GAME);
-        sensorManager.registerListener(this, gsensor,
-                SensorManager.SENSOR_DELAY_GAME);
+//        gsensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+//        msensor = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
+//        sensorManager.registerListener(this, msensor,
+//                SensorManager.SENSOR_DELAY_GAME);
+//        sensorManager.registerListener(this, gsensor,
+//                SensorManager.SENSOR_DELAY_GAME);
         buildGoogleApiClient();
 
     }
@@ -276,23 +279,26 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
         map.setContentDescription("Venue view");
 
         final View mapView = getMvpView().getChildFragment();
-//        final View mapView = getChildFragmentManager().findFragmentById(R.id.map).getView();
-        if (mapView.getViewTreeObserver().isAlive()) {
-            mapView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver
-                    .OnGlobalLayoutListener() {
-                @SuppressWarnings("deprecation") // We use the new method when supported
-                @SuppressLint("NewApi") // We check which build version we are using.
-                @Override
-                public void onGlobalLayout() {
-                    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
-                        mapView.getViewTreeObserver().removeGlobalOnLayoutListener(this);
-                    } else {
-                        mapView.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+        if (mapView != null) {
+            if (mapView.getViewTreeObserver().isAlive()) {
+                mapView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver
+                        .OnGlobalLayoutListener() {
+                    @SuppressWarnings("deprecation") // We use the new method when supported
+                    @SuppressLint("NewApi") // We check which build version we are using.
+                    @Override
+                    public void onGlobalLayout() {
+                        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
+                            mapView.getViewTreeObserver().removeGlobalOnLayoutListener(this);
+                        } else {
+                            mapView.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+                        }
+                        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(latLngBounds, 50));
                     }
-                    mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(latLngBounds, 50));
-                }
-            });
+                });
+            }
         }
+//        final View mapView = getChildFragmentManager().findFragmentById(R.id.map).getView();
+
     }
 
     @Override
@@ -321,10 +327,14 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
     }
 
     private void addMarkersToMap() {
-        if (currentLatLng != null) {
+        LatLng mQuestionLatLng = new LatLng(mQuestionLocation.getLatitude(), mQuestionLocation.getLongitude());
+        firstTimeDegree =
+                bearing(currentLatLng.latitude, currentLatLng.longitude,
+                        mQuestionLocation.getLatitude(), mQuestionLocation.getLongitude());
+        if (mQuestionLatLng != null) {
             BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.spytar_marker);
             MarkerOptions markerOptions = new MarkerOptions()
-                    .position(currentLatLng)
+                    .position(mQuestionLatLng)
                     .title("Sprytar");
             markerOptions.icon(icon);
             if (currentMarker != null) {
@@ -332,25 +342,8 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
             }
             currentMarker = mMap.addMarker(markerOptions);
             targetLocation = currentMarker.getPosition();
-            CameraPosition position = CameraPosition.builder().target(currentLatLng).zoom
+            CameraPosition position = CameraPosition.builder().target(mQuestionLatLng).zoom
                     (15.5f).bearing(0).tilt(0).build();
-        }
-    }
-
-    private BitmapDescriptor getMarkerIconFromDrawable(int id) {
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            VectorDrawable vectorDrawable = (VectorDrawable) context.getResources().getDrawable(id);
-
-            vectorDrawable.setBounds(0, 0, 48, 48);
-
-            Bitmap bm = Bitmap.createBitmap(48, 48, Bitmap.Config.ARGB_8888);
-            Canvas canvas = new Canvas(bm);
-            vectorDrawable.draw(canvas);
-            return BitmapDescriptorFactory.fromBitmap(bm);
-
-        } else {
-            return BitmapDescriptorFactory.fromResource(id);
         }
     }
 
@@ -392,7 +385,6 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
                     stopLocationUpdates();
                     getMvpView().showInARZone();
                 }
-
             }
         }
     }
@@ -402,7 +394,6 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
         mCurrentLocation = location;
         moveCameraToPosition();
         // sendCurrentLocation(location);
-
         try {
             checkInZonePosition();
         } catch (Exception e) {
@@ -464,83 +455,47 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
 
     }
 
-    protected double bearing(double startLat, double startLng, double endLat, double endLng) {
-        double longitude1 = startLng;
-        double longitude2 = endLng;
+    private int bearing(double startLat, double startLng, double endLat, double endLng) {
+        double longitude1 = Math.toRadians(startLng);
+        double longitude2 = Math.toRadians(endLng);
+
         double latitude1 = Math.toRadians(startLat);
         double latitude2 = Math.toRadians(endLat);
-        double longDiff = Math.toRadians(longitude2 - longitude1);
-        double y = Math.sin(longDiff) * Math.cos(latitude2);
-        double x = Math.cos(latitude1) * Math.sin(latitude2) - Math.sin(latitude1) * Math.cos(latitude2) * Math.cos(longDiff);
 
-        return (Math.toDegrees(Math.atan2(y, x)) + 360) % 360;
+        double longDiff = Math.toRadians(longitude2 - longitude1);
+
+        double y = Math.sin(longDiff) * Math.cos(latitude2);
+
+        double x = Math.cos(latitude1) * Math.sin(latitude2) - Math.sin(latitude1) * Math.cos(latitude2) * Math.cos(longDiff);
+        double radiansBearing = Math.toDegrees(Math.atan2(y, x));
+        radiansBearing = (360 - ((radiansBearing + 360) % 360));
+        int degrees = (int) radiansBearing;
+        return degrees;
     }
 
     private void adjustArrow() {
-        Animation an = new RotateAnimation(-currectAzimuth, -azimuth,
+        Animation an = new RotateAnimation(currentDegree, -degree,
                 Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF,
                 0.5f);
-        currectAzimuth = azimuth;
-
-        an.setDuration(500);
-        an.setRepeatCount(0);
+        an.setDuration(210);
         an.setFillAfter(true);
+        currentDegree = -degree;
 
-        getMvpView().onChangeDirection(an);
+        objectDegree = (int) (firstTimeDegree + degree);
+        Animation anObject = new RotateAnimation(currentObjectDegree, -objectDegree,
+                Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF,
+                0.5f);
+        anObject.setDuration(210);
+        anObject.setFillAfter(true);
+        currentObjectDegree = -objectDegree;
+
+        getMvpView().onChangeDirection(an, anObject);
+
     }
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        final float alpha = 0.97f;
-
-        synchronized (this) {
-            if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
-
-                mGravity[0] = alpha * mGravity[0] + (1 - alpha)
-                        * event.values[0];
-                mGravity[1] = alpha * mGravity[1] + (1 - alpha)
-                        * event.values[1];
-                mGravity[2] = alpha * mGravity[2] + (1 - alpha)
-                        * event.values[2];
-
-                // mGravity = event.values;
-
-                // Log.e(TAG, Float.toString(mGravity[0]));
-            }
-
-            if (event.sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD) {
-                // mGeomagnetic = event.values;
-
-                mGeomagnetic[0] = alpha * mGeomagnetic[0] + (1 - alpha)
-                        * event.values[0];
-                mGeomagnetic[1] = alpha * mGeomagnetic[1] + (1 - alpha)
-                        * event.values[1];
-                mGeomagnetic[2] = alpha * mGeomagnetic[2] + (1 - alpha)
-                        * event.values[2];
-                // Log.e(TAG, Float.toString(event.values[0]));
-
-            }
-
-            float R[] = new float[9];
-            float I[] = new float[9];
-            boolean success = SensorManager.getRotationMatrix(R, I, mGravity,
-                    mGeomagnetic);
-            if (success) {
-                float orientation[] = new float[3];
-                SensorManager.getOrientation(R, orientation);
-                // Log.d(TAG, "azimuth (rad): " + azimuth);
-                azimuth = (float) Math.toDegrees(orientation[0]); // orientation
-                azimuth = (azimuth + 360) % 360;
-                if (targetLocation != null) {
-                    azimuth -= bearing(currentLatLng.latitude, currentLatLng.longitude,
-                            targetLocation.latitude, targetLocation.longitude);
-                    adjustArrow();
-                }
-
-                // Log.d(TAG, "azimuth (deg): " + azimuth);
-
-            }
-
-        }
+        degree = Math.round(event.values[0]);
+        adjustArrow();
     }
 }

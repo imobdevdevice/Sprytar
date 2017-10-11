@@ -103,11 +103,11 @@ public class QuizGamePresenter extends BasePresenter<QuizGameView> {
             setEarnedBadge();
         } else {
             currentQuestion = questions.get(currentQuestionNumber);
-//            if (currentQuestion.isImageRecognitionQuestion()) {
+            if (currentQuestion.isImageRecognitionQuestion()) {
                 getMvpView().showImageQuestion(venueActivity, currentQuestion);
-//            } else {
-//                getMvpView().setNextQuestion(currentQuestion, currentQuestionNumber);
-//            }
+            } else {
+                getMvpView().setNextQuestion(currentQuestion, currentQuestionNumber);
+          }
         }
     }
 

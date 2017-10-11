@@ -16,7 +16,10 @@ public interface GameMapView extends MvpView {
     void showInSpryteZone();
 
     void showInARZone();
+
     void showNoGpsMessage();
-    void onChangeDirection(Animation animation);
+
+    void onChangeDirection(Animation animation, Animation animation1);
+
     void onChangeDistance(String distance);
 }

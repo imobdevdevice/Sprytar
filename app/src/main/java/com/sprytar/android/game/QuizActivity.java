@@ -19,14 +19,13 @@ import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 import com.google.android.gms.maps.model.LatLng;
 import com.sprytar.android.R;
-import com.sprytar.android.databinding.ActivityQuizBinding;
-import com.sprytar.android.databinding.ItemQuestionIconBinding;
-import com.sprytar.android.game.DaggerQuizComponent;
 import com.sprytar.android.SprytarApplication;
 import com.sprytar.android.data.model.EarnedBadge;
 import com.sprytar.android.data.model.LocationBoundary;
 import com.sprytar.android.data.model.Question;
 import com.sprytar.android.data.model.VenueActivity;
+import com.sprytar.android.databinding.ActivityQuizBinding;
+import com.sprytar.android.databinding.ItemQuestionIconBinding;
 import com.sprytar.android.game.photohunt.PhotoHuntActivity;
 import com.sprytar.android.game.treasureHuntIntro.DialogTreasureHuntIntro;
 import com.sprytar.android.game.treasureHuntIntro.TreasureHuntDialogListner;
@@ -50,14 +49,14 @@ import me.toptas.fancyshowcase.FocusShape;
 
 public class QuizActivity extends BaseActivity
         implements QuizView, GameMapFragment.Callback,
-        LookZoneFragment.Callback, View.OnClickListener,TreasureHuntDialogListner,SpryteViewFragment.Callback {
+        LookZoneFragment.Callback, View.OnClickListener, TreasureHuntDialogListner, SpryteViewFragment.Callback {
 
     public static final String VENUE_EXTRA = "com.sprytar.android.game.VenueExtra";
     public static final String MARKERS_EXTRA = "com.sprytar.android.game.MarkersExtra";
     public static final String VENUE_ID_EXTRA = "com.sprytar.android.game.VenueIdExtra";
     public static final String LOCATION_NAME_EXTRA = "location_name_extra";
     public static final String IMAGE_URL_EXTRA = "image_url_extra";
-    public static final String SITE_NAME_EXTRA ="site_name_extra";
+    public static final String SITE_NAME_EXTRA = "site_name_extra";
     private static final int ANSWER_REQUEST_CODE = 1;
     private static final int CLOSE_REQUEST_CODE = 11;
     private static final int IMAGE_RECOGNITION_MAP = 22;
@@ -78,7 +77,7 @@ public class QuizActivity extends BaseActivity
     private FragmentManager fragmentManager;
     private LookZoneFragment lookZoneFragment;
 
-    private static String SITE_NAME="";
+    private static String SITE_NAME = "";
     private SpryteViewFragment spryteViewFragment;
 
 
@@ -91,7 +90,7 @@ public class QuizActivity extends BaseActivity
         starter.putExtra(VENUE_ID_EXTRA, venueId);
         starter.putExtra(LOCATION_NAME_EXTRA, locationName);
         starter.putExtra(IMAGE_URL_EXTRA, locationImageUrl);
-        starter.putExtra(SITE_NAME_EXTRA,siteName);
+        starter.putExtra(SITE_NAME_EXTRA, siteName);
         activity.startActivityForResult(starter, requestCode);
     }
 
@@ -115,7 +114,7 @@ public class QuizActivity extends BaseActivity
         int venueId = intent.getIntExtra(VENUE_ID_EXTRA, 0);
         String locationName = intent.getStringExtra(LOCATION_NAME_EXTRA);
         String locationImageUrl = intent.getStringExtra(IMAGE_URL_EXTRA);
-        SITE_NAME =intent.getStringExtra(SITE_NAME_EXTRA);
+        SITE_NAME = intent.getStringExtra(SITE_NAME_EXTRA);
         initUi();
         try {
             presenter.setVenueActivity(venueActivity, boundaries, venueId, locationName, locationImageUrl);
@@ -148,7 +147,7 @@ public class QuizActivity extends BaseActivity
     public void showFragments(List<LocationBoundary> boundaries, LatLng currentLatLn, double latitude, double longitude, double distance) {
 
         //quizGroupFragment = QuizGroupFragment.newInstance(boundaries, currentLatLn
-      //  compass = new Compass(this,location,target,binding.tvCompass,binding.ivCompass);
+        //  compass = new Compass(this,location,target,binding.tvCompass,binding.ivCompass);
 
 
         openGamemapFragment(boundaries, currentLatLn, distance);
@@ -156,7 +155,7 @@ public class QuizActivity extends BaseActivity
     }
 
     private void openGamemapFragment(List<LocationBoundary> boundaries, LatLng currentLatLn, double distance) {
-        GameMapFragment gameMapFragment = GameMapFragment.newInstance(boundaries,currentLatLn,true,distance);
+        GameMapFragment gameMapFragment = GameMapFragment.newInstance(boundaries, currentLatLn, true, distance);
         gameMapFragment.setCallback(this);
         //  quizGroupFragment.setCallback(this);
         if (lookZoneFragment != null) {
@@ -193,30 +192,28 @@ public class QuizActivity extends BaseActivity
 
     @Override
     public void onInARZone(Location currentLocation) {
-
-        if(Utils.hasCompass(this)){
-            spryteViewFragment =SpryteViewFragment
+        if (Utils.hasCompass(this)) {
+            spryteViewFragment = SpryteViewFragment
                     .newInstance(presenter.getLocationBoundries(),
-                            presenter.getCurrentQuestion().getLatLng(),true,currentLocation,presenter.getCurrentQuestion().getQuestionDistance());
-             spryteViewFragment.setCallback(this);
+                            presenter.getCurrentQuestion().getLatLng(), true, currentLocation, presenter.getCurrentQuestion().getQuestionDistance());
+            spryteViewFragment.setCallback(this);
             fragmentManager.beginTransaction().replace(R.id.placeholder_fragment, spryteViewFragment).addToBackStack(null).commitAllowingStateLoss();
         }
-
-
     }
 
     @Override
     public void onGameMapZone(List<LocationBoundary> boundaries, LatLng currentLatLn, double distance) {
-        openGamemapFragment(boundaries,currentLatLn,distance);
+        openGamemapFragment(boundaries, currentLatLn, distance);
     }
 
     @Override
     public void onInSpryteZone() {
-        lookZoneFragment = LookZoneFragment.newInstance(presenter.getCurrentQuestion(),presenter.isLastQuestion());
+        lookZoneFragment = LookZoneFragment.newInstance(presenter.getCurrentQuestion(), presenter.isLastQuestion());
         lookZoneFragment.setCallback(this);
         fragmentManager.beginTransaction().replace(R.id.placeholder_fragment, lookZoneFragment).addToBackStack(null).commitAllowingStateLoss();
     }
- @Override
+
+    @Override
     public void onReadyToAnswerClick() {
         presenter.onStartAnswerClick();
     }
@@ -232,14 +229,13 @@ public class QuizActivity extends BaseActivity
     }
 
 
-
     @Override
     public void showVenueActivity(VenueActivity venueActivity, Question question) {
         binding.setVenue(venueActivity);
         questionAdapter.setCurrentQuestion(question);
         questionAdapter.setItems(venueActivity.getQuestions());
-        binding.gameType.setText("Q"+String.valueOf(question.getId()+1)+" of "+String.valueOf(venueActivity.getQuestions().size()));
-}
+        binding.gameType.setText("Q" + String.valueOf(question.getId() + 1) + " of " + String.valueOf(venueActivity.getQuestions().size()));
+    }
 
     @Override
     protected void onDestroy() {
@@ -322,7 +318,7 @@ public class QuizActivity extends BaseActivity
     @Override
     public void onClick(View view) {
 
-        switch (view.getId()){
+        switch (view.getId()) {
             case R.id.ivInfo:
                 startDialog();
                 break;
@@ -335,7 +331,7 @@ public class QuizActivity extends BaseActivity
 
     @Override
     public void onBackPressed() {
-       finish();
+        finish();
     }
 
     public void startDialog() {
@@ -393,8 +389,6 @@ public class QuizActivity extends BaseActivity
         ft.add(fragment, null);
         ft.commitAllowingStateLoss();
     }
-
-
 
 
     private void initShowcase() {

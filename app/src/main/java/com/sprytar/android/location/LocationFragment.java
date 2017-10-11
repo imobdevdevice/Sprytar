@@ -17,9 +17,8 @@ import android.widget.Toast;
 
 import com.google.android.gms.maps.SupportMapFragment;
 import com.sprytar.android.R;
-import com.sprytar.android.databinding.FragmentLocationBinding;
-import com.sprytar.android.location.DaggerLocationComponent;
 import com.sprytar.android.data.model.Location;
+import com.sprytar.android.databinding.FragmentLocationBinding;
 import com.sprytar.android.presentation.BaseBindingAdapter;
 import com.sprytar.android.presentation.BaseFragment;
 import com.sprytar.android.util.PermissionUtils;
@@ -87,9 +86,10 @@ public class LocationFragment extends BaseFragment implements LocationView {
         return binding.getRoot();
     }
 
-    private void setListCanScroll(View view, final CustomGridLayoutManager layoutManager, final boolean canScroll){
+    private void setListCanScroll(View view, final CustomGridLayoutManager layoutManager, final boolean canScroll) {
         view.post(new Runnable() {
-            @Override public void run() {
+            @Override
+            public void run() {
                 layoutManager.setScrollEnabled(canScroll);
             }
         });
@@ -112,10 +112,10 @@ public class LocationFragment extends BaseFragment implements LocationView {
         behavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
             @Override
             public void onStateChanged(@NonNull View bottomSheet, int newState) {
-                    if (newState == BottomSheetBehavior.STATE_EXPANDED){
-                        setListCanScroll(bottomSheet,layoutManager,true);
-                }else if(newState == BottomSheetBehavior.STATE_COLLAPSED){
-                        setListCanScroll(bottomSheet,layoutManager,false);
+                if (newState == BottomSheetBehavior.STATE_EXPANDED) {
+                    setListCanScroll(bottomSheet, layoutManager, true);
+                } else if (newState == BottomSheetBehavior.STATE_COLLAPSED) {
+                    setListCanScroll(bottomSheet, layoutManager, false);
                 }
             }
 
@@ -166,11 +166,11 @@ public class LocationFragment extends BaseFragment implements LocationView {
 
     @Override
     public void showErrorDialog(boolean hasNoInternet) {
-        if(hasNoInternet){
-            showErrorDialog(getResources().getString(R.string.alert_message_title),getResources().getString(R.string.connection_problem_message),
+        if (hasNoInternet) {
+            showErrorDialog(getResources().getString(R.string.alert_message_title), getResources().getString(R.string.connection_problem_message),
                     getResources().getString(R.string.connection_problem_description));
-        }else {
-            showErrorDialog(getResources().getString(R.string.other_error_title),getResources().getString(R.string.other_error_message),
+        } else {
+            showErrorDialog(getResources().getString(R.string.other_error_title), getResources().getString(R.string.other_error_message),
                     getResources().getString(R.string.other_error_descr));
         }
 
@@ -215,7 +215,7 @@ public class LocationFragment extends BaseFragment implements LocationView {
     public void hideLoadingIndicator() {
 //        hideRefreshingIndicator();
 //        binding.progressBar.setVisibility(GONE);
-       hideThrobber();
+        hideThrobber();
     }
 
 

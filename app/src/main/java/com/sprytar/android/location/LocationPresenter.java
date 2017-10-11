@@ -184,7 +184,7 @@ public class LocationPresenter extends BasePresenter<LocationView> implements
                 LocationFilter filter = new LocationFilter(query);
                 if(locations == null)Log.d("locationserror", "locations were null");
                 locationList = Lists.newArrayList(Collections2.filter(locations, filter));
-                if(locations != null && getMvpView() !=null) getMvpView().showItems(locations);
+                if(locations != null && getMvpView() !=null) getMvpView().showItems(locationList);
 
             } else {
                 if(locations == null)Log.d("locationserror", "locations were null");

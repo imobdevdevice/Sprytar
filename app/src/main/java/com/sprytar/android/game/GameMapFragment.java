@@ -17,9 +17,8 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.sprytar.android.R;
-import com.sprytar.android.databinding.FragmentGameMapBinding;
-import com.sprytar.android.game.DaggerGameMapComponent;
 import com.sprytar.android.data.model.LocationBoundary;
+import com.sprytar.android.databinding.FragmentGameMapBinding;
 import com.sprytar.android.presentation.BaseFragmentUpdateable;
 import com.sprytar.android.util.Utils;
 
@@ -30,13 +29,13 @@ import java.util.List;
 import javax.inject.Inject;
 
 
-public class GameMapFragment extends BaseFragmentUpdateable implements GameMapView,View.OnClickListener {
+public class GameMapFragment extends BaseFragmentUpdateable implements GameMapView, View.OnClickListener {
     public static final String SHAPE_PARAM = "com.sprytar.android.game.GameMapFragment" +
             ".shapeParam";
     public static final String CURRENT_LANLNG_PARAM = "com.sprytar.android.game.GameMapFragment" +
             ".currentParam";
-    public static final String SHOW_RANGE_FINDER ="show_range_finder";
-    public static final String QUESTION_DISTANCE ="question_distance";
+    public static final String SHOW_RANGE_FINDER = "show_range_finder";
+    public static final String QUESTION_DISTANCE = "question_distance";
 
 
     @SuppressWarnings("WeakerAccess")
@@ -47,9 +46,9 @@ public class GameMapFragment extends BaseFragmentUpdateable implements GameMapVi
 
     private SupportMapFragment mapFragment;
     private Callback callback;
-    private boolean showRangeFinder=false;
+    private boolean showRangeFinder = false;
     private AlertDialog noGpsDialog = null;
-    private double DISTANCE =10;
+    private double DISTANCE = 10;
     protected LocationRequest mLocationRequest;
 
     public static GameMapFragment newInstance(List<LocationBoundary> boundaries, LatLng
@@ -69,7 +68,7 @@ public class GameMapFragment extends BaseFragmentUpdateable implements GameMapVi
 
         args.putParcelable(SHAPE_PARAM, Parcels.wrap(boundaries));
         args.putParcelable(CURRENT_LANLNG_PARAM, Parcels.wrap(currentLatLn));
-        args.putParcelable(SHOW_RANGE_FINDER,Parcels.wrap(showRangeFinder));
+        args.putParcelable(SHOW_RANGE_FINDER, Parcels.wrap(showRangeFinder));
         args.putParcelable(QUESTION_DISTANCE, Parcels.wrap(distance));
         GameMapFragment fragment = new GameMapFragment();
         fragment.setArguments(args);
@@ -91,19 +90,16 @@ public class GameMapFragment extends BaseFragmentUpdateable implements GameMapVi
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable
             Bundle savedInstanceState) {
         binding = FragmentGameMapBinding.inflate(inflater, container, false);
-
         Bundle arguments = getArguments();
-
-
-        showRangeFinder =Parcels.unwrap(arguments.getParcelable
+        showRangeFinder = Parcels.unwrap(arguments.getParcelable
                 (SHOW_RANGE_FINDER));
 
-        DISTANCE =Parcels.unwrap(arguments.getParcelable
+        DISTANCE = Parcels.unwrap(arguments.getParcelable
                 (QUESTION_DISTANCE));
-        if(showRangeFinder){
+        if (showRangeFinder) {
             binding.relCompass.setVisibility(View.VISIBLE);
             binding.tvSkip.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             binding.relCompass.setVisibility(View.GONE);
             binding.tvSkip.setVisibility(View.GONE);
         }
@@ -113,7 +109,7 @@ public class GameMapFragment extends BaseFragmentUpdateable implements GameMapVi
                     (SHAPE_PARAM));
             LatLng currentLatLng = Parcels.unwrap(arguments.getParcelable(CURRENT_LANLNG_PARAM));
 
-            presenter.createMapData(boundaries, currentLatLng,DISTANCE);
+            presenter.createMapData(boundaries, currentLatLng, DISTANCE);
         }
 
 
@@ -154,7 +150,6 @@ public class GameMapFragment extends BaseFragmentUpdateable implements GameMapVi
         binding.tvSkip.setTypeface(face);
         binding.tvRangeToSpryte.setTypeface(face);
         binding.tvCompass.setTypeface(face1);
-
     }
 
     @Override
@@ -186,7 +181,6 @@ public class GameMapFragment extends BaseFragmentUpdateable implements GameMapVi
             callback.onInSpryteZone();
         }
     }
-
 
 
     @Override
@@ -228,8 +222,9 @@ public class GameMapFragment extends BaseFragmentUpdateable implements GameMapVi
 
 
     @Override
-    public void onChangeDirection(Animation rotateAnimation) {
-        binding.ivCompass.startAnimation(rotateAnimation);
+    public void onChangeDirection(Animation rotateAnimation,Animation animationObject) {
+        binding.ivCircle.startAnimation(rotateAnimation);
+        binding.ivCompass.startAnimation(animationObject);
     }
 
     @Override
@@ -239,9 +234,9 @@ public class GameMapFragment extends BaseFragmentUpdateable implements GameMapVi
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
+        switch (view.getId()) {
             case R.id.tvSkip:
-                if(callback !=null){
+                if (callback != null) {
                     callback.onSkipQuestion();
                 }
                 break;

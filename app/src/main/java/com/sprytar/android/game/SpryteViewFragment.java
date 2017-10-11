@@ -46,15 +46,15 @@ import java.util.List;
 
 
 public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implements
-        UpdateableFragment,GoogleApiClient
-        .ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, com.google.android.gms.location.LocationListener{
+        UpdateableFragment, GoogleApiClient
+        .ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, com.google.android.gms.location.LocationListener {
 
     public static final String SHAPE_PARAM = "com.sprytar.android.game.SpryteViewFragment" +
             ".shapeParam";
     public static final String CURRENT_LANLNG_PARAM = "com.sprytar.android.game.SpryteViewFragment" +
             ".currentParam";
-    public static final String CURRENT_LOCATION="current_location";
-    public static final String SPRYTE_DISTANCE="spryte_zone";
+    public static final String CURRENT_LOCATION = "current_location";
+    public static final String SPRYTE_DISTANCE = "spryte_zone";
     private static final String TAG = "SampleCamFragment";
     public static final String SHOW_RANGE_FINDER = "show_range_finder";
     private double latitude;
@@ -69,15 +69,14 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
     public static final long FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS =
             UPDATE_INTERVAL_IN_MILLISECONDS / 2;
     private boolean showRange = false;
-    private  double distance = 10;
-    private double spryteDistance=10;
+    private double distance = 10;
+    private double spryteDistance = 10;
     private Callback callback;
     private List<LocationBoundary> boundaries;
     private LocationProvider locationProvider;
     private LatLng currentLatLng;
     protected GoogleApiClient mGoogleApiClient;
     /**
-     *
      * last time the calibration toast was shown, this avoids too many toast shown when compass
      * needs calibration
      */
@@ -113,11 +112,9 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
         // you may receive them slower than requested. You may also receive updates faster than
         // requested if other applications are requesting location at a faster interval.
         mLocationRequest.setInterval(UPDATE_INTERVAL_IN_MILLISECONDS);
-
         // Sets the fastest rate for active location updates. This interval is exact, and your
         // application will never receive updates faster than this value.
         mLocationRequest.setFastestInterval(FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS);
-
         mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
     }
 
@@ -129,9 +126,9 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
         //args.putDouble(LATITUDE_EXTRA, latitude);
         args.putParcelable(SHAPE_PARAM, Parcels.wrap(boundaries));
         args.putParcelable(CURRENT_LANLNG_PARAM, Parcels.wrap(currentLatLn));
-        args.putParcelable(CURRENT_LOCATION,Parcels.wrap(currentLocation));
+        args.putParcelable(CURRENT_LOCATION, Parcels.wrap(currentLocation));
         args.putParcelable(SHOW_RANGE_FINDER, Parcels.wrap(showRange));
-        args.putParcelable(SPRYTE_DISTANCE,Parcels.wrap(spryteDistance));
+        args.putParcelable(SPRYTE_DISTANCE, Parcels.wrap(spryteDistance));
         SpryteViewFragment fragment = new SpryteViewFragment();
         fragment.setArguments(args);
         return fragment;
@@ -146,9 +143,9 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
         if (arguments != null) {
             currentLatLng = Parcels.unwrap(arguments.getParcelable(CURRENT_LANLNG_PARAM));
             mCurrentLocation = Parcels.unwrap(arguments.getParcelable(CURRENT_LOCATION));
-            if(arguments.containsKey(SPRYTE_DISTANCE)){
-                spryteDistance =Parcels.unwrap(arguments.getParcelable(SPRYTE_DISTANCE));
-                if(spryteDistance <=0)spryteDistance=10;
+            if (arguments.containsKey(SPRYTE_DISTANCE)) {
+                spryteDistance = Parcels.unwrap(arguments.getParcelable(SPRYTE_DISTANCE));
+                if (spryteDistance <= 0) spryteDistance = 10;
                 showRange = Parcels.unwrap(arguments.getParcelable(SHOW_RANGE_FINDER));
                 buildGoogleApiClient();
             }
@@ -159,8 +156,7 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
             mQuestionLocation.setLongitude(currentLatLng.longitude);
             boundaries = Parcels.unwrap(arguments.getParcelable
                     (SHAPE_PARAM));
-
-          }
+        }
 
 
     }
@@ -191,60 +187,60 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
             }
             distance = mCurrentLocation.distanceTo(mQuestionLocation);
             String distanceStr = "";
-            if(distance>999){
-                distanceStr+="999+m";
-            }else{
-                distanceStr=Math.round(distance)+"m";
+            if (distance > 999) {
+                distanceStr += "999+m";
+            } else {
+                distanceStr = Math.round(distance) + "m";
             }
             updateRange(distanceStr);
             checkSpryteZOne();
             relCompass.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             relCompass.setVisibility(View.GONE);
         }
     }
 
-    private void checkSpryteZOne(){
+    private void checkSpryteZOne() {
 
         if (distance <= spryteDistance) {
             //mLocationManager.removeUpdates(this);
-             stopLocationUpdates();
+            stopLocationUpdates();
             if (callback != null) {
                 callback.onInSpryteZone();
             }
-        }
-       else if(distance > 20){
+        } else if (distance > 20) {
             //mLocationManager.removeUpdates(this);
             stopLocationUpdates();
             if (callback != null) {
-                callback.onGameMapZone(boundaries,currentLatLng,spryteDistance);
+                callback.onGameMapZone(boundaries, currentLatLng, spryteDistance);
 
 
             }
         }
-}
+    }
 
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        if(mGoogleApiClient !=null)
-        mGoogleApiClient.connect();
+        if (mGoogleApiClient != null)
+            mGoogleApiClient.connect();
     }
 
     @Override
     public void onDetach() {
         super.onDetach();
-        if(mGoogleApiClient !=null)
-        mGoogleApiClient.disconnect();
+        if (mGoogleApiClient != null)
+            mGoogleApiClient.disconnect();
     }
 
     protected void stopLocationUpdates() {
-        if(mGoogleApiClient.isConnected()) {
+        if (mGoogleApiClient.isConnected()) {
             LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
         }
 
     }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable
@@ -256,7 +252,7 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
         return view;
     }
 
-        @Override
+    @Override
     public void onActivityCreated(Bundle bundle) {
         super.onActivityCreated(bundle);
         this.injectData(getPoiInformation());
@@ -265,7 +261,7 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
     @Override
     public void updateContent(Bundle bundle) {
         LatLng currentLatLng = Parcels.unwrap(bundle.getParcelable(BaseFragmentUpdateable
-				.UPDATE_PARAM_1));
+                .UPDATE_PARAM_1));
         latitude = currentLatLng.latitude;
         longitude = currentLatLng.longitude;
         this.injectData(getPoiInformation());
@@ -296,12 +292,12 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
         return new SensorAccuracyChangeListener() {
             @Override
             public void onCompassAccuracyChanged(int accuracy) {
-				/* UNRELIABLE = 0, LOW = 1, MEDIUM = 2, HIGH = 3 */
+                /* UNRELIABLE = 0, LOW = 1, MEDIUM = 2, HIGH = 3 */
                 if (accuracy < SensorManager.SENSOR_STATUS_ACCURACY_MEDIUM && getActivity() !=
-						null && !getActivity().isFinishing() && System.currentTimeMillis() -
-						SpryteViewFragment.this.lastCalibrationToastShownTimeMillis > 5 * 1000) {
+                        null && !getActivity().isFinishing() && System.currentTimeMillis() -
+                        SpryteViewFragment.this.lastCalibrationToastShownTimeMillis > 5 * 1000) {
                     Toast.makeText(getActivity(), R.string.compass_accuracy_low, Toast
-							.LENGTH_LONG).show();
+                            .LENGTH_LONG).show();
                 }
             }
         };
@@ -340,9 +336,9 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
 
     @Override
     public ILocationProvider getLocationProvider(final LocationListener locationListener) {
-          locationProvider =new LocationProvider(this.getActivity(), locationListener);
-          this.locationListener =locationListener;
-          return locationProvider;
+        locationProvider = new LocationProvider(this.getActivity(), locationListener);
+        this.locationListener = locationListener;
+        return locationProvider;
     }
 
 
@@ -376,9 +372,10 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
         return pois;
     }
 
-    private void updateRange(String distance){
+    private void updateRange(String distance) {
         tvCompass.setText(distance);
     }
+
     public void setCallback(Callback callback) {
         this.callback = callback;
     }
@@ -390,14 +387,15 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
 
     @Override
     public void onConnectionSuspended(int i) {
-        if(mGoogleApiClient !=null)
-        mGoogleApiClient.connect();
+        if (mGoogleApiClient != null)
+            mGoogleApiClient.connect();
     }
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
     }
+
     private void startGoogleLocationUpdates() {
 
         LocationManager lm = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
@@ -424,12 +422,12 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
         }
         if (!mGoogleApiClient.isConnected()) {
             mGoogleApiClient.connect();
-        }else {
+        } else {
             if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission
                     .ACCESS_FINE_LOCATION)
                     == PackageManager.PERMISSION_GRANTED) {
                 LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient,
-                        mLocationRequest,this);
+                        mLocationRequest, this);
             }
 
         }
@@ -444,8 +442,9 @@ public class SpryteViewFragment extends AbstractArchitectCamFragmentV4 implement
     }
 
 
-    public interface Callback{
+    public interface Callback {
         void onGameMapZone(List<LocationBoundary> boundaries, LatLng currentLatLn, double distance);
+
         void onInSpryteZone();
 
     }
