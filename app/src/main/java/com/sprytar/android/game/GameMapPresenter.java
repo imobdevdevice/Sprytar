@@ -168,15 +168,15 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
 
     }
 
-    public void createMapData(List<LocationBoundary> boundaries, LatLng currentLatLng, double distance) {
+    public void createMapData(List<LocationBoundary> boundaries, LatLng questionLatlng, double distance) {
 
         this.boundaries = boundaries;
-        this.currentLatLng = currentLatLng;
+        this.currentLatLng = new LatLng(Double.valueOf(spSession.getCurrentLocationLatitude()), Double.valueOf(spSession.getCurrentLocationLongitude()));
         mQuestionLocation = new Location("");
-        mQuestionLocation.setLatitude(currentLatLng.latitude);
-        mQuestionLocation.setLongitude(currentLatLng.longitude);
+        mQuestionLocation.setLatitude(questionLatlng.latitude);
+        mQuestionLocation.setLongitude(questionLatlng.longitude);
         if (distance > 0) QUESTION_DISTANCE = distance;
-
+        Log.d("Marker Lat Lng start", mQuestionLocation.toString());
         polylineOptions = new PolylineOptions();
         LatLngBounds.Builder builder = new LatLngBounds.Builder();
 
@@ -190,13 +190,6 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
         latLngBounds = builder.build();
 
     }
-
-    public void setDistance(LatLng currentLatLng) {
-        mQuestionLocation = new Location("");
-        mQuestionLocation.setLatitude(currentLatLng.latitude);
-        mQuestionLocation.setLongitude(currentLatLng.longitude);
-    }
-
 
     private void startGoogleLocationUpdates() {
 
@@ -327,6 +320,7 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
     }
 
     private void addMarkersToMap() {
+        Log.d("Marker Lat Lng", mQuestionLocation.toString());
         LatLng mQuestionLatLng = new LatLng(mQuestionLocation.getLatitude(), mQuestionLocation.getLongitude());
         firstTimeDegree =
                 bearing(currentLatLng.latitude, currentLatLng.longitude,
@@ -335,7 +329,7 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
             BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.spytar_marker);
             MarkerOptions markerOptions = new MarkerOptions()
                     .position(mQuestionLatLng)
-                    .title("Sprytar");
+                    .title("Sprytar" + mQuestionLatLng.latitude + " : " + mQuestionLatLng.longitude);
             markerOptions.icon(icon);
             if (currentMarker != null) {
                 currentMarker.remove();
@@ -392,6 +386,7 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
     @Override
     public void onLocationChanged(Location location) {
         mCurrentLocation = location;
+        currentLatLng = new LatLng(location.getLatitude(), location.getLongitude());
         moveCameraToPosition();
         // sendCurrentLocation(location);
         try {
@@ -399,7 +394,6 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     public Location getCurrentLocation() {
@@ -456,20 +450,34 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
     }
 
     private int bearing(double startLat, double startLng, double endLat, double endLng) {
-        double longitude1 = Math.toRadians(startLng);
-        double longitude2 = Math.toRadians(endLng);
+//        double longitude1 = Math.toRadians(startLng);
+//        double longitude2 = Math.toRadians(endLng);
+//
+//        double latitude1 = Math.toRadians(startLat);
+//        double latitude2 = Math.toRadians(endLat);
+//
+//        double longDiff = Math.toRadians(longitude2 - longitude1);
+//
+//        double y = Math.sin(longDiff) * Math.cos(latitude2);
+//
+//        double x = Math.cos(latitude1) * Math.sin(latitude2) - Math.sin(latitude1) * Math.cos(latitude2) * Math.cos(longDiff);
+//        double radiansBearing = Math.toDegrees(Math.atan2(y, x));
+//        radiansBearing = (360 - ((radiansBearing + 360) % 360));
+//         =(int) radiansBearing;
 
-        double latitude1 = Math.toRadians(startLat);
-        double latitude2 = Math.toRadians(endLat);
 
-        double longDiff = Math.toRadians(longitude2 - longitude1);
+        Location locationA = new Location("");
+        locationA.setLatitude(startLat);
+        locationA.setLongitude(startLng);
 
-        double y = Math.sin(longDiff) * Math.cos(latitude2);
+        Location locationB = new Location("");
+        locationB.setLatitude(endLat);
+        locationB.setLongitude(endLng);
 
-        double x = Math.cos(latitude1) * Math.sin(latitude2) - Math.sin(latitude1) * Math.cos(latitude2) * Math.cos(longDiff);
-        double radiansBearing = Math.toDegrees(Math.atan2(y, x));
-        radiansBearing = (360 - ((radiansBearing + 360) % 360));
-        int degrees = (int) radiansBearing;
+        int degrees = (int) locationA.bearingTo(locationB);
+        if (locationA.bearingTo(locationB) < 0) {
+            degrees = 180 + degrees;
+        }
         return degrees;
     }
 
@@ -490,7 +498,6 @@ public class GameMapPresenter extends BasePresenter<GameMapView> implements OnMa
         currentObjectDegree = -objectDegree;
 
         getMvpView().onChangeDirection(an, anObject);
-
     }
 
     @Override

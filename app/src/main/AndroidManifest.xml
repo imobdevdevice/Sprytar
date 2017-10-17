@@ -74,12 +74,10 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-
         <provider
             android:name="com.facebook.FacebookContentProvider"
             android:authorities="com.facebook.app.FacebookContentProvider219502435216108"
             android:exported="true" />
-
 
         <activity
             android:name=".splash.SplashActivity"

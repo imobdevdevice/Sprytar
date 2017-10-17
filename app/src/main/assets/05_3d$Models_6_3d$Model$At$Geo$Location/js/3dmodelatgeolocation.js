@@ -407,6 +407,7 @@ var World = {
 		World.loaded = true;
 		var e = document.getElementById('loadingMessage');
 		e.parentElement.removeChild(e);
+
 	}
 };
 

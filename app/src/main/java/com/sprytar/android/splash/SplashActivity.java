@@ -7,7 +7,6 @@ import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Base64;
 import android.util.Log;
@@ -17,9 +16,8 @@ import android.widget.Toast;
 
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
-import com.google.gson.JsonObject;
+import com.google.firebase.iid.FirebaseInstanceId;
 import com.sprytar.android.R;
-import com.sprytar.android.splash.DaggerSplashComponent;
 import com.sprytar.android.SprytarApplication;
 import com.sprytar.android.intro.IntroDialog;
 import com.sprytar.android.login.LoginActivity;
@@ -61,6 +59,8 @@ public class SplashActivity extends BaseActivity implements SplashView {
         setContentView(R.layout.activity_splash);
 
         setTypeFace();
+
+        Log.d("DeviceToken ", FirebaseInstanceId.getInstance().getToken());
 
         mTracker = ((SprytarApplication) getApplication()).getDefaultTracker();
         mTracker.setScreenName("Splash Screen");

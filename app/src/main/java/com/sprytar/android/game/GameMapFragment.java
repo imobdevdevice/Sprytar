@@ -217,7 +217,6 @@ public class GameMapFragment extends BaseFragmentUpdateable implements GameMapVi
         });
         noGpsDialog = builder.create();
         noGpsDialog.show();
-
     }
 
 

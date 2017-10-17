@@ -14,10 +14,12 @@ import android.widget.TextView;
 
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.sprytar.android.R;
-import com.sprytar.android.databinding.DialogShareFbPhotoBinding;
 import com.sprytar.android.data.model.EarnedBadge;
 import com.sprytar.android.data.model.Location;
+import com.sprytar.android.databinding.DialogShareFbImageBinding;
+import com.sprytar.android.databinding.DialogShareFbPhotoBinding;
 import com.sprytar.android.util.BadgeUtils;
+import com.squareup.picasso.Picasso;
 
 
 public class ShareBadgeDialog {
@@ -140,15 +142,15 @@ public class ShareBadgeDialog {
 //            ((SimpleDraweeView) dialogView.findViewById(R.id.badge_imageView)).setImageURI(location.getImageLink());
 
             binding.close.setOnClickListener((View view) -> {
-                    if (listener != null) {
-                        listener.onClose();
-                    }
+                if (listener != null) {
+                    listener.onClose();
+                }
             });
 
             binding.postFacebookButton.setOnClickListener((View view) -> {
-                    if (listener != null) {
-                        listener.onShare(binding.messageEditText.getText().toString());
-                    }
+                if (listener != null) {
+                    listener.onShare(binding.messageEditText.getText().toString());
+                }
             });
         }
 
@@ -171,4 +173,40 @@ public class ShareBadgeDialog {
         ClipData clip = ClipData.newPlainText("Copied Text", text);
         clipboard.setPrimaryClip(clip);
     }
+
+    public static AlertDialog getFacebookShareResult(Context context, ShareBadgeDialogListener listener, String imageUrl, String message) {
+
+        final AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(context);
+        DialogShareFbImageBinding binding = DialogShareFbImageBinding.inflate(LayoutInflater.from(context), null, false);
+
+        dialogBuilder.setView(binding.getRoot());
+        dialogBuilder.setCancelable(true);
+        binding.badgeLinear.setVisibility(View.GONE);
+        binding.close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (listener != null) {
+                    listener.onClose();
+                }
+            }
+        });
+        binding.postFacebookButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (listener != null) {
+                    listener.onShare("");
+                }
+            }
+        });
+
+        Picasso.with(context)
+                .load(imageUrl)
+                .error(context.getResources().getDrawable(R.drawable.ic_error_outline_red_24dp))
+                .into(binding.imageToShare);
+        binding.messageEditText.setText(message);
+
+        return dialogBuilder.create();
+    }
+
+
 }

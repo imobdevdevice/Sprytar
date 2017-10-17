@@ -21,13 +21,12 @@ import android.widget.Toast;
 
 import com.google.android.gms.maps.SupportMapFragment;
 import com.sprytar.android.R;
-import com.sprytar.android.databinding.FragmentVenueBinding;
-import com.sprytar.android.venue.DaggerVenueComponent;
 import com.sprytar.android.data.model.Amenity;
 import com.sprytar.android.data.model.Location;
 import com.sprytar.android.data.model.LocationBoundary;
 import com.sprytar.android.data.model.PointOfInterest;
 import com.sprytar.android.data.model.VenueActivity;
+import com.sprytar.android.databinding.FragmentVenueBinding;
 import com.sprytar.android.fitness.FitnessClassesActivity;
 import com.sprytar.android.game.TreasureHuntActivity;
 import com.sprytar.android.game.quiz.QuizGameStartActivity;
@@ -47,7 +46,7 @@ import javax.inject.Inject;
 
 public class VenueFragment extends BaseFragment implements VenueView {
 
-    private String SITE_NAME="";
+    private String SITE_NAME = "";
 
     public static final String LOCATION_PARAM = "com.sprytar.android.venue.VenueFragment" +
             ".locationParam";
@@ -263,20 +262,20 @@ public class VenueFragment extends BaseFragment implements VenueView {
 
         boolean hasCompass = getActivity().getPackageManager().hasSystemFeature(PackageManager.FEATURE_SENSOR_COMPASS);
 
-       /* if(hasCompass){
+        if (hasCompass) {
             TreasureHuntActivity.start(getActivity(), venueActivity, insideBoundaries, locationId, locationName, imageUrl,
-                    boundaries,SITE_NAME);
-        }else{
+                    boundaries, SITE_NAME);
+        } else {
             showError("Your device does not support compass feature. So, you cannot play this game!");
-        }*/
-        TreasureHuntActivity.start(getActivity(), venueActivity, insideBoundaries, locationId, locationName, imageUrl,
-                boundaries,SITE_NAME);
+        }
+//        TreasureHuntActivity.start(getActivity(), venueActivity, insideBoundaries, locationId, locationName, imageUrl,
+//                boundaries,SITE_NAME);
 
     }
 
     @Override
     public void showQuizGameActivity(VenueActivity venueActivity, boolean insideBoundaries, Location location) {
-        QuizGameStartActivity.start(getActivity(), venueActivity, insideBoundaries, location,SITE_NAME);
+        QuizGameStartActivity.start(getActivity(), venueActivity, insideBoundaries, location, SITE_NAME);
     }
 
     @Override
@@ -284,9 +283,9 @@ public class VenueFragment extends BaseFragment implements VenueView {
 
         boolean hasCompass = getActivity().getPackageManager().hasSystemFeature(PackageManager.FEATURE_SENSOR_COMPASS);
 
-        if(hasCompass){
+        if (hasCompass) {
             TrailsGameStartActivity.start(getActivity(), venueActivity, insideBoundaries, boundaries, venueId);
-        }else{
+        } else {
             showError("Your device does not support compass. So, you cannot play this game!");
         }
 

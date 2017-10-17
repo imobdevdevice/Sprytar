@@ -17,11 +17,10 @@ import android.view.View;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 import com.sprytar.android.R;
-import com.sprytar.android.databinding.ActivityTreasureHuntBinding;
-import com.sprytar.android.game.DaggerTreasureHuntComponent;
 import com.sprytar.android.SprytarApplication;
 import com.sprytar.android.data.model.LocationBoundary;
 import com.sprytar.android.data.model.VenueActivity;
+import com.sprytar.android.databinding.ActivityTreasureHuntBinding;
 import com.sprytar.android.game.treasureHuntIntro.DialogTreasureHuntIntro;
 import com.sprytar.android.game.treasureHuntIntro.TreasureHuntDialogListner;
 import com.sprytar.android.presentation.BaseActivity;
@@ -33,7 +32,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-public class TreasureHuntActivity extends BaseActivity implements TreasureHuntView, TreasureHuntDialogListner, View.OnClickListener{
+public class TreasureHuntActivity extends BaseActivity implements TreasureHuntView, TreasureHuntDialogListner, View.OnClickListener {
 
     public static final String VENUE_EXTRA = "com.sprytar.android.game.VenueExtra";
     public static final String MARKERS_EXTRA = "com.sprytar.android.game.MarkersExtra";
@@ -52,9 +51,9 @@ public class TreasureHuntActivity extends BaseActivity implements TreasureHuntVi
     private ActivityTreasureHuntBinding binding;
     private boolean cameraPermissionsGranted;
     private boolean locationPermissionGranted;
-    private static String INTRO_TEXT="";
-    private static String START_LOCATION_TEXT="";
-    private static String SITE_NAME="";
+    private static String INTRO_TEXT = "";
+    private static String START_LOCATION_TEXT = "";
+    private static String SITE_NAME = "";
     private Tracker mTracker;
 
     public static void start(Context context, VenueActivity venueActivity, boolean insideBoundaries, int locationId, String locationName,
@@ -66,14 +65,15 @@ public class TreasureHuntActivity extends BaseActivity implements TreasureHuntVi
         starter.putExtra(VENUE_ID_EXTRA, locationId);
         starter.putExtra(LOCATION_NAME_EXTRA, locationName);
         starter.putExtra(IMAGE_URL_EXTRA, imageUrl);
+
         SITE_NAME = siteName;
-        INTRO_TEXT =venueActivity.getIntroText();
+        INTRO_TEXT = venueActivity.getIntroText();
         START_LOCATION_TEXT = venueActivity.getStartLocationText();
 
         context.startActivity(starter);
     }
 
-    public void onBackClick(){
+    public void onBackClick() {
         onBackPressed();
     }
 
@@ -98,7 +98,6 @@ public class TreasureHuntActivity extends BaseActivity implements TreasureHuntVi
     }
 
 
-
     @Override
     public void onRefreshClick() {
         super.onRefreshClick();
@@ -114,7 +113,7 @@ public class TreasureHuntActivity extends BaseActivity implements TreasureHuntVi
         String locationName = intent.getStringExtra(LOCATION_NAME_EXTRA);
         String imageUrl = intent.getStringExtra(IMAGE_URL_EXTRA);
 
-        presenter.setVenueActivity(venueActivity, insideBoundaries, locationId, locationName, imageUrl, boundaries,TreasureHuntActivity.this);
+        presenter.setVenueActivity(venueActivity, insideBoundaries, locationId, locationName, imageUrl, boundaries, TreasureHuntActivity.this);
     }
 
     private void initUi() {
@@ -125,7 +124,7 @@ public class TreasureHuntActivity extends BaseActivity implements TreasureHuntVi
         setSupportActionBar(binding.toolbar);
 
 
-       // actionBar.setDisplayHomeAsUpEnabled(true);
+        // actionBar.setDisplayHomeAsUpEnabled(true);
         //actionBar.setTitle(getString(R.string.treasure_hunt));
 
     }
@@ -177,10 +176,10 @@ public class TreasureHuntActivity extends BaseActivity implements TreasureHuntVi
 
     @Override
     public void showVenueActivity(VenueActivity venueActivity) {
-       // actionBar.setTitle(venueActivity.getName());
+        // actionBar.setTitle(venueActivity.getName());
         binding.setVenue(venueActivity);
-        if(venueActivity.getQuestions() !=null)
-        binding.tvTotalQuestions.setText(String.valueOf(venueActivity.getQuestions().size()));
+        if (venueActivity.getQuestions() != null)
+            binding.tvTotalQuestions.setText(String.valueOf(venueActivity.getQuestions().size()));
 
         //binding.pointsTextView.setText(String.valueOf(venueActivity.getGamePoints()));
     }
@@ -218,16 +217,16 @@ public class TreasureHuntActivity extends BaseActivity implements TreasureHuntVi
 
     @Override
     public void hideLoadingIndicator() {
-          hideThrobber();
+        hideThrobber();
     }
 
     @Override
     public void showErrorDialog(boolean hasNoInternet) {
-        if(hasNoInternet){
-            showErrorDialog(getResources().getString(R.string.alert_message_title),getResources().getString(R.string.connection_problem_message),
+        if (hasNoInternet) {
+            showErrorDialog(getResources().getString(R.string.alert_message_title), getResources().getString(R.string.connection_problem_message),
                     getResources().getString(R.string.connection_problem_description));
-        }else{
-            showErrorDialog(getResources().getString(R.string.other_error_title),getResources().getString(R.string.other_error_message),
+        } else {
+            showErrorDialog(getResources().getString(R.string.other_error_title), getResources().getString(R.string.other_error_message),
                     getResources().getString(R.string.other_error_descr));
         }
     }
@@ -267,7 +266,7 @@ public class TreasureHuntActivity extends BaseActivity implements TreasureHuntVi
     public void startQuiz(VenueActivity venueActivity, List<LocationBoundary> boundaries, int venueId, String locationName, String locationImageUrl) {
         //startServicePopupNotice();
         if (cameraPermissionsGranted && locationPermissionGranted) {
-            QuizActivity.startForResult(this, venueActivity, boundaries, venueId, CLOSE_REQUEST_CODE, locationName, locationImageUrl,SITE_NAME);
+            QuizActivity.startForResult(this, venueActivity, boundaries, venueId, CLOSE_REQUEST_CODE, locationName, locationImageUrl, SITE_NAME);
         } else {
             new AlertDialog.Builder(this, R.style.DialogTheme).setMessage(getString(R.string.not_granted_permissions))
                     .setNeutralButton(android.R.string.ok, new DialogInterface.OnClickListener() {
@@ -302,7 +301,7 @@ public class TreasureHuntActivity extends BaseActivity implements TreasureHuntVi
         presenter.onStartGameClick();
     }
 
-    private void showIntroMessages(){
+    private void showIntroMessages() {
         binding.venueName.setText(SITE_NAME);
         binding.gameType.setText(R.string.treasure_hunt);
         binding.descriptionTextView.setText(INTRO_TEXT);
@@ -328,7 +327,7 @@ public class TreasureHuntActivity extends BaseActivity implements TreasureHuntVi
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
+        switch (view.getId()) {
             case R.id.ivInfo:
                 startDialog();
                 break;

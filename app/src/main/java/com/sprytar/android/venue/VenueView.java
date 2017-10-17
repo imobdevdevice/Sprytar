@@ -15,6 +15,7 @@ public interface VenueView extends BaseView<VenueActivity> {
 
 
     void showErrorDialog(boolean hasNoInternet);
+
     void showError(String message);
 
     void setTitle(String title);

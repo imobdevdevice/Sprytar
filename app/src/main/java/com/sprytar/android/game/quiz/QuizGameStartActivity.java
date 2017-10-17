@@ -12,11 +12,10 @@ import android.support.v7.app.ActionBar;
 import android.view.View;
 
 import com.sprytar.android.R;
-import com.sprytar.android.databinding.ActivityQuizGameStartBinding;
-import com.sprytar.android.game.quiz.DaggerQuizGameStartComponent;
 import com.sprytar.android.data.model.Location;
 import com.sprytar.android.data.model.Quiz;
 import com.sprytar.android.data.model.VenueActivity;
+import com.sprytar.android.databinding.ActivityQuizGameStartBinding;
 import com.sprytar.android.game.GameDistanceDialog;
 import com.sprytar.android.presentation.BaseActivity;
 import com.sprytar.android.util.PermissionUtils;
@@ -46,7 +45,6 @@ public class QuizGameStartActivity extends BaseActivity implements QuizGameStart
         SITE_NAME = siteName;
         INTRO_TEXT =venueActivity.getIntroText();
         START_LOCATION_TEXT = venueActivity.getStartLocationText();
-
         context.startActivity(starter);
     }
 

@@ -232,9 +232,9 @@ public class VenuePresenter extends BasePresenter<VenueView> implements
                         @Override
                         public void call(Throwable throwable) {
                             getMvpView().hideLoadingIndicator();
-                            if(throwable instanceof SocketTimeoutException){
+                            if (throwable instanceof SocketTimeoutException) {
                                 getMvpView().showErrorDialog(true);
-                            }else{
+                            } else {
                                 getMvpView().showErrorDialog(false);
                             }
 
@@ -342,6 +342,7 @@ public class VenuePresenter extends BasePresenter<VenueView> implements
 
         switch (venueActivity.getGameTypeId()) {
             case VenueActivity.TREASURE_HUNT:
+
                 getMvpView().showTreasureHuntActivity(venueActivity, insideBoundaries, location.getId(),
                         location.getName(), location.getImageLink(), location.getBoundaries());
                 break;

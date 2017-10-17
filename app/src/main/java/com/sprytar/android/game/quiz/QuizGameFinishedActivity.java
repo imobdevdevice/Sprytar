@@ -11,10 +11,14 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 
+import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
+import com.facebook.HttpMethod;
 import com.facebook.common.executors.CallerThreadExecutor;
 import com.facebook.common.references.CloseableReference;
 import com.facebook.datasource.DataSource;
@@ -27,14 +31,12 @@ import com.facebook.imagepipeline.request.ImageRequest;
 import com.facebook.imagepipeline.request.ImageRequestBuilder;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
-import com.facebook.share.model.SharePhoto;
-import com.facebook.share.model.SharePhotoContent;
-import com.facebook.share.widget.ShareDialog;
 import com.sprytar.android.R;
-import com.sprytar.android.databinding.ActivityQuizGameFinishedBinding;
 import com.sprytar.android.data.model.EarnedBadge;
 import com.sprytar.android.data.model.Location;
 import com.sprytar.android.data.model.ProfileEarnedBadges;
+import com.sprytar.android.databinding.ActivityQuizGameFinishedBinding;
+import com.sprytar.android.game.ShareBadgeDialog;
 import com.sprytar.android.presentation.BaseActivity;
 import com.sprytar.android.profile.BadgeDialog;
 import com.sprytar.android.util.BadgeUtils;
@@ -46,9 +48,10 @@ import java.util.List;
 
 import timber.log.Timber;
 
+import static com.sprytar.android.game.ShareBadgeDialog.getFacebookShareResult;
 import static com.sprytar.android.profile.BadgeDialog.getDialog;
 
-public class QuizGameFinishedActivity extends BaseActivity implements QuizGameFinishedView, View.OnClickListener {
+public class QuizGameFinishedActivity extends BaseActivity implements QuizGameFinishedView, View.OnClickListener, ShareBadgeDialog.ShareBadgeDialogListener {
 
     public static final String LOCATION_EXTRA = "com.sprytar.android.data.model.LocationExtra";
     public static final String EARNED_BADGE_EXTRA = "com.sprytar.android.data.model.EarnedBadgeExtra";
@@ -84,6 +87,7 @@ public class QuizGameFinishedActivity extends BaseActivity implements QuizGameFi
 
     private AlertDialog badgeDialog = null;
     private AlertDialog shareBadgeDialog = null;
+    private String scroeMsg;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -104,6 +108,8 @@ public class QuizGameFinishedActivity extends BaseActivity implements QuizGameFi
     private void setQuestionsData(int correctAnswers, int numOfQuestions) {
         if (numOfQuestions > 0) {
             binding.scoreTextView.setText("You scored " + correctAnswers + " out of " + numOfQuestions);
+
+            scroeMsg = " I just scored " + correctAnswers + " out of " + numOfQuestions + " on the Sprytar quiz at " + location.getName() + ". Have any of my friends scored higher?";
         }
     }
 
@@ -113,17 +119,8 @@ public class QuizGameFinishedActivity extends BaseActivity implements QuizGameFi
         getSupportActionBar().setTitle(getString(R.string.game_finished_title));
 
         if (badge != null) {
-            /*
-            Uri uri = null;
-            try {
-                uri = Utils.getSvgUri(getApplicationContext(), badge.getBadgeName(), badge.getBadgeIcon());
-            } catch (Exception e) {
-            }
-            */
 
             binding.distanceTextView.setImageDrawable(getResources().getDrawable(BadgeUtils.getBadgeResource(badge.getBadgeIcon())));
-
-
             setListeners();
         }
     }
@@ -154,18 +151,32 @@ public class QuizGameFinishedActivity extends BaseActivity implements QuizGameFi
         loginManager.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-                SharePhoto photo = new SharePhoto.Builder()
-                        .setBitmap(bitmap)
-                        //.setImageUrl(Uri.parse(location.getImageLink()))
-                        .setCaption(caption)
-                        .build();
+//                SharePhoto photo = new SharePhoto.Builder()
+//                        .setBitmap(bitmap)
+//                        //.setImageUrl(Uri.parse(location.getImageLink()))
+//                        .setCaption(caption)
+//                        .build();
+//
+//                SharePhotoContent content = new SharePhotoContent.Builder()
+//                        .addPhoto(photo)
+//                        .build();
+//
+//                ShareDialog facebookDialog = new ShareDialog(QuizGameFinishedActivity.this);
+//                I just scored \( treasureHunt.correctAnswerCount) out of \(treasureHunt.questionCount) on the Sprytar quiz at \(venueName). Have any of my friends scored higher?
 
-                SharePhotoContent content = new SharePhotoContent.Builder()
-                        .addPhoto(photo)
-                        .build();
+//
+//                ShareLinkContent content1 = new ShareLinkContent.Builder()
+//                        .setQuote(scroeMsg)
+//                        .setContentUrl(Uri.parse("https://media.sprytar.com/images/locations/venue-97.png"))
+//                        .build();
+//                ShareDialog facebookDialog = new ShareDialog(QuizGameFinishedActivity.this);
+//                facebookDialog.show(content1);
 
-                ShareDialog facebookDialog = new ShareDialog(QuizGameFinishedActivity.this);
-                facebookDialog.show(content);
+
+                shareBadgeDialog = getFacebookShareResult(QuizGameFinishedActivity.this, QuizGameFinishedActivity.this, location.getImageLink(), scroeMsg);
+                shareBadgeDialog.show();
+
+
             }
 
             @Override
@@ -270,4 +281,31 @@ public class QuizGameFinishedActivity extends BaseActivity implements QuizGameFi
         callbackManager.onActivityResult(requestCode, resultCode, data);
     }
 
+    @Override
+    public void onClose() {
+        if (shareBadgeDialog != null)
+            shareBadgeDialog.dismiss();
+    }
+
+    @Override
+    public void onShare(String message) {
+        if (shareBadgeDialog != null)
+            shareBadgeDialog.dismiss();
+        Bundle params = new Bundle();
+        params.putString("message", scroeMsg);
+        params.putString("link", location.getImageLink());
+/* make the API call */
+        new GraphRequest(
+                AccessToken.getCurrentAccessToken(),
+                "/me/feed",
+                params,
+                HttpMethod.POST,
+                new GraphRequest.Callback() {
+                    public void onCompleted(GraphResponse response) {
+            /* handle the result */
+                    }
+                }
+        ).executeAsync();
+    }
 }
+
